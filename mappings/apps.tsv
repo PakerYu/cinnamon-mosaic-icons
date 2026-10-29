@@ -1,0 +1,17 @@
+# apps.tsv — Material file icons reused as application icons
+#
+# Format: <application icon name>\t<material icon>
+#
+# Third-party applications are not redrawn by hand: a desktop entry whose icon
+# already exists in the vendored Material set under the same name (VS Code, whose
+# .desktop uses Icon=vscode and whose file icon is the same logo) is published
+# under its application name here. Everything else stays unmapped on purpose and
+# resolves through Inherits (hicolor) to the vendor artwork the package installs,
+# which is better than a hand-approximated brand logo -- and better than the
+# Mint-Y restyled square that would otherwise win the fallback chain.
+
+vscode	vscode
+com.microsoft.VSCode	vscode
+com.visualstudio.code	vscode
+com.visualstudio.code-oss	vscode
+vscode-insiders	vscode

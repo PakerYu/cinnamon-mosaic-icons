@@ -1,0 +1,49 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build and publish the theme archive
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Build
+        run: make build
+
+      - name: Verify
+        run: make verify
+
+      - name: Read theme version
+        id: meta
+        run: |
+          echo "version=$(cat VERSION)" >> "$GITHUB_OUTPUT"
+          echo "upstream=$(python3 -c "import json;print(json.load(open('upstream.lock.json'))['version'])")" >> "$GITHUB_OUTPUT"
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Material-Cinnamon ${{ steps.meta.outputs.version }} (upstream ${{ steps.meta.outputs.upstream }})
+          generate_release_notes: true
+          files: |
+            dist/Material-Cinnamon-*.tar.xz
+            dist/preview.png
+            dist/report.md
+          fail_on_unmatched_files: true

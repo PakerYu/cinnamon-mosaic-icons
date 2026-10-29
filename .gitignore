@@ -1,0 +1,25 @@
+# build output (theme tree, tarball, reports, preview)
+dist/
+
+# vendoring staging directory (renamed into assets/colloid on success)
+assets/colloid.tmp/
+
+# scratch space (rasterised folder.svg, per-size PNG cache, TS transpile)
+build/
+
+# upstream checkout fetched by `make vendor`
+vendor/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+
+# editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

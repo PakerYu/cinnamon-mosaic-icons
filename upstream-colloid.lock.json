@@ -1,0 +1,10 @@
+{
+ "archive": "Colloid-icon-theme-2026-08-10",
+ "index_theme_sha256": "08751e1341fbbe9c2380f9ce95c8406538981c86b4e9db363e2e39d78cedbf61",
+ "sha256": "df1406f923cabad2e3eafb32367dd46f1f159a0850394a276f6d6e3137bf8401",
+ "source": "Colloid-icon-theme",
+ "src_svg": 10355,
+ "variant": "light",
+ "vendored_files": 585,
+ "vendored_icons": 563
+}

@@ -1,0 +1,107 @@
+# ui-status.tsv — Cinnamon/GTK/NM status icon names -> material icon
+# Only names that neither Adwaita nor hicolor provides; without a mapping they
+# would fall through to Mint-Y. Format: <icon name>\t<material icon>
+
+# --- dialogs / message box -------------------------------------------------
+dialog-error	error
+gtk-dialog-error	error
+stock_dialog-error	error
+messagebox_critical	error
+aptdaemon-error	error
+error	error
+network-error	error
+dialog-warning	warning
+gtk-dialog-warning	warning
+stock_dialog-warning	warning
+messagebox_warning	warning
+dialog-info	info
+dialog-information	info
+gtk-dialog-info	info
+stock_dialog-info	info
+messagebox_info	info
+info	info
+dialog-question	help
+gtk-dialog-question	help
+stock_dialog-question	help
+important	label_important
+
+# --- audio (Cinnamon sound applet, symbolic) -------------------------------
+audio-status-volume-high-symbolic	volume_up
+audio-status-volume-medium-symbolic	volume_up
+audio-status-volume-low-symbolic	volume_down
+audio-status-volume-muted-symbolic	volume_off
+audio-status-microphone-high-symbolic	mic
+audio-status-microphone-medium-symbolic	mic
+audio-status-microphone-low-symbolic	mic
+audio-status-microphone-muted-symbolic	mic_off
+
+# --- wired / wireless / wifi notifications ---------------------------------
+network-offline	wifi_off
+notification-wifi-enabled	wifi
+notification-network-wireless	wifi
+notification-network-wireless-symbolic	wifi
+notification-network-wireless-disconnected	wifi_off
+notification-network-wireless-disconnected-symbolic	wifi_off
+notification-network-wired	lan
+notification-network-ethernet-connected	lan
+notification-network-ethernet-disconnected	settings_ethernet
+notification-gsm-connected	signal_cellular_4_bar
+notification-gsm-disconnected	signal_cellular_off
+
+# --- NetworkManager applet (symbolic) --------------------------------------
+status-nm-no-connection-symbolic	wifi_off
+status-nm-adhoc-symbolic	wifi
+status-nm-device-wireless-symbolic	wifi
+status-nm-device-wired-symbolic	lan
+status-nm-device-wired-autoip-symbolic	lan
+status-nm-device-wired-secure-symbolic	lan
+status-nm-device-wired-secureoffline-symbolic	lan
+status-nm-device-wwan-symbolic	signal_cellular_4_bar
+status-nm-wwan-tower-symbolic	cell_tower
+status-nm-mb-roam-symbolic	cell_tower
+status-nm-secure-lock-symbolic	lock
+status-nm-signal-0-symbolic	signal_cellular_0_bar
+status-nm-signal-00-symbolic	signal_cellular_0_bar
+status-nm-signal-25-symbolic	signal_cellular_alt_1_bar
+status-nm-signal-50-symbolic	signal_cellular_alt_2_bar
+status-nm-signal-75-symbolic	signal_cellular_alt
+status-nm-signal-100-symbolic	signal_cellular_4_bar
+status-nm-signal-0-secure-symbolic	signal_cellular_0_bar
+status-nm-signal-00-secure-symbolic	signal_cellular_0_bar
+status-nm-signal-25-secure-symbolic	signal_cellular_alt_1_bar
+status-nm-signal-50-secure-symbolic	signal_cellular_alt_2_bar
+status-nm-signal-75-secure-symbolic	signal_cellular_alt
+status-nm-signal-100-secure-symbolic	signal_cellular_4_bar
+status-nm-tech-3g-symbolic	3g_mobiledata
+status-nm-tech-4g-symbolic	4g_mobiledata
+status-nm-tech-lte-symbolic	lte_mobiledata
+status-nm-tech-edge-symbolic	signal_cellular_alt
+status-nm-tech-gprs-symbolic	signal_cellular_alt
+status-nm-tech-hspa-symbolic	signal_cellular_alt
+status-nm-tech-umts-symbolic	signal_cellular_alt
+status-nm-tech-evdo-symbolic	signal_cellular_alt
+status-nm-tech-cdma-1x-symbolic	signal_cellular_alt
+status-nm-vpn-lock-symbolic	vpn_lock
+status-nm-vpn-active-lock-symbolic	vpn_lock
+status-nm-vpn-standalone-lock-symbolic	vpn_lock
+
+# --- wireless signal (Mint's own names) ------------------------------------
+network-wireless-signal-excellent-secure-symbolic	signal_wifi_4_bar_lock
+network-wireless-signal-good-secure-symbolic	signal_wifi_4_bar_lock
+network-wireless-signal-ok-secure-symbolic	signal_wifi_4_bar_lock
+network-wireless-signal-weak-secure-symbolic	signal_wifi_4_bar_lock
+network-wireless-signal-none-secure-symbolic	signal_wifi_off
+
+# --- misc ------------------------------------------------------------------
+nemo-bookmark-not-found-symbolic	bookmark_border
+redshift-status-on-symbolic	nightlight
+redshift-status-off-symbolic	light_mode
+
+# --- Cinnamon applets (inhibit / on-screen keyboard) -----------------------
+inhibit-symbolic	coffee
+inhibit-active-symbolic	do_not_disturb_on
+inhibit-notification-symbolic	notifications_off
+inhibit-notification-active-symbolic	notifications_paused
+keyboard-caps-lock-filled-symbolic	keyboard_capslock
+keyboard-shift-filled-symbolic	keyboard_command_key
+keyboard-enter-symbolic	keyboard_return

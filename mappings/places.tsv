@@ -1,0 +1,84 @@
+# places.tsv — freedesktop "Places" icon name -> material icon name
+# Format: <target name>\t<material icon>
+# Target names are lower-cased by the builder; source must be a file stem from
+# icons/file/*.png, icons/folder/*.png or a generated icon (folder, folder-open).
+# Covers every place name shipped by Mint-Y plus the usual Nemo/GTK aliases.
+
+# --- base folder shapes ------------------------------------------------------
+folder	folder
+folder-open	folder-open
+folder-drag-accept	folder-open
+folder-visiting	folder-open
+inode-directory	folder
+gnome-fs-directory	folder
+gtk-directory	folder
+stock_folder	folder
+text-directory	folder
+
+# --- XDG user directories ----------------------------------------------------
+folder-documents	folder-docs
+user-documents	folder-docs
+folder-download	folder-download
+user-download	folder-download
+folder-music	folder-audio
+user-music	folder-audio
+library-music	folder-audio
+folder-pictures	folder-images
+user-pictures	folder-images
+folder-videos	folder-video
+user-videos	folder-video
+folder-templates	folder-template
+user-templates	folder-template
+folder-publicshare	folder-public
+user-publicshare	folder-public
+folder-desktop	folder-desktop
+user-desktop	folder-desktop
+desktop	folder-desktop
+gnome-fs-desktop	folder-desktop
+
+# --- home / bookmarks / trash ------------------------------------------------
+user-home	folder-home
+folder_home	folder-home
+folder-home	folder-home
+gnome-fs-home	folder-home
+user-bookmarks	folder-shared
+xapp-user-favorites	folder-shared
+folder-favorites	folder-shared
+user-trash	folder-trash
+user-trash-full	folder-trash
+folder-trash	folder-trash
+folder-recent	folder-update
+folder-saved-search	folder-update
+
+# --- file managers -----------------------------------------------------------
+# The file manager *applications* (system-file-manager, nemo, nautilus, thunar,
+# …) are answered by the Colloid apps artwork in mappings/colloid.tsv, so they
+# must not be listed here: a name may only live in one context.  Only the
+# location-style entries stay, because those are places, not applications.
+computer	folder-app
+org.xfce.panel.directorymenu	folder-connection
+org.xfce.panel.showdesktop	folder-desktop
+org.xfce.xfdesktop	folder-desktop
+
+# --- network -----------------------------------------------------------------
+network	folder-connection
+network-workgroup	folder-connection
+network-server	folder-connection
+gtk-network	folder-connection
+gnome-fs-network	folder-connection
+folder-network	folder-connection
+folder-remote	folder-connection
+
+# --- Cinnamon menu button (Linux Mint logo) ----------------------------------
+start-here	mint
+start-here-symbolic	mint
+
+# --- symbolic aliases (GTK would fall back anyway; explicit beats guesswork) --
+folder-symbolic	folder
+folder-open-symbolic	folder-open
+user-home-symbolic	folder-home
+folder-home-symbolic	folder-home
+user-desktop-symbolic	folder-desktop
+user-trash-symbolic	folder-trash
+user-bookmarks-symbolic	folder-shared
+folder-saved-search-symbolic	folder-update

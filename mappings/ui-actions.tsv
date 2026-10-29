@@ -1,0 +1,48 @@
+# ui-actions.tsv — Cinnamon/GTK action icon names -> material icon
+# Every name here is one that neither Adwaita nor hicolor provides, so without a
+# mapping it would fall through to Mint-Y's restyled artwork.
+# Format: <icon name>\t<material icon>\t# comment
+# The material icon is resolved through mappings/material-index.json and
+# vendored into assets/ui/ as <material icon>.svg.
+
+# --- session / power -------------------------------------------------------
+system-shutdown	power_settings_new
+xfsm-shutdown	power_settings_new
+system-reboot	restart_alt
+xfsm-reboot	restart_alt
+system-log-out	logout
+xfsm-logout	logout
+system-suspend	bedtime
+xfsm-suspend	bedtime
+gnome-panel-suspend	bedtime
+gnome-session-sleep	bedtime
+gnome-session-suspend	bedtime
+system-hibernate	nightlight
+xfsm-hibernate	nightlight
+gnome-panel-hibernate	nightlight
+gnome-session-hibernate	nightlight
+system-suspend-hibernate	nightlight
+system-lock-screen	screen_lock_portrait
+xfsm-lock	screen_lock_portrait
+
+# --- stop / cancel ---------------------------------------------------------
+gtk-stop	stop_circle
+process-stop	stop_circle
+stock_stop	stop_circle
+stop	stop_circle
+gtk-cancel	cancel
+
+# --- mail ------------------------------------------------------------------
+mail-mark-important	label_important
+mail-mark-junk	report
+stock_spam	report
+mail_spam	report
+mail-mark-notjunk	mark_email_unread
+mail-send-receive	mail
+stock_mail-send-receive	mail
+
+# --- misc ------------------------------------------------------------------
+help-info	help
+view-compact-symbolic	view_compact
+org.xfce.panel.actions	settings
+xsi-camera-photo-symbolic	camera_alt

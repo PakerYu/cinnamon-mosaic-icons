@@ -1,0 +1,199 @@
+# mimetypes.tsv — exact MIME icon name -> material icon
+# Highest priority inside the mimetypes context. Names use the GTK form
+# (mime type with '/' replaced by '-'). Covers the GTK/Mint legacy names that
+# are not derivable from /usr/share/mime/globs.
+
+# --- documents & office ------------------------------------------------------
+application-msword	word
+application-vnd.ms-word	word
+application-rtf	word
+application-rtf-rtl	word
+application-vnd.wordperfect	word
+application-vnd.wordperfect-rtl	word
+application-vnd.oasis.opendocument.text	word
+application-vnd.oasis.opendocument.text-rtl	word
+application-vnd.oasis.opendocument.text-web	html
+application-vnd.sun.xml.writer	word
+application-vnd.sun.xml.writer-rtl	word
+application-vnd.openxmlformats-officedocument.wordprocessingml.document	word
+wordprocessing	word
+wordprocessing-rtl	word
+x-office-document	word
+x-office-document-rtl	word
+x-office-document-template	word
+x-office-document-template-rtl	word
+document	document
+document-rtl	document
+text	document
+text-plain	document
+text-plain-rtl	document
+text-enriched	document
+text-enriched-rtl	document
+text-richtext	document
+text-richtext-rtl	document
+text-x-generic	document
+text-x-generic-rtl	document
+text-x-preview	document
+text-x-source	document
+unknown	document
+empty	template
+text-x-generic-template	template
+text-x-generic-template-rtl	template
+
+# --- spreadsheets ------------------------------------------------------------
+application-vnd.ms-excel	table
+application-vnd.oasis.opendocument.spreadsheet	table
+application-vnd.oasis.opendocument.chart	table
+application-vnd.sun.xml.calc	table
+application-vnd.openxmlformats-officedocument.spreadsheetml.sheet	table
+text-spreadsheet	table
+text-csv	table
+office-spreadsheet	table
+x-office-spreadsheet	table
+x-office-spreadsheet-template	table
+application-x-gnumeric	table
+
+# --- presentations -----------------------------------------------------------
+application-vnd.ms-powerpoint	powerpoint
+application-vnd.ms-powerpoint.presentation.macroEnabled.12	powerpoint
+application-vnd.openxmlformats-officedocument.presentationml.presentation	powerpoint
+application-vnd.openxmlformats-officedocument.presentationml.slideshow	powerpoint
+x-office-presentation	powerpoint
+x-office-presentation-rtl	powerpoint
+x-office-presentation-template	powerpoint
+x-office-presentation-template-rtl	powerpoint
+
+# --- graphics ----------------------------------------------------------------
+application-illustrator	adobe-illustrator
+application-vnd.oasis.opendocument.drawing	image
+application-vnd.oasis.opendocument.graphics	image
+application-vnd.sun.xml.draw	image
+office-illustration	image
+x-office-drawing	image
+x-office-drawing-template	image
+image	image
+image-x-generic	image
+image-x-xcf	image
+image-x-compressed-xcf	image
+image-x-svg+xml	svg
+image-x-3ds	3d
+model	3d
+
+# --- audio / video / fonts ---------------------------------------------------
+audio-mpeg	audio
+audio-x-generic	audio
+audio-x-mp3-playlist	audio
+audio-x-mp3-playlist-rtl	audio
+audio-x-mpegurl	audio
+audio-x-mpegurl-rtl	audio
+audio-x-playlist	audio
+audio-x-playlist-rtl	audio
+audio-x-scpls	audio
+audio-x-scpls-rtl	audio
+media-video	video
+video-x-generic	video
+application-x-flash-video	video
+application-vnd.rn-realmedia	video
+application-x-matroska	video
+application-x-shockwave-flash	flash
+font-x-generic	font
+
+# --- archives & packages -----------------------------------------------------
+application-vnd.debian.binary-package	zip
+application-vnd.flatpak.ref	zip
+application-x-bittorrent	zip
+application-x-partial-download	zip
+package	zip
+package-x-generic	zip
+
+# --- executables & code ------------------------------------------------------
+application-octet-stream	document
+binary	exe
+exec	exe
+application-x-executable	exe
+application-x-object	dll
+application-x-cd-image	disc
+application-x-class-file	javaclass
+application-x-java	java
+application-x-java-archive	jar
+application-javascript	javascript
+application-x-javascript	javascript
+application-atom+xml	xml
+application-rss+xml	xml
+application-xml	xml
+text-xml	xml
+application-json	json
+application-sql	database
+application-x-sqlite2	database
+application-x-sqlite3	database
+application-vnd.ms-access	database
+application-x-gcstar	database
+text-x-sql	database
+shellscript	console
+application-x-shellscript	console
+application-x-m4	console
+text-x-script	console
+text-x-csrc	c
+text-x-chdr	h
+text-x-c++	cpp
+text-x-c++src	cpp
+text-x-csharp	csharp
+text-x-java	java
+text-x-java-source	java
+text-x-kotlin	kotlin
+text-x-go	go
+text-x-vala	vala
+text-x-python	python
+text-x-python3	python
+application-x-python-bytecode	python
+application-x-ruby	ruby
+text-x-php	php
+application-x-php	php
+text-x-cmake	cmake
+text-x-meson	meson
+text-x-makefile	makefile
+text-markdown	markdown
+text-x-patch	diff
+text-css	css
+html	html
+text-html	html
+text-htmlh	html
+www	html
+text-x-tex	tex
+text-x-sass	sass
+text-x-scss	sass
+text-x-ssa	subtitles
+application-x-subrip	subtitles
+text-x-gettext-translation	i18n
+text-x-gettext-translation-template	i18n
+
+# --- misc / security ---------------------------------------------------------
+application-certificate	certificate
+application-pgp	certificate
+application-pgp-signature	certificate
+application-pgp-encrypted	lock
+application-x-pem-key	key
+application-x-pkcs12	certificate
+application-x-desktop	settings
+application-x-theme	palette
+application-x-gnome-theme-package	palette
+application-x-blender	blender
+application-x-trash	folder-trash
+application-vnd.cups-pdf-banner	pdf
+application-pdf	pdf
+authors	authors
+text-x-authors	authors
+text-x-bibtex	bibliography
+text-x-changelog	changelog
+text-x-copying	license
+text-x-credits	credits
+text-x-readme	readme
+text-x-install	installation
+internet-feed	xml
+inode-directory	folder
+text-directory	folder
+office-contact	email
+x-office-address-book	email
+vcard	email
+vcalendar	todo
+x-office-calendar	todo

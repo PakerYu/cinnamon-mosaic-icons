@@ -1,0 +1,150 @@
+#!/usr/bin/env python3
+"""Collect the icon names this desktop actually asks for.
+
+Writes ``mappings/required.tsv`` (``context<TAB>name<TAB>origin``) from three
+local sources, so a build can report which of them the theme still misses:
+
+  * ``Icon=`` values of every installed ``*.desktop`` entry          -> apps
+  * icon names used by the Cinnamon shell / Nemo (xsi-* included)    -> status/actions/devices
+  * every name Mint-Y ships in actions/status/devices                -> the gap universe
+
+This is a development tool: it reads the running system and is not part of the
+build. Re-run it after installing new applications.
+
+    python3 tools/collect-required.py
+"""
+
+from __future__ import annotations
+
+import argparse
+import os
+import re
+import sys
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+OUT = REPO / "mappings" / "required.tsv"
+
+DESKTOP_DIRS = (
+    Path("/usr/share/applications"),
+    Path("/usr/local/share/applications"),
+    Path.home() / ".local/share/applications",
+    Path("/var/lib/flatpak/exports/share/applications"),
+    Path.home() / ".local/share/flatpak/exports/share/applications",
+)
+
+# Directories whose icon names the Cinnamon shell resolves at runtime.
+SHELL_TREES = (
+    Path("/usr/share/cinnamon"),
+    Path("/usr/share/nemo"),
+    Path("/usr/share/cinnamon-settings"),
+)
+
+REFERENCE_CONTEXTS = ("actions", "status", "devices")
+REFERENCE = Path("/usr/share/icons/Mint-Y")
+
+ICON_TOKEN = re.compile(r"""['"]([a-zA-Z0-9][a-zA-Z0-9._+-]{2,})['"]""")
+
+
+def desktop_icons() -> list[str]:
+    names: set[str] = set()
+    for directory in DESKTOP_DIRS:
+        if not directory.is_dir():
+            continue
+        for entry in directory.glob("*.desktop"):
+            try:
+                text = entry.read_text(encoding="utf-8", errors="ignore")
+            except OSError:
+                continue
+            for line in text.splitlines():
+                if line.startswith("Icon="):
+                    value = line.split("=", 1)[1].strip()
+                    if value.endswith((".png", ".svg", ".xpm")):
+                        value = Path(value).stem
+                    if value and "/" not in value:
+                        names.add(value)
+    return sorted(names)
+
+
+def shell_icons() -> list[str]:
+    names: set[str] = set()
+    for root in SHELL_TREES:
+        if not root.is_dir():
+            continue
+        for path in root.rglob("*.js"):
+            try:
+                text = path.read_text(encoding="utf-8", errors="ignore")
+            except OSError:
+                continue
+            for token in ICON_TOKEN.findall(text):
+                # Cinnamon builds many names at runtime ('xsi-' + name + '-symbolic'),
+                # so only keep complete, well formed icon names.
+                if token.endswith(("-", "_", ".")) or not re.fullmatch(r"[a-z0-9][a-z0-9._+-]*", token):
+                    continue
+                # `*-icon` / `*-icon-*` are CSS class names in the shell, not icons.
+                if token.endswith("-icon") or "-icon-" in token:
+                    continue
+                if token.endswith("-symbolic"):
+                    names.add(token)
+                elif re.fullmatch(r"xsi-[a-z0-9-]+", token):
+                    # Cinnamon asks for `xsi-foo-symbolic`; the bare form only
+                    # appears in the JS string concatenation.
+                    names.add(f"{token}-symbolic")
+    return sorted(names)
+
+
+def reference_names() -> list[tuple[str, str]]:
+    out: list[tuple[str, str]] = []
+    for context in REFERENCE_CONTEXTS:
+        base = REFERENCE / context
+        if not base.is_dir():
+            continue
+        seen: set[str] = set()
+        for path in base.rglob("*"):
+            if not path.is_file() and not path.is_symlink():
+                continue
+            stem = path.name
+            for suffix in (".png", ".svg", ".xpm"):
+                if stem.endswith(suffix):
+                    stem = stem[: -len(suffix)]
+            stem = re.sub(r"@2x$", "", stem)
+            if stem not in seen:
+                seen.add(stem)
+                out.append((context, stem))
+    return out
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--out", default=str(OUT))
+    args = parser.parse_args(argv)
+
+    rows: list[tuple[str, str, str]] = []
+    for name in desktop_icons():
+        rows.append(("apps", name, "desktop-entry"))
+    for name in shell_icons():
+        context = "actions" if name.startswith("xsi-") else "status"
+        rows.append((context, name, "shell"))
+    for context, name in reference_names():
+        rows.append((context, name, "mint-y"))
+
+    dedup: dict[tuple[str, str], str] = {}
+    for context, name, origin in rows:
+        dedup.setdefault((context, name), origin)
+
+    out = Path(args.out).expanduser()
+    header = "# context\tname\torigin (generated by tools/collect-required.py)\n"
+    body = "".join(f"{c}\t{n}\t{o}\n" for (c, n), o in sorted(dedup.items()))
+    out.write_text(header + body, encoding="utf-8")
+
+    per_context: dict[str, int] = {}
+    for (context, _name) in dedup:
+        per_context[context] = per_context.get(context, 0) + 1
+    print(f"wrote {len(dedup)} names to {out}")
+    for context, count in sorted(per_context.items()):
+        print(f"  {context}: {count}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,36 @@
+name: Icon request
+description: Ask for a new icon name or a better mapping
+title: "[icon] "
+labels: ["icon-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Icon names are GTK/freedesktop names (`folder-documents`, `text-x-python`,
+        `application-x-executable`) or MIME types. Check `docs/mappings.md` first —
+        the tables are in `mappings/`.
+  - type: input
+    id: name
+    attributes:
+      label: Icon name or MIME type
+      placeholder: "application/x-model or folder-music"
+    validations:
+      required: true
+  - type: input
+    id: suggestion
+    attributes:
+      label: Suggested Material icon
+      description: A file stem from `icons/file` or `icons/folder` (leave empty if unsure)
+      placeholder: "3d"
+  - type: textarea
+    id: context
+    attributes:
+      label: Where is it used?
+      description: Which application or view requests this name?
+  - type: checkboxes
+    id: table
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked that the name is not already covered by `mappings/*.tsv`
+          required: true

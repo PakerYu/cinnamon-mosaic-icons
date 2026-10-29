@@ -1,0 +1,99 @@
+# categories.tsv — menu category icon name -> material icon
+# Used by the Cinnamon main menu (applications-*), the preferences panels
+# (preferences-* / cs-*) and the legacy package_*/gnome-*/xfce-*/redhat_*
+# categories that still appear in .menu files.
+
+applications-development	console
+applications-engineering	console
+applications-electronics	database
+applications-games	controller
+applications-graphics	palette
+applications-internet	http
+applications-multimedia	video
+applications-office	word
+applications-science	database
+applications-system	settings
+applications-utilities	tune
+applications-accessories	command
+applications-education	skill
+applications-education-school	bibliography
+applications-other	command
+applications-font	font
+applications-java	java
+applications-python	python
+applications-ruby	ruby
+applications-php	php
+applications-haskell	haskell
+applications-ocaml	ocaml
+applications-monodevelopment	csharp
+applications-mathematics	table
+applications-puzzles	controller
+
+# preferences-system / preferences-desktop are application icons (cinnamon-settings
+# and the control-centre entry); they live in mappings/colloid.tsv under `apps`
+# and must not be duplicated here.
+preferences-desktop-theme	palette
+preferences-desktop-display	palette
+preferences-desktop-wallpaper	image
+preferences-desktop-font	font
+preferences-desktop-keyboard	settings
+preferences-desktop-sound	audio
+preferences-desktop-notification	email
+preferences-desktop-screensaver	image
+preferences-desktop-user	settings
+preferences-desktop-locale	i18n
+preferences-desktop-accessibility	settings
+preferences-other	settings
+preferences-plugin	settings
+preferences-plugins	settings
+gtk-preferences	settings
+kcontrol	settings
+
+package_development	console
+package_games	controller
+package_graphics	palette
+package_multimedia	video
+package_network	http
+package_office	word
+package_system	settings
+package_utilities	tune
+package_editors	word
+package_edutainment	skill
+package_settings	settings
+
+gnome-applications	command
+gnome-control-center	settings
+gnome-settings	settings
+gnome-devel	console
+gnome-graphics	palette
+gnome-joystick	controller
+gnome-multimedia	video
+gnome-other	command
+gnome-system	settings
+gnome-util	tune
+gnome-globe	http
+
+xfce-devel	console
+xfce-games	controller
+xfce-graphics	palette
+xfce-internet	http
+xfce-multimedia	video
+xfce-office	word
+xfce-utils	tune
+xfce-settings	settings
+xfce4-settings	settings
+
+redhat-accessories	tune
+redhat-games	controller
+redhat-graphics	palette
+redhat-internet	http
+redhat-office	word
+redhat-preferences	settings
+redhat-programming	console
+redhat-sound_video	video
+redhat-system_tools	settings
+
+system-software-update	installation
+multimedia_section	video
+# application-x-executable is a MIME type (mappings/mimetypes.tsv); the
+# categories context must not duplicate it.

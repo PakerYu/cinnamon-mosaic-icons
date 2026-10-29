@@ -1,0 +1,5 @@
+# skips.tsv — names that must never be emitted into the theme
+# Format: <name>\t<reason>   (lines are documentation only, nothing is skipped
+# unless listed; the reason is copied into the build report)
+
+# name	reason

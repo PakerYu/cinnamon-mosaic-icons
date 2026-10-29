@@ -1,0 +1,22 @@
+# normalise line endings inside the repository, keep platform defaults on checkout
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.tar.xz binary
+*.zip binary
+
+*.svg text
+*.tsv text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+Makefile text eol=lf
+
+# keep diffs of vendored icon sources out of language statistics
+icons/** linguist-vendored
+mappings/generated-file-map.json linguist-generated

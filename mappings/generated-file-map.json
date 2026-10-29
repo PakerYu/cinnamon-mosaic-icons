@@ -1,0 +1,11259 @@
+{
+ "source": "material-icon-theme",
+ "version": "5.39.0",
+ "fileIcons": [
+  {
+   "name": "html",
+   "extensions": [
+    "htm",
+    "xhtml",
+    "html_vm",
+    "asp",
+    "html",
+    "aspx",
+    "jshtm",
+    "rhtml",
+    "shtml",
+    "volt",
+    "xht"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pug",
+   "extensions": [
+    "jade",
+    "pug"
+   ],
+   "fileNames": [
+    ".pug-lintrc",
+    ".pug-lintrc.js",
+    ".pug-lintrc.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "markdown",
+   "extensions": [
+    "md",
+    "markdown",
+    "rst",
+    "copilotmd",
+    "litcoffee",
+    "markdn",
+    "mdown",
+    "mdtext",
+    "mdtxt",
+    "mdwn",
+    "mkd",
+    "mkdn",
+    "ronn",
+    "workbook"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "blink",
+   "extensions": [
+    "blink"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "css",
+   "extensions": [
+    "css"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sass",
+   "extensions": [
+    "scss",
+    "sass"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "less",
+   "extensions": [
+    "less"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "just",
+   "extensions": [],
+   "fileNames": [
+    "justfile",
+    ".justfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "json",
+   "extensions": [
+    "json",
+    "jsonc",
+    "tsbuildinfo",
+    "json5",
+    "jsonl",
+    "ndjson",
+    "geojson",
+    "har",
+    "jsonld",
+    "webmanifest",
+    "ts.map"
+   ],
+   "fileNames": [
+    ".jscsrc",
+    ".jshintrc",
+    "composer.lock",
+    ".jsbeautifyrc",
+    ".esformatter",
+    "cdp.pid",
+    ".whitesource"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "json_schema",
+   "extensions": [
+    "schema.json"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hjson",
+   "extensions": [
+    "hjson"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "jinja",
+   "extensions": [
+    "jinja",
+    "jinja2",
+    "j2",
+    "jinja-html"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "proto",
+   "extensions": [
+    "proto"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "prompt",
+   "extensions": [
+    "prompt.md",
+    "prompts.md"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "playwright",
+   "extensions": [],
+   "fileNames": [
+    "playwright.config.js",
+    "playwright.config.cjs",
+    "playwright.config.mjs",
+    "playwright.config.ts",
+    "playwright.config.cts",
+    "playwright.config.mts",
+    "playwright.config.base.js",
+    "playwright.config.base.cjs",
+    "playwright.config.base.mjs",
+    "playwright.config.base.ts",
+    "playwright.config.base.cts",
+    "playwright.config.base.mts",
+    "playwright-ct.config.js",
+    "playwright-ct.config.cjs",
+    "playwright-ct.config.mjs",
+    "playwright-ct.config.ts",
+    "playwright-ct.config.cts",
+    "playwright-ct.config.mts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sublime",
+   "extensions": [
+    "sublime-project",
+    "sublime-workspace"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "simulink",
+   "extensions": [
+    "slx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "quarto",
+   "extensions": [
+    "qmd"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "twine",
+   "extensions": [
+    "tw",
+    "twee"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "yaml",
+   "extensions": [
+    "yml.dist",
+    "yaml.dist",
+    "YAML-tmLanguage",
+    "yaml",
+    "yml",
+    "cff",
+    "eyaml",
+    "eyml",
+    "winget",
+    "yaml-tmpreferences",
+    "yaml-tmtheme"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "xml",
+   "extensions": [
+    "xml",
+    "plist",
+    "xsd",
+    "dtd",
+    "xsl",
+    "xslt",
+    "resx",
+    "iml",
+    "xquery",
+    "tmLanguage",
+    "manifest",
+    "project",
+    "xml.dist",
+    "xml.dist.sample",
+    "dmn",
+    "jrxml",
+    "xmp",
+    "ascx",
+    "atom",
+    "axaml",
+    "axml",
+    "bpmn",
+    "csl",
+    "csproj.user",
+    "dita",
+    "ditamap",
+    "dtml",
+    "ent",
+    "fxml",
+    "isml",
+    "jmx",
+    "launch",
+    "menu",
+    "opml",
+    "owl",
+    "proj",
+    "publishsettings",
+    "pubxml",
+    "pubxml.user",
+    "rdf",
+    "rng",
+    "rss",
+    "shproj",
+    "storyboard",
+    "targets",
+    "tld",
+    "tmx",
+    "vbproj",
+    "vbproj.user",
+    "wsdl",
+    "wxi",
+    "wxl",
+    "wxs",
+    "xbl",
+    "xib",
+    "xliff",
+    "xoml",
+    "xpdl",
+    "xul"
+   ],
+   "fileNames": [
+    ".htaccess"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "toml",
+   "extensions": [
+    "toml",
+    "tosd"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "toon",
+   "extensions": [
+    "toon"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "image",
+   "extensions": [
+    "png",
+    "jpeg",
+    "jpg",
+    "gif",
+    "ico",
+    "tif",
+    "tiff",
+    "ami",
+    "apx",
+    "avif",
+    "bmp",
+    "bpg",
+    "brk",
+    "cur",
+    "dds",
+    "exr",
+    "fpx",
+    "gbr",
+    "img",
+    "jbig2",
+    "jb2",
+    "jng",
+    "jxl",
+    "jxr",
+    "pgf",
+    "pic",
+    "raw",
+    "webp",
+    "eps",
+    "afphoto",
+    "ase",
+    "aseprite",
+    "clip",
+    "cpt",
+    "heif",
+    "heic",
+    "kra",
+    "mdp",
+    "ora",
+    "pdn",
+    "reb",
+    "sai",
+    "tga",
+    "xcf",
+    "jfif",
+    "ppm",
+    "pbm",
+    "pgm",
+    "pnm",
+    "icns",
+    "3fr",
+    "ari",
+    "arw",
+    "bay",
+    "braw",
+    "crw",
+    "cr2",
+    "cr3",
+    "cap",
+    "data",
+    "dcs",
+    "dcr",
+    "dng",
+    "drf",
+    "eip",
+    "erf",
+    "fff",
+    "gpr",
+    "iiq",
+    "k25",
+    "kdc",
+    "mdc",
+    "mef",
+    "mos",
+    "mrw",
+    "nef",
+    "nrw",
+    "obm",
+    "orf",
+    "pef",
+    "ptx",
+    "pxn",
+    "r3d",
+    "raf",
+    "rwl",
+    "rw2",
+    "rwz",
+    "sr2",
+    "srf",
+    "srw",
+    "x3f",
+    "ktx",
+    "ktx2"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "palette",
+   "extensions": [
+    "pal",
+    "gpl",
+    "act"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "javascript",
+   "extensions": [
+    "esx",
+    "mjs",
+    "js",
+    "cjs",
+    "es6",
+    "pac"
+   ],
+   "fileNames": [
+    "jakefile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "react",
+   "extensions": [
+    "jsx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "react_ts",
+   "extensions": [
+    "tsx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rocket",
+   "extensions": [],
+   "fileNames": [
+    ".release-it.json",
+    ".release-it.ts",
+    ".release-it.js",
+    ".release-it.cjs",
+    ".release-it.yaml",
+    ".release-it.yml",
+    ".release-it.toml",
+    "release.toml",
+    "release-plz.toml",
+    ".release-plz.toml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "routing",
+   "extensions": [
+    "routing.ts",
+    "routing.tsx",
+    "routing.js",
+    "routing.jsx",
+    "route.ts",
+    "route.tsx",
+    "route.js",
+    "route.jsx",
+    "routes.ts",
+    "routes.tsx",
+    "routes.js",
+    "routes.jsx"
+   ],
+   "fileNames": [
+    "router.js",
+    "router.jsx",
+    "router.ts",
+    "router.tsx",
+    "route.js",
+    "route.jsx",
+    "route.ts",
+    "route.tsx",
+    "routes.js",
+    "routes.jsx",
+    "routes.ts",
+    "routes.tsx"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx",
+    "React",
+    "Redux",
+    "Vue",
+    "Vuex"
+   ]
+  },
+  {
+   "name": "redux-action",
+   "extensions": [
+    "action.js",
+    "actions.js",
+    "action.ts",
+    "actions.ts"
+   ],
+   "fileNames": [
+    "action.js",
+    "actions.js",
+    "action.ts",
+    "actions.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Redux"
+   ]
+  },
+  {
+   "name": "redux-reducer",
+   "extensions": [
+    "reducer.js",
+    "reducers.js",
+    "reducer.ts",
+    "reducers.ts"
+   ],
+   "fileNames": [
+    "reducer.js",
+    "reducers.js",
+    "reducer.ts",
+    "reducers.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Redux"
+   ]
+  },
+  {
+   "name": "redux-selector",
+   "extensions": [
+    "selector.js",
+    "selectors.js",
+    "selector.ts",
+    "selectors.ts"
+   ],
+   "fileNames": [
+    "selector.js",
+    "selectors.js",
+    "selector.ts",
+    "selectors.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Redux"
+   ]
+  },
+  {
+   "name": "redux-store",
+   "extensions": [
+    "store.js",
+    "store.ts"
+   ],
+   "fileNames": [
+    "store.js",
+    "store.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Redux"
+   ]
+  },
+  {
+   "name": "settings",
+   "extensions": [
+    "ini",
+    "dlc",
+    "config",
+    "conf",
+    "properties",
+    "prop",
+    "settings",
+    "option",
+    "props",
+    "prefs",
+    "sln.dotsettings",
+    "sln.dotsettings.user",
+    "cfg",
+    "cnf",
+    "tool-versions",
+    "directory",
+    "mak",
+    "npmrc",
+    "repo"
+   ],
+   "fileNames": [
+    ".jshintignore",
+    ".buildignore",
+    ".mrconfig",
+    ".yardopts",
+    "manifest.mf",
+    ".clang-format",
+    ".clang-format-ignore",
+    ".clang-tidy",
+    ".conf",
+    "compile_flags.txt"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "typescript",
+   "extensions": [
+    "ts",
+    "cts",
+    "mts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "typescript-def",
+   "extensions": [
+    "d.ts",
+    "d.cts",
+    "d.mts",
+    "d.ets"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "typedoc",
+   "extensions": [],
+   "fileNames": [
+    "typedoc.js",
+    "typedoc.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "markdoc",
+   "extensions": [
+    "mdoc",
+    "markdoc",
+    "markdoc.md"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "markdoc-config",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "markojs",
+   "extensions": [
+    "marko"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "astro",
+   "extensions": [
+    "astro"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "astro-config",
+   "extensions": [],
+   "fileNames": [
+    "astro.config.js",
+    "astro.config.mjs",
+    "astro.config.cjs",
+    "astro.config.ts",
+    "astro.config.cts",
+    "astro.config.mts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pdf",
+   "extensions": [
+    "pdf"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "table",
+   "extensions": [
+    "xlsx",
+    "xlsm",
+    "xls",
+    "csv",
+    "tsv",
+    "psv",
+    "ods"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vscode",
+   "extensions": [
+    "vscodeignore",
+    "vsixmanifest",
+    "vsix",
+    "code-workplace",
+    "code-workspace",
+    "code-profile",
+    "code-snippets"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "visualstudio",
+   "extensions": [
+    "csproj",
+    "ruleset",
+    "sln",
+    "slnf",
+    "slnx",
+    "suo",
+    "vb",
+    "vbs",
+    "vcxitems",
+    "vcxitems.filters",
+    "vcxproj",
+    "vcxproj.filters",
+    "wixproj",
+    "bas",
+    "vba"
+   ],
+   "fileNames": [
+    ".vsconfig"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "varnish",
+   "extensions": [
+    "vcl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "database",
+   "extensions": [
+    "pdb",
+    "sql",
+    "pks",
+    "pkb",
+    "accdb",
+    "mdb",
+    "sqlite",
+    "sqlite3",
+    "pgsql",
+    "postgres",
+    "plpgsql",
+    "psql",
+    "db",
+    "db3",
+    "dblite",
+    "dblite3",
+    "debugsymbols",
+    "odb",
+    "accde",
+    "adp",
+    "bak",
+    "bdb",
+    "dbf",
+    "fdb",
+    "feather",
+    "gdb",
+    "ibd",
+    "mdf",
+    "mde",
+    "myd",
+    "myi",
+    "ndf",
+    "orc",
+    "parquet",
+    "sdf",
+    "ldf",
+    "frm",
+    "kdbx",
+    "dsql"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "kusto",
+   "extensions": [
+    "kql"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "csharp",
+   "extensions": [
+    "cs",
+    "csx",
+    "csharp"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "qsharp",
+   "extensions": [
+    "qs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "zip",
+   "extensions": [
+    "zip",
+    "z",
+    "tar",
+    "gz",
+    "xz",
+    "lz",
+    "liz",
+    "lzma",
+    "lzma2",
+    "lz4",
+    "lz5",
+    "lzh",
+    "lha",
+    "br",
+    "bz2",
+    "bzip2",
+    "gzip",
+    "brotli",
+    "7z",
+    "001",
+    "rar",
+    "far",
+    "tz",
+    "taz",
+    "tlz",
+    "txz",
+    "tgz",
+    "tpz",
+    "tbz",
+    "tbz2",
+    "zst",
+    "zstd",
+    "tzst",
+    "tzstd",
+    "cab",
+    "cpio",
+    "rpm",
+    "deb",
+    "arj",
+    "wim",
+    "swm",
+    "esd",
+    "fat",
+    "xar",
+    "ntfs",
+    "hfs",
+    "squashfs",
+    "apfs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vala",
+   "extensions": [
+    "vala"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "zig",
+   "extensions": [
+    "zig",
+    "zon"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "exe",
+   "extensions": [
+    "exe",
+    "msi"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hex",
+   "extensions": [
+    "dat",
+    "bin",
+    "hex"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "java",
+   "extensions": [
+    "java",
+    "jsp",
+    "jav"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "jar",
+   "extensions": [
+    "jar"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "javaclass",
+   "extensions": [
+    "class"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "c3",
+   "extensions": [
+    "c3"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "c",
+   "extensions": [
+    "c",
+    "i",
+    "mi"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "h",
+   "extensions": [
+    "h"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hip",
+   "extensions": [
+    "hip"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cpp",
+   "extensions": [
+    "cc",
+    "cpp",
+    "cxx",
+    "c++",
+    "cp",
+    "mii",
+    "ii",
+    "cppm",
+    "c++m",
+    "ccm",
+    "cxxm",
+    "h.in",
+    "hpp.in",
+    "ipp",
+    "ixx",
+    "tpp",
+    "txx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hpp",
+   "extensions": [
+    "hh",
+    "hpp",
+    "hxx",
+    "h++",
+    "hp",
+    "tcc",
+    "inl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "objective-c",
+   "extensions": [
+    "m"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "objective-cpp",
+   "extensions": [
+    "mm"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rc",
+   "extensions": [
+    "rc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "go",
+   "extensions": [
+    "go"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "go-mod",
+   "extensions": [],
+   "fileNames": [
+    "go.mod",
+    "go.sum",
+    "go.work",
+    "go.work.sum"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "python",
+   "extensions": [
+    "py",
+    "cpy",
+    "gyp",
+    "gypi",
+    "ipy",
+    "pyi",
+    "pyt",
+    "pyw",
+    "rpy"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "python-misc",
+   "extensions": [
+    "pyc",
+    "whl",
+    "egg"
+   ],
+   "fileNames": [
+    "requirements.txt",
+    "pipfile",
+    ".python-version",
+    "manifest.in",
+    "pylintrc",
+    ".pylintrc",
+    "pyproject.toml",
+    "py.typed",
+    ".coveragerc",
+    ".coverage",
+    ".scrapy",
+    "celerybeat-schedule",
+    "celerybeat.pid"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ruff",
+   "extensions": [],
+   "fileNames": [
+    "ruff.toml",
+    ".ruff.toml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "uv",
+   "extensions": [],
+   "fileNames": [
+    "uv.toml",
+    ".uv.toml",
+    "uv.lock"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "scons",
+   "extensions": [],
+   "fileNames": [
+    "sconstruct",
+    "sconscript",
+    "scsub"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "url",
+   "extensions": [
+    "url"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "console",
+   "extensions": [
+    "sh",
+    "ksh",
+    "csh",
+    "tcsh",
+    "zsh",
+    "bash",
+    "bat",
+    "cmd",
+    "awk",
+    "fish",
+    "exp",
+    "nu",
+    "xsh",
+    "bash_aliases",
+    "bash_login",
+    "bash_logout",
+    "bash_profile",
+    "bashrc",
+    "cshrc",
+    "ebuild",
+    "eclass",
+    "profile",
+    "tcshrc",
+    "xprofile",
+    "xsession",
+    "xsessionrc",
+    "yash_profile",
+    "yashrc",
+    "zlogin",
+    "zlogout",
+    "zprofile",
+    "zsh-theme",
+    "zshenv",
+    "zshrc"
+   ],
+   "fileNames": [
+    "commit-msg",
+    "pre-commit",
+    "pre-push",
+    "post-merge",
+    ".envrc",
+    ".hushlogin",
+    "APKBUILD",
+    "PKGBUILD",
+    "bashrc_Apple_Terminal",
+    "zlogin",
+    "zlogout",
+    "zprofile",
+    "zshenv",
+    "zshrc",
+    "zshrc_Apple_Terminal"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "powershell",
+   "extensions": [
+    "ps1",
+    "psm1",
+    "psd1",
+    "ps1xml",
+    "psc1",
+    "pssc",
+    "psrc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "excalidraw",
+   "extensions": [
+    "excalidraw",
+    "excalidraw.json",
+    "excalidraw.svg",
+    "excalidraw.png"
+   ],
+   "fileNames": [
+    "excalidraw",
+    "excalidraw.json",
+    "excalidraw.svg",
+    "excalidraw.png"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gradle",
+   "extensions": [
+    "gradle"
+   ],
+   "fileNames": [
+    "gradle.properties",
+    "gradlew",
+    "gradle-wrapper.properties",
+    "gradlew.bat"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "word",
+   "extensions": [
+    "doc",
+    "docx",
+    "rtf",
+    "odt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "certificate",
+   "extensions": [
+    "cer",
+    "cert",
+    "crt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "license",
+   "extensions": [],
+   "fileNames": [
+    "copying",
+    "copying.md",
+    "copying.rst",
+    "copying.txt",
+    "copyright",
+    "copyright.md",
+    "copyright.rst",
+    "copyright.txt",
+    "license",
+    "license-agpl",
+    "license-apache",
+    "license-bsd",
+    "license-mit",
+    "license-gpl",
+    "license-lgpl",
+    "license.md",
+    "license.rst",
+    "license.txt",
+    "licence",
+    "licence-agpl",
+    "licence-apache",
+    "licence-bsd",
+    "licence-mit",
+    "licence-gpl",
+    "licence-lgpl",
+    "licence.md",
+    "licence.rst",
+    "licence.txt"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "unlicense",
+   "extensions": [],
+   "fileNames": [
+    "unlicense",
+    "unlicense.txt"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "key",
+   "extensions": [
+    "pub",
+    "key",
+    "pem",
+    "asc",
+    "gpg",
+    "passwd",
+    "shasum",
+    "sha256",
+    "sha256sum",
+    "sha256sums",
+    "secret"
+   ],
+   "fileNames": [
+    ".htpasswd",
+    "sha256sums",
+    ".secrets"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "keystatic",
+   "extensions": [],
+   "fileNames": [
+    "keystatic.config.tsx",
+    "keystatic.config.ts",
+    "keystatic.config.jsx",
+    "keystatic.config.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "font",
+   "extensions": [
+    "woff",
+    "woff2",
+    "ttf",
+    "eot",
+    "suit",
+    "otf",
+    "bmap",
+    "fnt",
+    "odttf",
+    "ttc",
+    "font",
+    "fonts",
+    "sui",
+    "ntf",
+    "mrf"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lib",
+   "extensions": [
+    "lib",
+    "a"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bibliography",
+   "extensions": [
+    "bib",
+    "bbl",
+    "bcf",
+    "blg"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bibtex-style",
+   "extensions": [
+    "bst"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dll",
+   "extensions": [
+    "dll",
+    "ilk",
+    "so"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ruby",
+   "extensions": [
+    "rb",
+    "erb",
+    "rbs",
+    "gemspec",
+    "podspec",
+    "rake",
+    "rbi",
+    "rbx",
+    "rjs",
+    "ru"
+   ],
+   "fileNames": [
+    ".ruby-version",
+    "appraisals",
+    "berksfile",
+    "berksfile.lock",
+    "brewfile",
+    "capfile",
+    "cheffile",
+    "dangerfile",
+    "deliverfile",
+    "guardfile",
+    "gymfile",
+    "hobofile",
+    "matchfile",
+    "podfile",
+    "puppetfile",
+    "rakefile",
+    "rantfile",
+    "scanfile",
+    "snapfile",
+    "thorfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gemfile",
+   "extensions": [],
+   "fileNames": [
+    "gemfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rubocop",
+   "extensions": [],
+   "fileNames": [
+    ".rubocop.yml",
+    ".rubocop-todo.yml",
+    ".rubocop_todo.yml"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rspec",
+   "extensions": [],
+   "fileNames": [
+    ".rspec"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "fsharp",
+   "extensions": [
+    "fs",
+    "fsx",
+    "fsi",
+    "fsproj",
+    "fsscript"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "swift",
+   "extensions": [
+    "swift",
+    "xcplayground",
+    "swiftdeps",
+    "swiftdoc",
+    "swiftmodule",
+    "swiftsourceinfo"
+   ],
+   "fileNames": [
+    ".swift-format",
+    ".swift-version",
+    ".swiftformat",
+    ".xcode-version"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "arduino",
+   "extensions": [
+    "ino"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "docker",
+   "extensions": [
+    "dockerignore",
+    "dockerfile",
+    "docker-compose.yml",
+    "docker-compose.yaml",
+    "containerignore",
+    "containerfile",
+    "compose.yaml",
+    "compose.yml"
+   ],
+   "fileNames": [
+    "dockerfile",
+    "dockerfile.prod",
+    "dockerfile.production",
+    "dockerfile.alpha",
+    "dockerfile.beta",
+    "dockerfile.stage",
+    "dockerfile.staging",
+    "dockerfile.dev",
+    "dockerfile.development",
+    "dockerfile.local",
+    "dockerfile.test",
+    "dockerfile.testing",
+    "dockerfile.ci",
+    "dockerfile.web",
+    "dockerfile.windows",
+    "dockerfile.worker",
+    "docker-compose.yml",
+    "docker-compose.override.yml",
+    "docker-compose.prod.yml",
+    "docker-compose.production.yml",
+    "docker-compose.alpha.yml",
+    "docker-compose.beta.yml",
+    "docker-compose.stage.yml",
+    "docker-compose.staging.yml",
+    "docker-compose.dev.yml",
+    "docker-compose.development.yml",
+    "docker-compose.local.yml",
+    "docker-compose.test.yml",
+    "docker-compose.testing.yml",
+    "docker-compose.ci.yml",
+    "docker-compose.web.yml",
+    "docker-compose.worker.yml",
+    "docker-compose.yaml",
+    "docker-compose.override.yaml",
+    "docker-compose.prod.yaml",
+    "docker-compose.production.yaml",
+    "docker-compose.alpha.yaml",
+    "docker-compose.beta.yaml",
+    "docker-compose.stage.yaml",
+    "docker-compose.staging.yaml",
+    "docker-compose.dev.yaml",
+    "docker-compose.development.yaml",
+    "docker-compose.local.yaml",
+    "docker-compose.test.yaml",
+    "docker-compose.testing.yaml",
+    "docker-compose.ci.yaml",
+    "docker-compose.web.yaml",
+    "docker-compose.worker.yaml",
+    "containerfile",
+    "containerfile.prod",
+    "containerfile.production",
+    "containerfile.alpha",
+    "containerfile.beta",
+    "containerfile.stage",
+    "containerfile.staging",
+    "containerfile.dev",
+    "containerfile.development",
+    "containerfile.local",
+    "containerfile.test",
+    "containerfile.testing",
+    "containerfile.ci",
+    "containerfile.web",
+    "containerfile.worker",
+    "compose.yaml",
+    "compose.override.yaml",
+    "compose.prod.yaml",
+    "compose.production.yaml",
+    "compose.alpha.yaml",
+    "compose.beta.yaml",
+    "compose.stage.yaml",
+    "compose.staging.yaml",
+    "compose.dev.yaml",
+    "compose.development.yaml",
+    "compose.local.yaml",
+    "compose.test.yaml",
+    "compose.testing.yaml",
+    "compose.ci.yaml",
+    "compose.web.yaml",
+    "compose.worker.yaml",
+    "compose.yml",
+    "compose.override.yml",
+    "compose.prod.yml",
+    "compose.production.yml",
+    "compose.alpha.yml",
+    "compose.beta.yml",
+    "compose.stage.yml",
+    "compose.staging.yml",
+    "compose.dev.yml",
+    "compose.development.yml",
+    "compose.local.yml",
+    "compose.test.yml",
+    "compose.testing.yml",
+    "compose.ci.yml",
+    "compose.web.yml",
+    "compose.worker.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tex",
+   "extensions": [
+    "tex",
+    "ltx",
+    "cls",
+    "clo",
+    "latex",
+    "aux",
+    "tikz",
+    "synctex",
+    "synctex.gz"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sty",
+   "extensions": [
+    "sty"
+   ],
+   "fileNames": [],
+   "clone": "tex",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "context",
+   "extensions": [
+    "ctx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dtx",
+   "extensions": [
+    "dtx"
+   ],
+   "fileNames": [],
+   "clone": "tex",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "doctex-installer",
+   "extensions": [
+    "ins"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bbx",
+   "extensions": [
+    "bbx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cbx",
+   "extensions": [
+    "cbx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lbx",
+   "extensions": [
+    "lbx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "latexmk",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "powerpoint",
+   "extensions": [
+    "pptx",
+    "ppt",
+    "pptm",
+    "potx",
+    "potm",
+    "ppsx",
+    "ppsm",
+    "pps",
+    "ppam",
+    "ppa",
+    "odp"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "video",
+   "extensions": [
+    "webm",
+    "mkv",
+    "flv",
+    "vob",
+    "ogv",
+    "ogg",
+    "gifv",
+    "avi",
+    "mov",
+    "qt",
+    "wmv",
+    "yuv",
+    "rm",
+    "rmvb",
+    "mp4",
+    "m4v",
+    "mpg",
+    "mp2",
+    "mpeg",
+    "mpe",
+    "mpv",
+    "m2v"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "virtual",
+   "extensions": [
+    "vdi",
+    "vbox",
+    "vbox-prev"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vedic",
+   "extensions": [
+    "ved",
+    "veda",
+    "vedic"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "email",
+   "extensions": [
+    "edb",
+    "eml",
+    "emlx",
+    "ics",
+    "mbox",
+    "msg",
+    "oft",
+    "olm",
+    "ost",
+    "p7s",
+    "pst",
+    "rpmsg",
+    "tnef"
+   ],
+   "fileNames": [
+    ".mailmap"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "audio",
+   "extensions": [
+    "8svx",
+    "aa",
+    "aac",
+    "aax",
+    "ac3",
+    "aif",
+    "aiff",
+    "alac",
+    "amr",
+    "ape",
+    "caf",
+    "cda",
+    "cdr",
+    "dss",
+    "ec3",
+    "efs",
+    "enc",
+    "flac",
+    "flp",
+    "gp",
+    "gsm",
+    "it",
+    "m3u",
+    "m3u8",
+    "m4a",
+    "m4b",
+    "m4p",
+    "m4r",
+    "mid",
+    "mka",
+    "mmf",
+    "mod",
+    "mp3",
+    "mpc",
+    "mscz",
+    "mtm",
+    "mui",
+    "musx",
+    "mxl",
+    "nsa",
+    "opus",
+    "pkf",
+    "qcp",
+    "ra",
+    "rf64",
+    "rip",
+    "sdt",
+    "sesx",
+    "sf2",
+    "stap",
+    "tg",
+    "voc",
+    "vqf",
+    "wav",
+    "weba",
+    "wfp",
+    "wma",
+    "wpl",
+    "wproj",
+    "wv"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "coffee",
+   "extensions": [
+    "coffee",
+    "cson",
+    "iced"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "document",
+   "extensions": [
+    "txt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lyric",
+   "extensions": [
+    "lrc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "graphql",
+   "extensions": [
+    "graphql",
+    "gql"
+   ],
+   "fileNames": [
+    ".graphqlconfig"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rust",
+   "extensions": [
+    "rs",
+    "ron"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "raml",
+   "extensions": [
+    "raml"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "xaml",
+   "extensions": [
+    "xaml"
+   ],
+   "fileNames": [
+    "XamlStyler.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "haskell",
+   "extensions": [
+    "hs",
+    "lhs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "happo",
+   "extensions": [],
+   "fileNames": [
+    ".happo.js",
+    ".happo.mjs",
+    ".happo.cjs"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "chromatic",
+   "extensions": [],
+   "fileNames": [
+    "chromatic.config.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "kotlin",
+   "extensions": [
+    "kt",
+    "kts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mist",
+   "extensions": [
+    "mist.js",
+    "mist.ts",
+    "mist.jsx",
+    "mist.tsx"
+   ],
+   "fileNames": [],
+   "clone": "liquid",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "otne",
+   "extensions": [
+    "otne"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "git",
+   "extensions": [
+    "patch"
+   ],
+   "fileNames": [
+    ".git",
+    ".gitignore",
+    ".gitmessage",
+    ".gitignore-global",
+    ".gitignore_global",
+    ".gitattributes",
+    ".gitattributes-global",
+    ".gitattributes_global",
+    ".gitconfig",
+    ".gitmodules",
+    ".gitkeep",
+    ".keep",
+    ".gitpreserve",
+    ".gitinclude",
+    ".git-blame-ignore",
+    ".git-blame-ignore-revs",
+    ".git-for-windows-updater",
+    "git-history",
+    "COMMIT_EDITMSG",
+    "MERGE_MSG",
+    "git-rebase-todo"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "diff",
+   "extensions": [
+    "diff",
+    "rej"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lua",
+   "extensions": [
+    "lua"
+   ],
+   "fileNames": [
+    ".luacheckrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "clojure",
+   "extensions": [
+    "clj",
+    "cljs",
+    "cljc",
+    "cljx",
+    "clojure",
+    "edn"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "groovy",
+   "extensions": [
+    "groovy",
+    "gvy"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nextflow",
+   "extensions": [
+    "nf"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "r",
+   "extensions": [
+    "r",
+    "rmd",
+    "rhistory",
+    "rprofile",
+    "rt"
+   ],
+   "fileNames": [
+    ".Rhistory"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dart",
+   "extensions": [
+    "dart"
+   ],
+   "fileNames": [
+    ".pubignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dart_generated",
+   "extensions": [
+    "freezed.dart",
+    "g.dart"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "actionscript",
+   "extensions": [
+    "as"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mxml",
+   "extensions": [
+    "mxml"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "autohotkey",
+   "extensions": [
+    "ahk"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "flash",
+   "extensions": [
+    "swf"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "adobe-swc",
+   "extensions": [
+    "swc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "swc",
+   "extensions": [
+    "swcrc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cmake",
+   "extensions": [
+    "cmake"
+   ],
+   "fileNames": [
+    "cmakelists.txt",
+    "cmakecache.txt",
+    "CMakePresets.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "assembly",
+   "extensions": [
+    "asm",
+    "a51",
+    "inc",
+    "nasm",
+    "s",
+    "ms",
+    "agc",
+    "ags",
+    "aea",
+    "argus",
+    "mitigus",
+    "binsource"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vue",
+   "extensions": [
+    "vue"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "semgrep",
+   "extensions": [],
+   "fileNames": [
+    "semgrep.yml",
+    ".semgrepignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vue-config",
+   "extensions": [],
+   "fileNames": [
+    "vue.config.js",
+    "vue.config.cjs",
+    "vue.config.mjs",
+    "vue.config.ts",
+    "vetur.config.js",
+    "vetur.config.ts",
+    "volar.config.js",
+    ".vuerc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vuex-store",
+   "extensions": [
+    "store.js",
+    "store.ts"
+   ],
+   "fileNames": [
+    "store.js",
+    "store.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Vuex"
+   ]
+  },
+  {
+   "name": "nuxt",
+   "extensions": [],
+   "fileNames": [
+    "nuxt.config.js",
+    "nuxt.config.ts",
+    ".nuxtignore",
+    ".nuxtrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "harmonix",
+   "extensions": [],
+   "fileNames": [
+    "harmonix.config.js",
+    "harmonix.config.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ocaml",
+   "extensions": [
+    "ml",
+    "mli",
+    "cmx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "odin",
+   "extensions": [
+    "odin"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "onnx",
+   "extensions": [
+    "onnx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "javascript-map",
+   "extensions": [
+    "js.map",
+    "mjs.map",
+    "cjs.map"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "css-map",
+   "extensions": [
+    "css.map"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lock",
+   "extensions": [
+    "lock"
+   ],
+   "fileNames": [
+    "security.md",
+    "security.txt",
+    "security"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "handlebars",
+   "extensions": [
+    "hbs",
+    "mustache",
+    "handlebars",
+    "hjs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "perl",
+   "extensions": [
+    "pm",
+    "raku",
+    "pod",
+    "psgi",
+    "t"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "haxe",
+   "extensions": [
+    "hx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "test-ts",
+   "extensions": [
+    "spec.ts",
+    "spec.cts",
+    "spec.mts",
+    "cy.ts",
+    "e2e-spec.ts",
+    "e2e-spec.cts",
+    "e2e-spec.mts",
+    "test.ts",
+    "test.cts",
+    "test.mts",
+    "ts.snap",
+    "cts.snap",
+    "mts.snap",
+    "spec-d.ts",
+    "test-d.ts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "test-jsx",
+   "extensions": [
+    "spec.tsx",
+    "test.tsx",
+    "tsx.snap",
+    "spec.jsx",
+    "test.jsx",
+    "jsx.snap",
+    "cy.jsx",
+    "cy.tsx",
+    "spec-d.tsx",
+    "test-d.tsx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "test-js",
+   "extensions": [
+    "spec.js",
+    "spec.cjs",
+    "spec.mjs",
+    "e2e-spec.js",
+    "e2e-spec.cjs",
+    "e2e-spec.mjs",
+    "test.js",
+    "test.cjs",
+    "test.mjs",
+    "js.snap",
+    "cjs.snap",
+    "mjs.snap",
+    "cy.js"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "angular",
+   "extensions": [
+    "module.ts",
+    "module.js",
+    "ng-template"
+   ],
+   "fileNames": [
+    "angular-cli.json",
+    ".angular-cli.json",
+    "angular.json",
+    "ng-package.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "angular-component",
+   "extensions": [
+    "component.ts",
+    "component.js"
+   ],
+   "fileNames": [],
+   "clone": "angular",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "angular-guard",
+   "extensions": [
+    "guard.ts",
+    "guard.js"
+   ],
+   "fileNames": [],
+   "clone": "angular",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "angular-service",
+   "extensions": [
+    "service.ts",
+    "service.js"
+   ],
+   "fileNames": [],
+   "clone": "angular",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "angular-pipe",
+   "extensions": [
+    "pipe.ts",
+    "pipe.js",
+    "filter.js"
+   ],
+   "fileNames": [],
+   "clone": "angular",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "angular-directive",
+   "extensions": [
+    "directive.ts",
+    "directive.js"
+   ],
+   "fileNames": [],
+   "clone": "angular",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "angular-resolver",
+   "extensions": [
+    "resolver.ts",
+    "resolver.js"
+   ],
+   "fileNames": [],
+   "clone": "angular",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "angular-interceptor",
+   "extensions": [
+    "interceptor.ts",
+    "interceptor.js"
+   ],
+   "fileNames": [],
+   "clone": "angular",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "puppet",
+   "extensions": [
+    "pp"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "elixir",
+   "extensions": [
+    "ex",
+    "exs",
+    "eex",
+    "leex",
+    "heex"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "livescript",
+   "extensions": [
+    "ls"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "erlang",
+   "extensions": [
+    "erl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "twig",
+   "extensions": [
+    "twig"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "julia",
+   "extensions": [
+    "jl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "elm",
+   "extensions": [
+    "elm"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "purescript",
+   "extensions": [
+    "pure",
+    "purs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "smarty",
+   "extensions": [
+    "tpl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stylus",
+   "extensions": [
+    "styl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "reason",
+   "extensions": [
+    "re",
+    "rei"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bucklescript",
+   "extensions": [
+    "cmj"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "merlin",
+   "extensions": [
+    "merlin"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "verilog",
+   "extensions": [
+    "vhd",
+    "vhdx",
+    "sv",
+    "svh",
+    "vhdl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mathematica",
+   "extensions": [
+    "nb"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "wolframlanguage",
+   "extensions": [
+    "wl",
+    "wls"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nunjucks",
+   "extensions": [
+    "njk",
+    "nunjucks"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "robot",
+   "extensions": [
+    "robot"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "solidity",
+   "extensions": [
+    "sol"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "autoit",
+   "extensions": [
+    "au3"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "haml",
+   "extensions": [
+    "haml"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "yang",
+   "extensions": [
+    "yang"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mjml",
+   "extensions": [
+    "mjml"
+   ],
+   "fileNames": [
+    ".mjmlconfig"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vercel",
+   "extensions": [],
+   "fileNames": [
+    "vercel.json",
+    "vercel.ts",
+    ".vercelignore",
+    "now.json",
+    ".nowignore"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "liara",
+   "extensions": [],
+   "fileNames": [
+    "liara.json",
+    ".liaraignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "verdaccio",
+   "extensions": [],
+   "fileNames": [
+    "verdaccio.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "payload",
+   "extensions": [],
+   "fileNames": [
+    "payload.config.js",
+    "payload.config.mjs",
+    "payload.config.ts",
+    "payload.config.mts"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "next",
+   "extensions": [],
+   "fileNames": [
+    "next.config.js",
+    "next.config.mjs",
+    "next.config.ts",
+    "next.config.mts"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "remark",
+   "extensions": [],
+   "fileNames": [
+    ".remarkrc",
+    ".remarkrc.cjs",
+    ".remarkrc.js",
+    ".remarkrc.json",
+    ".remarkrc.mjs",
+    ".remarkrc.yaml",
+    ".remarkrc.yml",
+    ".remarkignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "remix",
+   "extensions": [],
+   "fileNames": [
+    "remix.config.js",
+    "remix.config.ts"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "terraform",
+   "extensions": [
+    "tf",
+    "tf.json",
+    "tfvars",
+    "tfstate",
+    "tfbackend",
+    "terraformignore"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "opentofu",
+   "extensions": [
+    "tofu"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "laravel",
+   "extensions": [
+    "blade.php",
+    "inky.php"
+   ],
+   "fileNames": [
+    "artisan"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "applescript",
+   "extensions": [
+    "applescript",
+    "ipa"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cake",
+   "extensions": [
+    "cake"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cucumber",
+   "extensions": [
+    "feature",
+    "features"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nim",
+   "extensions": [
+    "nim",
+    "nimble"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "apiblueprint",
+   "extensions": [
+    "apib",
+    "apiblueprint"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "riot",
+   "extensions": [
+    "riot",
+    "tag"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vfl",
+   "extensions": [
+    "vfl"
+   ],
+   "fileNames": [
+    ".vfl"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "kl",
+   "extensions": [
+    "kl"
+   ],
+   "fileNames": [
+    ".kl"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "postcss",
+   "extensions": [
+    "pcss",
+    "sss"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "posthtml",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "todo",
+   "extensions": [
+    "todo"
+   ],
+   "fileNames": [
+    "todo.md",
+    "todos.md"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "coldfusion",
+   "extensions": [
+    "cfml",
+    "cfc",
+    "lucee",
+    "cfm"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cabal",
+   "extensions": [
+    "cabal"
+   ],
+   "fileNames": [
+    "cabal.project",
+    "cabal.project.freeze",
+    "cabal.project.local"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nix",
+   "extensions": [
+    "nix"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "slim",
+   "extensions": [
+    "slim"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "http",
+   "extensions": [
+    "http",
+    "rest"
+   ],
+   "fileNames": [
+    "CNAME"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "restql",
+   "extensions": [
+    "rql",
+    "restql"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "kivy",
+   "extensions": [
+    "kv"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "graphcool",
+   "extensions": [
+    "graphcool"
+   ],
+   "fileNames": [
+    "project.graphcool"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sbt",
+   "extensions": [
+    "sbt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "webpack",
+   "extensions": [],
+   "fileNames": [
+    "webpack.config.coffee"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rstack",
+   "extensions": [],
+   "fileNames": [
+    "rslint.json",
+    "rslint.jsonc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lynx",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ionic",
+   "extensions": [],
+   "fileNames": [
+    "ionic.config.json",
+    ".io-config.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gulp",
+   "extensions": [],
+   "fileNames": [
+    "gulpfile.js",
+    "gulpfile.mjs",
+    "gulpfile.ts",
+    "gulpfile.cts",
+    "gulpfile.mts",
+    "gulpfile.babel.js",
+    "gulpfile.cjs"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nodejs",
+   "extensions": [],
+   "fileNames": [
+    "package.json",
+    "package-lock.json",
+    ".nvmrc",
+    ".esmrc",
+    ".node-version"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "npm",
+   "extensions": [],
+   "fileNames": [
+    ".npmignore",
+    ".npmrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "yarn",
+   "extensions": [],
+   "fileNames": [
+    ".yarnrc",
+    "yarn.lock",
+    ".yarnclean",
+    ".yarn-integrity",
+    "yarn-error.log",
+    ".yarnrc.yml",
+    ".yarnrc.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "android",
+   "extensions": [
+    "apk",
+    "smali",
+    "dex"
+   ],
+   "fileNames": [
+    "androidmanifest.xml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tune",
+   "extensions": [
+    "env"
+   ],
+   "fileNames": [
+    ".env.defaults",
+    ".env.example",
+    ".env.sample",
+    ".env.template",
+    ".env.schema",
+    ".env.local",
+    ".env.dev",
+    ".env.development",
+    ".env.alpha",
+    ".env.e2e",
+    ".env.qa",
+    ".env.dist",
+    ".env.preprod",
+    ".env.prod",
+    ".env.production",
+    ".env.prod.example",
+    ".env.production.example",
+    ".env.stg",
+    ".env.stage",
+    ".env.staging",
+    ".env.preview",
+    ".env.test",
+    ".env.testing",
+    ".env.dev.local",
+    ".env.development.local",
+    ".env.qa.local",
+    ".env.prod.local",
+    ".env.production.local",
+    ".env.stg.local",
+    ".env.staging.local",
+    ".env.test.local",
+    ".env.uat",
+    ".vars",
+    ".dev.vars"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "turborepo",
+   "extensions": [],
+   "fileNames": [
+    "turbo.json",
+    "turbo.jsonc"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "babel",
+   "extensions": [],
+   "fileNames": [
+    "babel-transform.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "blitz",
+   "extensions": [],
+   "fileNames": [
+    "blitz.config.js",
+    "blitz.config.ts",
+    ".blitz.config.compiled.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "contributing",
+   "extensions": [],
+   "fileNames": [
+    "contributing.md",
+    "contributing.rst",
+    "contributing.txt",
+    "contributing"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "readme",
+   "extensions": [],
+   "fileNames": [
+    "readme.md",
+    "readme.rst",
+    "readme.txt",
+    "readme"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "changelog",
+   "extensions": [],
+   "fileNames": [
+    "changelog",
+    "changelog.md",
+    "changelog.rst",
+    "changelog.txt",
+    "changes",
+    "changes.md",
+    "changes.rst",
+    "changes.txt"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "architecture",
+   "extensions": [],
+   "fileNames": [
+    "architecture.md",
+    "architecture.rst",
+    "architecture.txt",
+    "architecture"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "credits",
+   "extensions": [],
+   "fileNames": [
+    "credits.md",
+    "credits.rst",
+    "credits.txt",
+    "credits"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "authors",
+   "extensions": [],
+   "fileNames": [
+    "authors.md",
+    "authors.rst",
+    "authors.txt",
+    "authors",
+    "contributors.md",
+    "contributors.rst",
+    "contributors.txt",
+    "contributors"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "flow",
+   "extensions": [],
+   "fileNames": [
+    ".flowconfig"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "favicon",
+   "extensions": [],
+   "fileNames": [
+    "favicon.ico"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "karma",
+   "extensions": [],
+   "fileNames": [
+    "karma.conf.js",
+    "karma.conf.ts",
+    "karma.conf.coffee",
+    "karma.config.js",
+    "karma.config.ts",
+    "karma-main.js",
+    "karma-main.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bithound",
+   "extensions": [],
+   "fileNames": [
+    ".bithoundrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "svgo",
+   "extensions": [],
+   "fileNames": [
+    "svgo.config.js",
+    "svgo.config.cjs",
+    "svgo.config.mjs"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "appveyor",
+   "extensions": [],
+   "fileNames": [
+    ".appveyor.yml",
+    "appveyor.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "travis",
+   "extensions": [],
+   "fileNames": [
+    ".travis.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "codecov",
+   "extensions": [],
+   "fileNames": [
+    ".codecov.yml",
+    "codecov.yml",
+    ".codecov.yaml",
+    "codecov.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sonarcloud",
+   "extensions": [],
+   "fileNames": [
+    "sonar-project.properties",
+    ".sonarcloud.properties",
+    "sonarcloud.yaml",
+    "SonarQube.Analysis.xml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "protractor",
+   "extensions": [],
+   "fileNames": [
+    "protractor.conf.js",
+    "protractor.conf.ts",
+    "protractor.conf.coffee",
+    "protractor.config.js",
+    "protractor.config.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "fusebox",
+   "extensions": [],
+   "fileNames": [
+    "fuse.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "heroku",
+   "extensions": [],
+   "fileNames": [
+    "procfile",
+    "procfile.windows"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "editorconfig",
+   "extensions": [],
+   "fileNames": [
+    ".editorconfig",
+    ".editorconfig-checker.json",
+    ".ecrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gitlab",
+   "extensions": [
+    "gitlab-ci.yml"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bower",
+   "extensions": [],
+   "fileNames": [
+    ".bowerrc",
+    "bower.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "eslint",
+   "extensions": [],
+   "fileNames": [
+    ".eslintrc-md.js",
+    ".eslintrc-jsdoc.js",
+    ".eslintrc.base.json",
+    ".eslintignore",
+    ".eslintcache",
+    "eslint-options.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "conduct",
+   "extensions": [],
+   "fileNames": [
+    "code_of_conduct.md",
+    "code_of_conduct.txt",
+    "code_of_conduct"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "watchman",
+   "extensions": [],
+   "fileNames": [
+    ".watchmanconfig"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "aurelia",
+   "extensions": [],
+   "fileNames": [
+    "aurelia.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "auto",
+   "extensions": [],
+   "fileNames": [
+    ".autorc",
+    "auto.config.js",
+    "auto.config.ts",
+    "auto-config.json",
+    "auto-config.yaml",
+    "auto-config.yml",
+    "auto-config.ts",
+    "auto-config.js"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mocha",
+   "extensions": [],
+   "fileNames": [
+    "mocha.opts",
+    ".mocharc.yml",
+    ".mocharc.yaml",
+    ".mocharc.js",
+    ".mocharc.cjs",
+    ".mocharc.json",
+    ".mocharc.jsonc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "jenkins",
+   "extensions": [
+    "jenkinsfile",
+    "jenkins"
+   ],
+   "fileNames": [
+    "jenkinsfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "firebase",
+   "extensions": [],
+   "fileNames": [
+    "firebase.config.js",
+    "firebase.json",
+    ".firebaserc",
+    "firestore.rules",
+    "firestore.indexes.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "figma",
+   "extensions": [
+    "fig"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rollup",
+   "extensions": [],
+   "fileNames": [
+    "rollup.config.js",
+    "rollup.config.mjs",
+    "rollup.config.ts",
+    "rollup-config.js",
+    "rollup-config.mjs",
+    "rollup-config.ts",
+    "rollup.config.common.js",
+    "rollup.config.common.mjs",
+    "rollup.config.common.ts",
+    "rollup.config.base.js",
+    "rollup.config.base.mjs",
+    "rollup.config.base.ts",
+    "rollup.config.prod.js",
+    "rollup.config.prod.mjs",
+    "rollup.config.prod.ts",
+    "rollup.config.dev.js",
+    "rollup.config.dev.mjs",
+    "rollup.config.dev.ts",
+    "rollup.config.prod.vendor.js",
+    "rollup.config.prod.vendor.mjs",
+    "rollup.config.prod.vendor.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hack",
+   "extensions": [],
+   "fileNames": [
+    ".hhconfig"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "huff",
+   "extensions": [
+    "huff"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hardhat",
+   "extensions": [],
+   "fileNames": [
+    "hardhat.config.js",
+    "hardhat.config.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stylelint",
+   "extensions": [],
+   "fileNames": [
+    ".stylelintignore",
+    ".stylelintcache"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "code-climate",
+   "extensions": [],
+   "fileNames": [
+    ".codeclimate.yml"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "prettier",
+   "extensions": [],
+   "fileNames": [
+    ".prettierignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "renovate",
+   "extensions": [],
+   "fileNames": [
+    ".renovaterc",
+    ".renovaterc.json",
+    "renovate-config.json",
+    "renovate.json",
+    "renovate.json5"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "apollo",
+   "extensions": [],
+   "fileNames": [
+    "apollo.config.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nodemon",
+   "extensions": [],
+   "fileNames": [
+    "nodemon.json",
+    "nodemon-debug.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ngrx-reducer",
+   "extensions": [
+    "reducer.ts",
+    "rootReducer.ts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "ngrx-state",
+   "extensions": [
+    "state.ts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "ngrx-actions",
+   "extensions": [
+    "actions.ts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "ngrx-effects",
+   "extensions": [
+    "effects.ts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "ngrx-entity",
+   "extensions": [],
+   "fileNames": [
+    ".entity"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "ngrx-selectors",
+   "extensions": [
+    "selectors.ts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Ngrx"
+   ]
+  },
+  {
+   "name": "webhint",
+   "extensions": [],
+   "fileNames": [
+    ".hintrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "browserlist",
+   "extensions": [],
+   "fileNames": [
+    "browserslist",
+    ".browserslistrc"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "crystal",
+   "extensions": [
+    "cr",
+    "ecr"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "snyk",
+   "extensions": [],
+   "fileNames": [
+    ".snyk"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "drone",
+   "extensions": [
+    "drone.yml"
+   ],
+   "fileNames": [
+    ".drone.yml"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cuda",
+   "extensions": [
+    "cu",
+    "cuh"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "opencode",
+   "extensions": [],
+   "fileNames": [
+    "opencode.json",
+    "opencode.jsonc"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "log",
+   "extensions": [
+    "log"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dotjs",
+   "extensions": [
+    "def",
+    "dot",
+    "jst"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ejs",
+   "extensions": [
+    "ejs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sequelize",
+   "extensions": [],
+   "fileNames": [
+    ".sequelizerc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gatsby",
+   "extensions": [],
+   "fileNames": [
+    "gatsby-config.js",
+    "gatsby-config.mjs",
+    "gatsby-config.ts",
+    "gatsby-node.js",
+    "gatsby-node.mjs",
+    "gatsby-node.ts",
+    "gatsby-browser.js",
+    "gatsby-browser.tsx",
+    "gatsby-ssr.js",
+    "gatsby-ssr.tsx"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "wakatime",
+   "extensions": [
+    ".wakatime-project"
+   ],
+   "fileNames": [
+    ".wakatime-project"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "circleci",
+   "extensions": [],
+   "fileNames": [
+    "circle.yml"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cloudfoundry",
+   "extensions": [],
+   "fileNames": [
+    ".cfignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "grunt",
+   "extensions": [],
+   "fileNames": [
+    "gruntfile.js",
+    "gruntfile.ts",
+    "gruntfile.cjs",
+    "gruntfile.cts",
+    "gruntfile.coffee",
+    "gruntfile.babel.js",
+    "gruntfile.babel.ts",
+    "gruntfile.babel.coffee"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "jest",
+   "extensions": [],
+   "fileNames": [
+    "jest.config.js",
+    "jest.config.cjs",
+    "jest.config.mjs",
+    "jest.config.ts",
+    "jest.config.cts",
+    "jest.config.mts",
+    "jest.config.json",
+    "jest.e2e.config.js",
+    "jest.e2e.config.cjs",
+    "jest.e2e.config.mjs",
+    "jest.e2e.config.ts",
+    "jest.e2e.config.cts",
+    "jest.e2e.config.mts",
+    "jest.e2e.config.json",
+    "jest.e2e.json",
+    "jest-unit.config.js",
+    "jest-e2e.config.js",
+    "jest-e2e.config.cjs",
+    "jest-e2e.config.mjs",
+    "jest-e2e.config.ts",
+    "jest-e2e.config.cts",
+    "jest-e2e.config.mts",
+    "jest-e2e.config.json",
+    "jest-e2e.json",
+    "jest-github-actions-reporter.js",
+    "jest.setup.js",
+    "jest.setup.ts",
+    "jest.json",
+    ".jestrc",
+    ".jestrc.js",
+    ".jestrc.json",
+    "jest.teardown.js",
+    "jest-preset.json",
+    "jest-preset.js",
+    "jest-preset.cjs",
+    "jest-preset.mjs",
+    "jest.preset.js",
+    "jest.preset.mjs",
+    "jest.preset.cjs",
+    "jest.preset.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "processing",
+   "extensions": [
+    "pde"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "storybook",
+   "extensions": [
+    "stories.js",
+    "stories.jsx",
+    "stories.mdx",
+    "story.js",
+    "story.jsx",
+    "stories.ts",
+    "stories.tsx",
+    "story.ts",
+    "story.tsx",
+    "stories.svelte",
+    "story.mdx",
+    "stories.vue"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "wepy",
+   "extensions": [
+    "wpy"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "fastlane",
+   "extensions": [],
+   "fileNames": [
+    "fastfile",
+    "appfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hcl",
+   "extensions": [
+    "hcl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "helm",
+   "extensions": [],
+   "fileNames": [
+    ".helmignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "san",
+   "extensions": [
+    "san"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "quokka",
+   "extensions": [
+    "quokka.js",
+    "quokka.ts",
+    "quokka.jsx",
+    "quokka.tsx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "wallaby",
+   "extensions": [],
+   "fileNames": [
+    "wallaby.js",
+    "wallaby.conf.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "django",
+   "extensions": [
+    "djt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stencil",
+   "extensions": [],
+   "fileNames": [
+    "stencil.config.js",
+    "stencil.config.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "red",
+   "extensions": [
+    "red"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "makefile",
+   "extensions": [
+    "mk"
+   ],
+   "fileNames": [
+    "makefile",
+    "gnumakefile",
+    "kbuild"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "foxpro",
+   "extensions": [
+    "fxp",
+    "prg"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "i18n",
+   "extensions": [
+    "pot",
+    "po",
+    "mo",
+    "lang",
+    "xlf"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "webassembly",
+   "extensions": [
+    "wat",
+    "wasm"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "semantic-release",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bitbucket",
+   "extensions": [],
+   "fileNames": [
+    "bitbucket-pipelines.yaml",
+    "bitbucket-pipelines.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "jupyter",
+   "extensions": [
+    "ipynb"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "d",
+   "extensions": [
+    "d"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mdx",
+   "extensions": [
+    "mdx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mdsvex",
+   "extensions": [
+    "svx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ballerina",
+   "extensions": [
+    "bal",
+    "balx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "racket",
+   "extensions": [
+    "rkt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bazel",
+   "extensions": [
+    "bzl",
+    "bazel"
+   ],
+   "fileNames": [
+    ".bazelignore",
+    ".bazelrc",
+    ".bazelversion"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mint",
+   "extensions": [
+    "mint"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "velocity",
+   "extensions": [
+    "vm",
+    "fhtml",
+    "vtl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "godot",
+   "extensions": [
+    "gd"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "godot-assets",
+   "extensions": [
+    "godot",
+    "tres",
+    "tscn",
+    "gdns",
+    "gdnlib",
+    "gdshader",
+    "gdshaderinc",
+    "gdextension"
+   ],
+   "fileNames": [
+    ".gdignore",
+    "._sc_",
+    "_sc_"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "azure-pipelines",
+   "extensions": [
+    "azure-pipelines.yml",
+    "azure-pipelines.yaml",
+    "azure-pipelines-main.yml",
+    "azure-pipelines-main.yaml"
+   ],
+   "fileNames": [
+    "azure-pipelines.yml",
+    "azure-pipelines.yaml",
+    "azure-pipelines-main.yml",
+    "azure-pipelines-main.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "azure",
+   "extensions": [
+    "azcli"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vagrant",
+   "extensions": [
+    "vagrantfile"
+   ],
+   "fileNames": [
+    "vagrantfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "prisma",
+   "extensions": [
+    "prisma"
+   ],
+   "fileNames": [
+    "prisma.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "razor",
+   "extensions": [
+    "cshtml",
+    "vbhtml",
+    "razor"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "abc",
+   "extensions": [
+    "abc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "asciidoc",
+   "extensions": [
+    "ad",
+    "adoc",
+    "asciidoc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "istanbul",
+   "extensions": [],
+   "fileNames": [
+    ".nycrc",
+    ".nycrc.json",
+    ".nycrc.yaml",
+    ".nycrc.yml",
+    "nyc.config.js",
+    "nyc.config.cjs",
+    ".istanbul.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "edge",
+   "extensions": [
+    "edge"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "scheme",
+   "extensions": [
+    "ss",
+    "scm"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lisp",
+   "extensions": [
+    "lisp",
+    "lsp",
+    "cl",
+    "fast"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tailwindcss",
+   "extensions": [],
+   "fileNames": [
+    "tailwind.js",
+    "tailwind.ts",
+    "tailwind.config.js",
+    "tailwind.config.cjs",
+    "tailwind.config.mjs",
+    "tailwind.config.ts",
+    "tailwind.config.cts",
+    "tailwind.config.mts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "3d",
+   "extensions": [
+    "stl",
+    "stp",
+    "step",
+    "ste",
+    "obj",
+    "o",
+    "ac",
+    "dwg",
+    "dxf",
+    "fbx",
+    "mesh",
+    "3dm",
+    "3mf",
+    "catpart",
+    "catproduct",
+    "f3d",
+    "iam",
+    "ige",
+    "iges",
+    "igs",
+    "ipt",
+    "jt",
+    "mqo",
+    "pmd",
+    "pmx",
+    "prt",
+    "sab",
+    "sat",
+    "skp",
+    "sldasm",
+    "slddrw",
+    "sldprt",
+    "smb",
+    "smt",
+    "vac",
+    "vdp",
+    "vox",
+    "gltf",
+    "glb",
+    "3ds",
+    "dae",
+    "ply",
+    "wrl",
+    "usd",
+    "usdz",
+    "wire",
+    "x_b",
+    "x_t",
+    "123dx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "buildkite",
+   "extensions": [],
+   "fileNames": [
+    "buildkite.yml",
+    "buildkite.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "netlify",
+   "extensions": [],
+   "fileNames": [
+    "netlify.json",
+    "netlify.yml",
+    "netlify.yaml",
+    "netlify.toml"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "svg",
+   "extensions": [
+    "svg"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "adobe-illustrator",
+   "extensions": [
+    "ai",
+    "ait"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "adobe-photoshop",
+   "extensions": [
+    "psd",
+    "psb",
+    "psdt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "svelte",
+   "extensions": [
+    "svelte"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "svelte_js",
+   "extensions": [
+    "svelte.js"
+   ],
+   "fileNames": [],
+   "clone": "svelte",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "svelte_ts",
+   "extensions": [
+    "svelte.ts"
+   ],
+   "fileNames": [],
+   "clone": "svelte",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vim",
+   "extensions": [
+    "vimrc",
+    "gvimrc",
+    "exrc",
+    "vim",
+    "viminfo"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nest",
+   "extensions": [],
+   "fileNames": [
+    "nest-cli.json",
+    ".nest-cli.json",
+    "nestconfig.json",
+    ".nestconfig.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nest-controller",
+   "extensions": [
+    "controller.ts",
+    "controller.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-middleware",
+   "extensions": [
+    "middleware.ts",
+    "middleware.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-module",
+   "extensions": [
+    "module.ts",
+    "module.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-service",
+   "extensions": [
+    "service.ts",
+    "service.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-decorator",
+   "extensions": [
+    "decorator.ts",
+    "decorator.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-pipe",
+   "extensions": [
+    "pipe.ts",
+    "pipe.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-filter",
+   "extensions": [
+    "filter.ts",
+    "filter.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-gateway",
+   "extensions": [
+    "gateway.ts",
+    "gateway.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-guard",
+   "extensions": [
+    "guard.ts",
+    "guard.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-resolver",
+   "extensions": [
+    "resolver.ts",
+    "resolver.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "nest-interceptor",
+   "extensions": [
+    "interceptor.ts",
+    "interceptor.js"
+   ],
+   "fileNames": [],
+   "clone": "nest",
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Nest"
+   ]
+  },
+  {
+   "name": "moon",
+   "extensions": [],
+   "fileNames": [
+    "moon.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "moonscript",
+   "extensions": [
+    "moon"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "percy",
+   "extensions": [],
+   "fileNames": [
+    ".percy.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gitpod",
+   "extensions": [],
+   "fileNames": [
+    ".gitpod.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stackblitz",
+   "extensions": [],
+   "fileNames": [
+    ".stackblitzrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "advpl",
+   "extensions": [
+    "prw",
+    "prx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "advpl-ptm",
+   "extensions": [
+    "ptm"
+   ],
+   "fileNames": [],
+   "clone": "advpl",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "advpl-tlpp",
+   "extensions": [
+    "tlpp"
+   ],
+   "fileNames": [],
+   "clone": "advpl",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "advpl-include",
+   "extensions": [
+    "ch"
+   ],
+   "fileNames": [],
+   "clone": "advpl",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "codeowners",
+   "extensions": [],
+   "fileNames": [
+    "codeowners",
+    "OWNERS"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gcp",
+   "extensions": [],
+   "fileNames": [
+    ".gcloudignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "amplify",
+   "extensions": [],
+   "fileNames": [
+    "amplify.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "disc",
+   "extensions": [
+    "iso",
+    "vmdk",
+    "hdd",
+    "qcow",
+    "qcow2",
+    "qed",
+    "dmg"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "fortran",
+   "extensions": [
+    "f",
+    "f77",
+    "f90",
+    "f95",
+    "f03",
+    "f08"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tcl",
+   "extensions": [
+    "tcl",
+    "do"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "liquid",
+   "extensions": [
+    "liquid"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "prolog",
+   "extensions": [
+    "p",
+    "pro",
+    "pl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "husky",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "coconut",
+   "extensions": [
+    "coco"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tilt",
+   "extensions": [],
+   "fileNames": [
+    "tiltfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "capacitor",
+   "extensions": [],
+   "fileNames": [
+    "capacitor.config.json",
+    "capacitor.config.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sketch",
+   "extensions": [
+    "sketch"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pawn",
+   "extensions": [
+    "pwn",
+    "amx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "adonis",
+   "extensions": [],
+   "fileNames": [
+    ".adonisrc.json",
+    "ace"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "forth",
+   "extensions": [
+    "4th",
+    "fth",
+    "frt"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "uml",
+   "extensions": [
+    "iuml",
+    "pu",
+    "puml",
+    "plantuml",
+    "wsd"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "meson",
+   "extensions": [
+    "wrap"
+   ],
+   "fileNames": [
+    "meson.build",
+    "meson_options.txt",
+    "meson.options"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "commitizen",
+   "extensions": [],
+   "fileNames": [
+    ".czrc",
+    ".cz.json",
+    ".cz.toml",
+    ".cz.yaml",
+    ".cz.yml",
+    "cz.json",
+    "cz.toml",
+    "cz.yaml",
+    "cz.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "commitlint",
+   "extensions": [],
+   "fileNames": [
+    ".commitlint.yaml",
+    ".commitlint.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "buck",
+   "extensions": [],
+   "fileNames": [
+    ".buckconfig"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dhall",
+   "extensions": [
+    "dhall",
+    "dhallb"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sml",
+   "extensions": [
+    "sml",
+    "mlton",
+    "mlb",
+    "sig",
+    "fun",
+    "cm",
+    "lex",
+    "use",
+    "grm"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nx",
+   "extensions": [],
+   "fileNames": [
+    "nx.json",
+    ".nxignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "opam",
+   "extensions": [
+    "opam"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dune",
+   "extensions": [],
+   "fileNames": [
+    "dune",
+    "dune-project",
+    "dune-workspace",
+    "dune-workspace.dev"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "imba",
+   "extensions": [
+    "imba"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "drawio",
+   "extensions": [
+    "drawio",
+    "dio"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pascal",
+   "extensions": [
+    "pas"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "unity",
+   "extensions": [
+    "unity",
+    "unitypackage"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "roadmap",
+   "extensions": [],
+   "fileNames": [
+    "roadmap.md",
+    "roadmap.txt",
+    "timeline.md",
+    "timeline.txt",
+    "milestones.md",
+    "milestones.txt"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sas",
+   "extensions": [
+    "sas",
+    "sas7bdat",
+    "sashdat",
+    "astore",
+    "ast",
+    "sast"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nuget",
+   "extensions": [
+    "nupkg",
+    "nuspec"
+   ],
+   "fileNames": [
+    "nuget.config",
+    ".nuspec",
+    "nuget.exe"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "command",
+   "extensions": [
+    "command"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stryker",
+   "extensions": [],
+   "fileNames": [
+    "stryker.conf.json",
+    "stryker.conf.js",
+    "stryker.conf.cjs",
+    "stryker.conf.mjs",
+    ".stryker.conf.json",
+    ".stryker.conf.js",
+    ".stryker.conf.cjs",
+    ".stryker.conf.mjs",
+    "stryker.config.json",
+    "stryker.config.js",
+    "stryker.config.mjs",
+    "stryker.config.cjs",
+    ".stryker.config.json",
+    ".stryker.config.js",
+    ".stryker.config.mjs",
+    ".stryker.config.cjs"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "denizenscript",
+   "extensions": [
+    "dsc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "modernizr",
+   "extensions": [],
+   "fileNames": [
+    ".modernizrrc",
+    ".modernizrrc.js",
+    ".modernizrrc.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "slug",
+   "extensions": [],
+   "fileNames": [
+    ".slugignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "search",
+   "extensions": [
+    "code-search"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stitches",
+   "extensions": [],
+   "fileNames": [
+    "stitches.config.js",
+    "stitches.config.ts"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nginx",
+   "extensions": [
+    "nginx",
+    "nginxconf",
+    "nginxconfig"
+   ],
+   "fileNames": [
+    "nginx.conf"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "minecraft",
+   "extensions": [
+    "mcfunction",
+    "mcmeta",
+    "mcr",
+    "mca",
+    "mcgame",
+    "mclevel",
+    "mcworld",
+    "mine",
+    "mus",
+    "mcstructure",
+    "mcpack",
+    "mcaddon",
+    "mctemplate",
+    "mcproject"
+   ],
+   "fileNames": [
+    ".mcattributes",
+    ".mcdefinitions",
+    ".mcignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "replit",
+   "extensions": [],
+   "fileNames": [
+    ".replit"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rescript",
+   "extensions": [
+    "res"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rescript-interface",
+   "extensions": [
+    "resi"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "duc",
+   "extensions": [
+    "duc"
+   ],
+   "fileNames": [
+    "duc.fbs"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "snowpack",
+   "extensions": [],
+   "fileNames": [
+    "snowpack.config.js",
+    "snowpack.config.cjs",
+    "snowpack.config.mjs",
+    "snowpack.config.ts",
+    "snowpack.config.cts",
+    "snowpack.config.mts",
+    "snowpack.deps.json",
+    "snowpack.config.json"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "brainfuck",
+   "extensions": [
+    "b",
+    "bf"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bicep",
+   "extensions": [
+    "bicep"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cobol",
+   "extensions": [
+    "cob",
+    "cbl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "grain",
+   "extensions": [
+    "gr"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lolcode",
+   "extensions": [
+    "lol"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "idris",
+   "extensions": [
+    "idr",
+    "ibc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "quasar",
+   "extensions": [],
+   "fileNames": [
+    "quasar.conf.js",
+    "quasar.config.js",
+    "quasar.conf.ts",
+    "quasar.config.ts",
+    "quasar.config.cjs"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dependabot",
+   "extensions": [],
+   "fileNames": [
+    "dependabot.yml",
+    "dependabot.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pipeline",
+   "extensions": [
+    "pipeline"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vite",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vitest",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "velite",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rolldown",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "opa",
+   "extensions": [
+    "rego"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lerna",
+   "extensions": [],
+   "fileNames": [
+    "lerna.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "windicss",
+   "extensions": [
+    "windi"
+   ],
+   "fileNames": [
+    "windi.config.js",
+    "windi.config.cjs",
+    "windi.config.ts",
+    "windi.config.cts",
+    "windi.config.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "textlint",
+   "extensions": [],
+   "fileNames": [
+    ".textlintrc",
+    ".textlintrc.js",
+    ".textlintrc.cjs",
+    ".textlintrc.json",
+    ".textlintrc.yml",
+    ".textlintrc.yaml",
+    ".textlintignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "scala",
+   "extensions": [
+    "scala",
+    "sc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lilypond",
+   "extensions": [
+    "ly"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vlang",
+   "extensions": [
+    "v"
+   ],
+   "fileNames": [
+    "vpkg.json",
+    "v.mod"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "chess",
+   "extensions": [
+    "pgn",
+    "fen"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gemini",
+   "extensions": [
+    "gmi",
+    "gemini"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sentry",
+   "extensions": [],
+   "fileNames": [
+    ".sentryclirc",
+    ".env.sentry-build-plugin"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "contentlayer",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "php",
+   "extensions": [
+    "php",
+    "php4",
+    "php5",
+    "phtml",
+    "ctp"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "phpunit",
+   "extensions": [],
+   "fileNames": [
+    ".phpunit.result.cache",
+    ".phpunit-watcher.yml",
+    "phpunit.xml",
+    "phpunit.xml.dist",
+    "phpunit-watcher.yml",
+    "phpunit-watcher.yml.dist"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "php-cs-fixer",
+   "extensions": [],
+   "fileNames": [
+    ".php_cs",
+    ".php_cs.dist",
+    ".php_cs.php",
+    ".php_cs.dist.php",
+    ".php-cs-fixer.php",
+    ".php-cs-fixer.dist.php"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "robots",
+   "extensions": [],
+   "fileNames": [
+    "robots.txt"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tsconfig",
+   "extensions": [
+    "tsconfig.json"
+   ],
+   "fileNames": [
+    "tsconfig.json",
+    "tsconfig.app.json",
+    "tsconfig.editor.json",
+    "tsconfig.spec.json",
+    "tsconfig.base.json",
+    "tsconfig.build.json",
+    "tsconfig.eslint.json",
+    "tsconfig.lib.json",
+    "tsconfig.lib.prod.json",
+    "tsconfig.node.json",
+    "tsconfig.test.json",
+    "tsconfig.e2e.json",
+    "tsconfig.web.json",
+    "tsconfig.webworker.json",
+    "tsconfig.worker.json",
+    "tsconfig.config.json",
+    "tsconfig.vitest.json",
+    "tsconfig.cjs.json",
+    "tsconfig.esm.json",
+    "tsconfig.mjs.json",
+    "tsconfig.doc.json",
+    "tsconfig.paths.json",
+    "tsconfig.main.json",
+    "tsconfig.renderer.json",
+    "tsconfig.server.json",
+    "tsconfig.client.json",
+    "tsconfig.declaration.json",
+    "tsconfig.dev.json",
+    "tsconfig.prod.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tauri",
+   "extensions": [
+    "tauri"
+   ],
+   "fileNames": [
+    "tauri.conf.json",
+    "tauri.config.json",
+    "tauri.linux.conf.json",
+    "tauri.windows.conf.json",
+    "tauri.macos.conf.json",
+    ".taurignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "jsconfig",
+   "extensions": [
+    "jsconfig.json"
+   ],
+   "fileNames": [
+    "jsconfig.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "maven",
+   "extensions": [],
+   "fileNames": [
+    "maven.config",
+    "jvm.config",
+    "pom.xml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ada",
+   "extensions": [
+    "ada",
+    "adb",
+    "ads",
+    "ali"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "serverless",
+   "extensions": [],
+   "fileNames": [
+    "serverless.yml",
+    "serverless.yaml",
+    "serverless.json",
+    "serverless.js",
+    "serverless.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "supabase",
+   "extensions": [],
+   "fileNames": [
+    "supabase.js",
+    "supabase.ts",
+    "supabase.py"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ember",
+   "extensions": [],
+   "fileNames": [
+    ".ember-cli",
+    ".ember-cli.js",
+    "ember-cli-builds.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "horusec",
+   "extensions": [
+    "horusec-config.json"
+   ],
+   "fileNames": [
+    "horusec-config.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "poetry",
+   "extensions": [],
+   "fileNames": [
+    "poetry.lock"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pdm",
+   "extensions": [
+    "pdm.lock",
+    "pdm.toml"
+   ],
+   "fileNames": [
+    "pdm.lock",
+    "pdm.toml",
+    ".pdm-python"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "coala",
+   "extensions": [
+    "coarc",
+    "coafile"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "parcel",
+   "extensions": [],
+   "fileNames": [
+    ".parcelrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "dinophp",
+   "extensions": [
+    "bubble",
+    "html.bubble",
+    "php.bubble"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "teal",
+   "extensions": [
+    "tl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "template",
+   "extensions": [
+    "template"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "astyle",
+   "extensions": [],
+   "fileNames": [
+    ".astylerc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "shader",
+   "extensions": [
+    "glsl",
+    "vert",
+    "tesc",
+    "tese",
+    "geom",
+    "frag",
+    "comp",
+    "rgen",
+    "rint",
+    "rahit",
+    "rchit",
+    "rmiss",
+    "rcall",
+    "vert.glsl",
+    "tesc.glsl",
+    "tese.glsl",
+    "geom.glsl",
+    "frag.glsl",
+    "comp.glsl",
+    "rgen.glsl",
+    "rint.glsl",
+    "rahit.glsl",
+    "rchit.glsl",
+    "rmiss.glsl",
+    "rcall.glsl",
+    "vertex.glsl",
+    "geometry.glsl",
+    "fragment.glsl",
+    "compute.glsl",
+    "ts.glsl",
+    "gs.glsl",
+    "vs.glsl",
+    "fs.glsl",
+    "shader",
+    "vertexshader",
+    "fragmentshader",
+    "geometryshader",
+    "computeshader",
+    "hlsl",
+    "pixel.hlsl",
+    "geometry.hlsl",
+    "compute.hlsl",
+    "tessellation.hlsl",
+    "px.hlsl",
+    "geom.hlsl",
+    "comp.hlsl",
+    "tess.hlsl",
+    "wgsl",
+    "spv",
+    "slang",
+    "cginc",
+    "compute",
+    "fx",
+    "fxh",
+    "hlsli",
+    "psh",
+    "vsh"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lighthouse",
+   "extensions": [],
+   "fileNames": [
+    ".lighthouserc.js",
+    "lighthouserc.js",
+    ".lighthouserc.cjs",
+    "lighthouserc.cjs",
+    ".lighthouserc.json",
+    "lighthouserc.json",
+    ".lighthouserc.yml",
+    "lighthouserc.yml",
+    ".lighthouserc.yaml",
+    "lighthouserc.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "svgr",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rome",
+   "extensions": [],
+   "fileNames": [
+    "rome.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cypress",
+   "extensions": [],
+   "fileNames": [
+    "cypress.json",
+    "cypress.env.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "siyuan",
+   "extensions": [
+    "sy"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ndst",
+   "extensions": [
+    "ndst.yml",
+    "ndst.yaml",
+    "ndst.json"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "plop",
+   "extensions": [],
+   "fileNames": [
+    "plopfile.js",
+    "plopfile.cjs",
+    "plopfile.mjs",
+    "plopfile.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tobi",
+   "extensions": [
+    "tobi"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tobimake",
+   "extensions": [],
+   "fileNames": [
+    ".tobimake"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gleam",
+   "extensions": [
+    "gleam"
+   ],
+   "fileNames": [
+    "gleam.toml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pnpm",
+   "extensions": [],
+   "fileNames": [
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    ".pnpmfile.cjs"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gridsome",
+   "extensions": [],
+   "fileNames": [
+    "gridsome.config.js",
+    "gridsome.server.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "steadybit",
+   "extensions": [
+    "steadybit.yml",
+    "steadybit.yaml"
+   ],
+   "fileNames": [
+    ".steadybit.yml",
+    "steadybit.yml",
+    ".steadybit.yaml",
+    "steadybit.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "capnp",
+   "extensions": [
+    "capnp"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tree",
+   "extensions": [
+    "tree"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cadence",
+   "extensions": [
+    "cdc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "caddy",
+   "extensions": [],
+   "fileNames": [
+    "Caddyfile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "openapi",
+   "extensions": [
+    "openapi.json",
+    "openapi.yml",
+    "openapi.yaml"
+   ],
+   "fileNames": [
+    "openapi.json",
+    "openapi.yml",
+    "openapi.yaml"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "swagger",
+   "extensions": [
+    "swagger.json",
+    "swagger.yml",
+    "swagger.yaml"
+   ],
+   "fileNames": [
+    "swagger.json",
+    "swagger.yml",
+    "swagger.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bun",
+   "extensions": [],
+   "fileNames": [
+    "bun.lockb",
+    "bunfig.toml",
+    ".bun-version",
+    "bun.lock"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "antlr",
+   "extensions": [
+    "g4"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stylable",
+   "extensions": [
+    "st.css"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pinejs",
+   "extensions": [
+    "pine"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "nano-staged",
+   "extensions": [],
+   "fileNames": [
+    ".nano-staged.js",
+    "nano-staged.js",
+    ".nano-staged.cjs",
+    "nano-staged.cjs",
+    ".nano-staged.mjs",
+    "nano-staged.mjs",
+    ".nano-staged.json",
+    "nano-staged.json",
+    ".nanostagedrc"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "knip",
+   "extensions": [],
+   "fileNames": [
+    "knip.json",
+    "knip.jsonc",
+    ".knip.json",
+    ".knip.jsonc",
+    "knip.ts",
+    "knip.js",
+    "knip.config.ts",
+    "knip.config.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "taskfile",
+   "extensions": [
+    "taskfile.yml",
+    "taskfile.yaml"
+   ],
+   "fileNames": [
+    "taskfile.yml",
+    "taskfile.yaml",
+    "taskfile.dist.yml",
+    "taskfile.dist.yaml",
+    ".taskrc.yml",
+    ".taskrc.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "craco",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gamemaker",
+   "extensions": [
+    "gml",
+    "yy",
+    "yyp",
+    "yyz"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tldraw",
+   "extensions": [
+    "tldr"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mercurial",
+   "extensions": [],
+   "fileNames": [
+    ".hg",
+    ".hgignore",
+    ".hgflow",
+    ".hgtags",
+    ".hgrc",
+    "hgrc",
+    "mercurial.ini"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "deno",
+   "extensions": [],
+   "fileNames": [
+    "deno.json",
+    "deno.jsonc",
+    "deno.lock"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "plastic",
+   "extensions": [],
+   "fileNames": [
+    "plastic.branchexplorer",
+    "plastic.selector",
+    "plastic.wktree",
+    "plastic.workspace",
+    "plastic.workspaces"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "typst",
+   "extensions": [
+    "typ"
+   ],
+   "fileNames": [
+    "typst.toml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "unocss",
+   "extensions": [],
+   "fileNames": [
+    "uno.config.js",
+    "uno.config.mjs",
+    "uno.config.ts",
+    "uno.config.mts",
+    "unocss.config.js",
+    "unocss.config.mjs",
+    "unocss.config.ts",
+    "unocss.config.mts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "ifanr-cloud",
+   "extensions": [],
+   "fileNames": [
+    ".mincloudrc",
+    ".qa-mincloudrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "concourse",
+   "extensions": [],
+   "fileNames": [
+    "concourse.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "qwik",
+   "extensions": [
+    "tsx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Qwik"
+   ]
+  },
+  {
+   "name": "mermaid",
+   "extensions": [
+    "mmd",
+    "mermaid"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "syncpack",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mojo",
+   "extensions": [
+    "mojo",
+    "\ud83d\udd25"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "werf",
+   "extensions": [],
+   "fileNames": [
+    "werf.yaml",
+    "werf.yml",
+    "werf-giterminism.yaml",
+    "werf-giterminism.yml",
+    "werf-includes.lock",
+    "werf-includes.yaml",
+    "werf-includes.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "roblox",
+   "extensions": [
+    "rbxl",
+    "rbxlx",
+    "rbxm",
+    "rbxmx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "luau",
+   "extensions": [
+    "luau"
+   ],
+   "fileNames": [
+    ".luaurc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rojo",
+   "extensions": [
+    "project.json",
+    "model.json",
+    "meta.json"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Roblox"
+   ]
+  },
+  {
+   "name": "wally",
+   "extensions": [],
+   "fileNames": [
+    "wally.toml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "rbxmk",
+   "extensions": [
+    "rbxmk.lua",
+    "rbxmk.luau"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "panda",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "biome",
+   "extensions": [],
+   "fileNames": [
+    "biome.json",
+    "biome.jsonc",
+    ".biome.json",
+    ".biome.jsonc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "esbuild",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "spwn",
+   "extensions": [
+    "spwn"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "templ",
+   "extensions": [
+    "templ"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "chrome",
+   "extensions": [
+    "crx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "stan",
+   "extensions": [
+    "stan"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "abap",
+   "extensions": [
+    "abap",
+    "acds",
+    "asddls"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "drizzle",
+   "extensions": [],
+   "fileNames": [
+    "drizzle.config.ts",
+    "drizzle.config.dev.ts",
+    "drizzle.config.prod.ts",
+    "drizzle.config.js",
+    "drizzle.config.dev.js",
+    "drizzle.config.prod.js",
+    "drizzle.config.json",
+    "drizzle.config.dev.json",
+    "drizzle.config.prod.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lottie",
+   "extensions": [
+    "lottie"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "puppeteer",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "apps-script",
+   "extensions": [
+    "gs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "garden",
+   "extensions": [
+    "garden.yml",
+    "garden.yaml"
+   ],
+   "fileNames": [
+    "garden.yml",
+    "garden.yaml",
+    "project.garden.yml",
+    "project.garden.yaml",
+    ".gardenignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pkl",
+   "extensions": [
+    "pkl"
+   ],
+   "fileNames": [
+    "PklProject",
+    "PklProject.deps.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "kubernetes",
+   "extensions": [],
+   "fileNames": [
+    "k8s.yml",
+    "k8s.yaml",
+    "kubernetes.yml",
+    "kubernetes.yaml",
+    ".k8s.yml",
+    ".k8s.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "phpstan",
+   "extensions": [],
+   "fileNames": [
+    "phpstan.neon",
+    "phpstan.neon.dist",
+    "phpstan.dist.neon"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "screwdriver",
+   "extensions": [],
+   "fileNames": [
+    "screwdriver.yaml",
+    "screwdriver.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "snapcraft",
+   "extensions": [],
+   "fileNames": [
+    "snapcraft.yaml",
+    "snapcraft.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "container",
+   "extensions": [],
+   "fileNames": [
+    ".devcontainer/devcontainer.json",
+    ".devcontainer/devcontainer-lock.json"
+   ],
+   "clone": "3d",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "kcl",
+   "extensions": [
+    "k"
+   ],
+   "fileNames": [
+    "kcl.mod",
+    "kcl.yaml",
+    "kcl.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "verified",
+   "extensions": [
+    "sigstore.json"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bruno",
+   "extensions": [
+    "bru"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cairo",
+   "extensions": [
+    "cairo"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "grafana-alloy",
+   "extensions": [
+    "alloy"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "clangd",
+   "extensions": [],
+   "fileNames": [
+    ".clangd"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "freemarker",
+   "extensions": [
+    "ftl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "markdownlint",
+   "extensions": [],
+   "fileNames": [
+    ".markdownlint.json",
+    ".markdownlint.jsonc",
+    ".markdownlint.yaml",
+    ".markdownlint.yml",
+    ".markdownlint-cli2.jsonc",
+    ".markdownlint-cli2.yaml",
+    ".markdownlint-cli2.cjs",
+    ".markdownlint-cli2.mjs",
+    ".markdownlintignore"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tsil",
+   "extensions": [
+    "\u0446"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "trigger",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "deepsource",
+   "extensions": [],
+   "fileNames": [
+    ".deepsource.toml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tape",
+   "extensions": [
+    "tape"
+   ],
+   "fileNames": [],
+   "clone": "video",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hurl",
+   "extensions": [
+    "hurl"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cds",
+   "extensions": [
+    "cds"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "slint",
+   "extensions": [
+    "slint",
+    "60"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "jsr",
+   "extensions": [],
+   "fileNames": [
+    "jsr.json",
+    "jsr.jsonc"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "coderabbit-ai",
+   "extensions": [],
+   "fileNames": [
+    ".coderabbit.yml",
+    ".coderabbit.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gemini-ai",
+   "extensions": [],
+   "fileNames": [
+    ".aiexclude",
+    "GEMINI.md"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "taze",
+   "extensions": [],
+   "fileNames": [
+    ".tazerc",
+    ".tazerc.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "wxt",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "verse",
+   "extensions": [
+    "verse"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "sway",
+   "extensions": [
+    "sw"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lefthook",
+   "extensions": [],
+   "fileNames": [
+    ".lefthook-local.json",
+    ".lefthook-local.toml",
+    ".lefthook-local.yaml",
+    ".lefthook-local.yml",
+    ".lefthook.json",
+    ".lefthook.toml",
+    ".lefthook.yaml",
+    ".lefthook.yml",
+    ".lefthookrc",
+    "lefthook-local.json",
+    "lefthook-local.toml",
+    "lefthook-local.yaml",
+    "lefthook-local.yml",
+    "lefthook.json",
+    "lefthook.toml",
+    "lefthook.yaml",
+    "lefthook.yml",
+    "lefthookrc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "label",
+   "extensions": [],
+   "fileNames": [
+    ".github/labeler.yml",
+    ".github/labeler.yaml",
+    "tags"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "zeabur",
+   "extensions": [
+    "zeabur"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "copilot",
+   "extensions": [],
+   "fileNames": [
+    "copilot-instructions.md",
+    ".copilotignore"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bench-ts",
+   "extensions": [
+    "bench.ts",
+    "bench.cts",
+    "bench.mts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bench-jsx",
+   "extensions": [
+    "bench.jsx",
+    "bench.tsx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bench-js",
+   "extensions": [
+    "bench.js",
+    "bench.cjs",
+    "bench.mjs"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pre-commit",
+   "extensions": [],
+   "fileNames": [
+    ".pre-commit-config.yaml",
+    ".pre-commit-hooks.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "controller",
+   "extensions": [
+    "controller.js",
+    "controller.ts"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Angular",
+    "Ngrx",
+    "Qwik",
+    "React",
+    "Redux",
+    "Roblox",
+    "Vue",
+    "Vuex"
+   ]
+  },
+  {
+   "name": "dependencies-update",
+   "extensions": [
+    ".ncurc.json",
+    ".ncurc.yml",
+    ".ncurc.js"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lintstaged",
+   "extensions": [],
+   "fileNames": [
+    ".lintstagedrc",
+    ".lintstagedrc.json",
+    ".lintstagedrc.yaml",
+    ".lintstagedrc.yml",
+    ".lintstagedrc.mjs",
+    ".lintstagedrc.cjs",
+    "lint-staged.config.ts",
+    "lint-staged.config.mjs",
+    "lint-staged.config.cjs",
+    "lint-staged.config.js",
+    ".lintstagedrc.js"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "histoire",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "installation",
+   "extensions": [],
+   "fileNames": [
+    "install",
+    "installation"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "github-sponsors",
+   "extensions": [],
+   "fileNames": [
+    ".github/FUNDING.yml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "minecraft-fabric",
+   "extensions": [],
+   "fileNames": [
+    "fabric.mod.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "umi",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pm2-ecosystem",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hosts",
+   "extensions": [],
+   "fileNames": [
+    "hosts"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "citation",
+   "extensions": [],
+   "fileNames": [
+    "citation.cff"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "xmake",
+   "extensions": [],
+   "fileNames": [
+    "xmake.lua",
+    "xmake"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "subtitles",
+   "extensions": [
+    "srt",
+    "ssa",
+    "ttml",
+    "sbv",
+    "dfxp",
+    "vtt",
+    "sub",
+    "ass"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "beancount",
+   "extensions": [
+    "beancount",
+    "bean"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "wrangler",
+   "extensions": [],
+   "fileNames": [
+    "wrangler.toml",
+    "wrangler.json",
+    "wrangler.jsonc"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "epub",
+   "extensions": [
+    "epub"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "regedit",
+   "extensions": [
+    "reg"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cline",
+   "extensions": [],
+   "fileNames": [
+    ".clinerules"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "gnuplot",
+   "extensions": [
+    "gnu"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "packship",
+   "extensions": [],
+   "fileNames": [
+    ".packshiprc",
+    ".packshiprc.json",
+    ".packshiprc.js",
+    ".packshiprc.ts",
+    "packship.config.js",
+    "packship.config.ts",
+    "packship.config.mjs",
+    "packship.config.mts",
+    "packship.config.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "snakemake",
+   "extensions": [
+    "smk",
+    "snakemake"
+   ],
+   "fileNames": [
+    "Snakefile"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "hadolint",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "coloredpetrinets",
+   "extensions": [
+    "cpn",
+    "pnml"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "pytorch",
+   "extensions": [
+    "pt",
+    "pth",
+    "pwf"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "blender",
+   "extensions": [
+    "blend",
+    "blend1",
+    "blend2"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tsdoc",
+   "extensions": [],
+   "fileNames": [
+    "tsdoc.json"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "oxc",
+   "extensions": [],
+   "fileNames": [
+    ".oxlintrc.json",
+    ".oxlintrc.jsonc",
+    ".oxfmtrc.json",
+    ".oxfmtrc.jsonc",
+    "oxlint.config.ts",
+    "oxfmt.config.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "vanilla-extract",
+   "extensions": [
+    "css.ts",
+    "css.js",
+    "css.cjs",
+    "css.mjs",
+    "css.tsx",
+    "css.jsx"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "claude",
+   "extensions": [],
+   "fileNames": [
+    "CLAUDE.md",
+    "CLAUDE.local.md"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cursor",
+   "extensions": [],
+   "fileNames": [
+    ".cursorignore",
+    ".cursorindexingignore",
+    ".cursorrules",
+    ".cursor",
+    ".cursor.json",
+    ".cursorrc"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "metro",
+   "extensions": [],
+   "fileNames": [
+    "metro.config.js",
+    "metro.config.cjs",
+    "metro.config.mjs",
+    "metro.config.json",
+    "metro.config.ts",
+    "metro.config.cts",
+    "metro.config.mts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bashly",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bashly-settings",
+   "extensions": [],
+   "fileNames": [],
+   "clone": "bashly",
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "bashly-settings",
+   "extensions": [],
+   "fileNames": [],
+   "clone": "bashly",
+   "light": true,
+   "disabled": false,
+   "enabledFor": [
+    "Bashly"
+   ]
+  },
+  {
+   "name": "bashly-hook",
+   "extensions": [],
+   "fileNames": [
+    "src/initialize.sh",
+    "src/before.sh",
+    "src/after.sh"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": [
+    "Bashly"
+   ]
+  },
+  {
+   "name": "bashly-strings",
+   "extensions": [],
+   "fileNames": [],
+   "clone": "bashly-hook",
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "google",
+   "extensions": [],
+   "fileNames": [
+    "google-services.json",
+    "GoogleService-Info.plist"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "toc",
+   "extensions": [
+    "toc"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "shellcheck",
+   "extensions": [],
+   "fileNames": [],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "cue",
+   "extensions": [
+    "cue"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "lean",
+   "extensions": [
+    "lean"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "salt",
+   "extensions": [
+    "sls"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "warp",
+   "extensions": [],
+   "fileNames": [
+    "warp.md"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "macaulay2",
+   "extensions": [
+    "m2"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "uiua",
+   "extensions": [
+    "ua"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "skill",
+   "extensions": [
+    "skill.md",
+    "skills.md"
+   ],
+   "fileNames": [
+    "skill.md"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "instructions",
+   "extensions": [
+    "instructions.md",
+    "instruction.md"
+   ],
+   "fileNames": [
+    "instructions.md",
+    "instruction.md"
+   ],
+   "clone": "lib",
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "tsdown",
+   "extensions": [],
+   "fileNames": [
+    "tsdown.config.ts",
+    "tsdown.config.mts",
+    "tsdown.config.cts",
+    "tsdown.config.js",
+    "tsdown.config.mjs",
+    "tsdown.config.cjs",
+    "tsdown.config.json",
+    "tsdown.config"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "appwrite",
+   "extensions": [],
+   "fileNames": [
+    "appwrite.json",
+    "appwrite.js",
+    "appwrite.ts"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "expo",
+   "extensions": [],
+   "fileNames": [
+    "eas.json",
+    ".easignore"
+   ],
+   "clone": null,
+   "light": true,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "agent",
+   "extensions": [],
+   "fileNames": [
+    "agents.md"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "mrpack",
+   "extensions": [
+    "mrpack"
+   ],
+   "fileNames": [],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  },
+  {
+   "name": "zizmor",
+   "extensions": [],
+   "fileNames": [
+    "zizmor.yml",
+    "zizmor.yaml"
+   ],
+   "clone": null,
+   "light": false,
+   "disabled": false,
+   "enabledFor": []
+  }
+ ],
+ "folderThemes": [
+  {
+   "name": "specific",
+   "defaultIcon": "folder",
+   "rootFolder": "folder-root",
+   "icons": [
+    {
+     "name": "folder-rust",
+     "folderNames": [
+      "rust",
+      "cargo"
+     ]
+    },
+    {
+     "name": "folder-robot",
+     "folderNames": [
+      "bot",
+      "bots",
+      "robot",
+      "robots",
+      "agent",
+      "agents"
+     ]
+    },
+    {
+     "name": "folder-src",
+     "folderNames": [
+      "src",
+      "srcs",
+      "source",
+      "sources",
+      "code"
+     ]
+    },
+    {
+     "name": "folder-dist",
+     "folderNames": [
+      "dist",
+      "out",
+      "output",
+      "outputs",
+      "build",
+      "builds",
+      "release",
+      "bin",
+      "distribution",
+      "built",
+      "compiled"
+     ]
+    },
+    {
+     "name": "folder-css",
+     "folderNames": [
+      "css",
+      "stylesheet",
+      "stylesheets",
+      "style",
+      "styles"
+     ]
+    },
+    {
+     "name": "folder-sass",
+     "folderNames": [
+      "sass",
+      "scss"
+     ]
+    },
+    {
+     "name": "folder-television",
+     "folderNames": [
+      "tv",
+      "television"
+     ]
+    },
+    {
+     "name": "folder-desktop",
+     "folderNames": [
+      "desktop",
+      "display"
+     ]
+    },
+    {
+     "name": "folder-console",
+     "folderNames": [
+      "console",
+      "xbox",
+      "ps4",
+      "ps5",
+      "switch",
+      "game",
+      "games"
+     ]
+    },
+    {
+     "name": "folder-images",
+     "folderNames": [
+      "images",
+      "image",
+      "imgs",
+      "img",
+      "icons",
+      "icon",
+      "icos",
+      "ico",
+      "figures",
+      "figure",
+      "figs",
+      "fig",
+      "screenshot",
+      "screenshots",
+      "screengrab",
+      "screengrabs",
+      "pic",
+      "pics",
+      "picture",
+      "pictures",
+      "photo",
+      "photos",
+      "photograph",
+      "photographs",
+      "texture",
+      "textures"
+     ]
+    },
+    {
+     "name": "folder-scripts",
+     "folderNames": [
+      "script",
+      "scripts",
+      "scripting",
+      "xtask"
+     ]
+    },
+    {
+     "name": "folder-node",
+     "folderNames": [
+      "node",
+      "nodejs",
+      "node_modules"
+     ]
+    },
+    {
+     "name": "folder-javascript",
+     "folderNames": [
+      "js",
+      "javascript",
+      "javascripts",
+      "cjs",
+      "mjs"
+     ]
+    },
+    {
+     "name": "folder-json",
+     "folderNames": [
+      "json",
+      "jsons",
+      "jsonc",
+      "jsonl"
+     ]
+    },
+    {
+     "name": "folder-font",
+     "folderNames": [
+      "font",
+      "fonts",
+      "typeface",
+      "typefaces"
+     ]
+    },
+    {
+     "name": "folder-bower",
+     "folderNames": [
+      "bower_components"
+     ]
+    },
+    {
+     "name": "folder-test",
+     "folderNames": [
+      "test",
+      "tests",
+      "testing",
+      "snapshots",
+      "spec",
+      "specs",
+      "testfiles"
+     ]
+    },
+    {
+     "name": "folder-directive",
+     "folderNames": [
+      "directive",
+      "directives"
+     ]
+    },
+    {
+     "name": "folder-jinja",
+     "folderNames": [
+      "jinja",
+      "jinja2",
+      "j2"
+     ]
+    },
+    {
+     "name": "folder-markdown",
+     "folderNames": [
+      "markdown",
+      "md"
+     ]
+    },
+    {
+     "name": "folder-pdm",
+     "folderNames": [
+      "pdm-plugins",
+      "pdm-build"
+     ]
+    },
+    {
+     "name": "folder-php",
+     "folderNames": [
+      "php"
+     ]
+    },
+    {
+     "name": "folder-phpmailer",
+     "folderNames": [
+      "phpmailer"
+     ]
+    },
+    {
+     "name": "folder-sublime",
+     "folderNames": [
+      "sublime"
+     ]
+    },
+    {
+     "name": "folder-docs",
+     "folderNames": [
+      "doc",
+      "docs",
+      "document",
+      "documents",
+      "documentation",
+      "post",
+      "posts",
+      "article",
+      "articles",
+      "wiki",
+      "news",
+      "blog",
+      "knowledge",
+      "diary",
+      "note",
+      "notes"
+     ]
+    },
+    {
+     "name": "folder-gh-workflows",
+     "folderNames": [
+      "github/workflows"
+     ]
+    },
+    {
+     "name": "folder-gitea-workflows",
+     "folderNames": [
+      "gitea/workflows"
+     ]
+    },
+    {
+     "name": "folder-git",
+     "folderNames": [
+      "git",
+      "patches",
+      "githooks",
+      "submodules"
+     ]
+    },
+    {
+     "name": "folder-github",
+     "folderNames": [
+      "github"
+     ]
+    },
+    {
+     "name": "folder-gitea",
+     "folderNames": [
+      "gitea"
+     ]
+    },
+    {
+     "name": "folder-gitlab",
+     "folderNames": [
+      "gitlab"
+     ]
+    },
+    {
+     "name": "folder-forgejo",
+     "folderNames": [
+      "forgejo"
+     ]
+    },
+    {
+     "name": "folder-vscode",
+     "folderNames": [
+      "vscode",
+      "vscode-test"
+     ]
+    },
+    {
+     "name": "folder-views",
+     "folderNames": [
+      "view",
+      "views",
+      "screen",
+      "screens",
+      "page",
+      "pages",
+      "public_html",
+      "html"
+     ]
+    },
+    {
+     "name": "folder-vue",
+     "folderNames": [
+      "vue"
+     ]
+    },
+    {
+     "name": "folder-vuepress",
+     "folderNames": [
+      "vuepress"
+     ]
+    },
+    {
+     "name": "folder-expo",
+     "folderNames": [
+      "expo",
+      "expo-shared"
+     ]
+    },
+    {
+     "name": "folder-config",
+     "folderNames": [
+      "cfg",
+      "cfgs",
+      "conf",
+      "confs",
+      "config",
+      "configs",
+      "configuration",
+      "configurations",
+      "setting",
+      "settings",
+      "META-INF",
+      "option",
+      "options",
+      "pref",
+      "prefs",
+      "preference",
+      "preferences",
+      "props",
+      "properties"
+     ]
+    },
+    {
+     "name": "folder-i18n",
+     "folderNames": [
+      "i18n",
+      "internationalization",
+      "lang",
+      "langs",
+      "language",
+      "languages",
+      "locale",
+      "locales",
+      "l10n",
+      "localization",
+      "translation",
+      "translate",
+      "translations",
+      "tx"
+     ]
+    },
+    {
+     "name": "folder-components",
+     "folderNames": [
+      "components",
+      "widget",
+      "widgets",
+      "fragments"
+     ]
+    },
+    {
+     "name": "folder-verdaccio",
+     "folderNames": [
+      "verdaccio"
+     ]
+    },
+    {
+     "name": "folder-aurelia",
+     "folderNames": [
+      "aurelia_project"
+     ]
+    },
+    {
+     "name": "folder-resource",
+     "folderNames": [
+      "resource",
+      "resources",
+      "res",
+      "asset",
+      "assets",
+      "static",
+      "report",
+      "reports"
+     ]
+    },
+    {
+     "name": "folder-lib",
+     "folderNames": [
+      "lib",
+      "libs",
+      "library",
+      "libraries",
+      "vendor",
+      "vendors",
+      "thirdparty",
+      "third-party",
+      "lib64",
+      "external",
+      "externals",
+      "crates"
+     ]
+    },
+    {
+     "name": "folder-theme",
+     "folderNames": [
+      "themes",
+      "theme",
+      "color",
+      "colors",
+      "colour",
+      "colours",
+      "design",
+      "designs",
+      "palette",
+      "palettes"
+     ]
+    },
+    {
+     "name": "folder-webpack",
+     "folderNames": [
+      "webpack"
+     ]
+    },
+    {
+     "name": "folder-global",
+     "folderNames": [
+      "global"
+     ]
+    },
+    {
+     "name": "folder-public",
+     "folderNames": [
+      "public",
+      "www",
+      "wwwroot",
+      "web",
+      "website",
+      "websites",
+      "site",
+      "browser",
+      "browsers",
+      "proxy"
+     ]
+    },
+    {
+     "name": "folder-include",
+     "folderNames": [
+      "inc",
+      "include",
+      "includes",
+      "partial",
+      "partials",
+      "inc64"
+     ]
+    },
+    {
+     "name": "folder-docker",
+     "folderNames": [
+      "docker",
+      "dockerfiles",
+      "dockerhub"
+     ]
+    },
+    {
+     "name": "folder-nginx",
+     "folderNames": [
+      "nginx"
+     ]
+    },
+    {
+     "name": "folder-ngrx-store",
+     "folderNames": [
+      "store"
+     ]
+    },
+    {
+     "name": "folder-ngrx-effects",
+     "folderNames": [
+      "effects"
+     ]
+    },
+    {
+     "name": "folder-ngrx-state",
+     "folderNames": [
+      "states",
+      "state"
+     ]
+    },
+    {
+     "name": "folder-ngrx-reducer",
+     "folderNames": [
+      "reducers",
+      "reducer"
+     ]
+    },
+    {
+     "name": "folder-ngrx-actions",
+     "folderNames": [
+      "actions"
+     ]
+    },
+    {
+     "name": "folder-ngrx-entities",
+     "folderNames": [
+      "entities"
+     ]
+    },
+    {
+     "name": "folder-ngrx-selectors",
+     "folderNames": [
+      "selectors"
+     ]
+    },
+    {
+     "name": "folder-redux-reducer",
+     "folderNames": [
+      "reducers",
+      "reducer",
+      "redux-reducer",
+      "redux-reducers"
+     ]
+    },
+    {
+     "name": "folder-redux-actions",
+     "folderNames": [
+      "actions"
+     ]
+    },
+    {
+     "name": "folder-redux-toolkit",
+     "folderNames": [
+      "redux",
+      "redux-toolkit"
+     ]
+    },
+    {
+     "name": "folder-redux-selector",
+     "folderNames": [
+      "selectors",
+      "selector"
+     ]
+    },
+    {
+     "name": "folder-redux-store",
+     "folderNames": [
+      "store",
+      "stores"
+     ]
+    },
+    {
+     "name": "folder-react-components",
+     "folderNames": [
+      "components",
+      "react",
+      "jsx",
+      "reactjs",
+      "react-components"
+     ]
+    },
+    {
+     "name": "folder-astro",
+     "folderNames": [
+      "astro"
+     ]
+    },
+    {
+     "name": "folder-database",
+     "folderNames": [
+      "db",
+      "data",
+      "database",
+      "databases",
+      "sql"
+     ]
+    },
+    {
+     "name": "folder-migrations",
+     "folderNames": [
+      "migrations",
+      "migration"
+     ]
+    },
+    {
+     "name": "folder-log",
+     "folderNames": [
+      "log",
+      "logs",
+      "logging"
+     ]
+    },
+    {
+     "name": "folder-target",
+     "folderNames": [
+      "target"
+     ]
+    },
+    {
+     "name": "folder-temp",
+     "folderNames": [
+      "temp",
+      "tmp",
+      "cached",
+      "cache"
+     ]
+    },
+    {
+     "name": "folder-aws",
+     "folderNames": [
+      "aws",
+      "azure",
+      "gcp"
+     ]
+    },
+    {
+     "name": "folder-audio",
+     "folderNames": [
+      "aud",
+      "auds",
+      "audio",
+      "audios",
+      "music",
+      "song",
+      "songs",
+      "sound",
+      "sounds",
+      "voice",
+      "voices",
+      "recordings",
+      "playlist",
+      "playlists"
+     ]
+    },
+    {
+     "name": "folder-video",
+     "folderNames": [
+      "vid",
+      "vids",
+      "video",
+      "videos",
+      "movie",
+      "movies",
+      "media"
+     ]
+    },
+    {
+     "name": "folder-kubernetes",
+     "folderNames": [
+      "kubernetes",
+      "k8s"
+     ]
+    },
+    {
+     "name": "folder-import",
+     "folderNames": [
+      "import",
+      "imports",
+      "imported"
+     ]
+    },
+    {
+     "name": "folder-export",
+     "folderNames": [
+      "export",
+      "exports",
+      "exported"
+     ]
+    },
+    {
+     "name": "folder-wakatime",
+     "folderNames": [
+      "wakatime"
+     ]
+    },
+    {
+     "name": "folder-circleci",
+     "folderNames": [
+      "circleci"
+     ]
+    },
+    {
+     "name": "folder-wordpress",
+     "folderNames": [
+      "wordpress-org",
+      "wp-content"
+     ]
+    },
+    {
+     "name": "folder-gradle",
+     "folderNames": [
+      "gradle"
+     ]
+    },
+    {
+     "name": "folder-coverage",
+     "folderNames": [
+      "coverage",
+      "nyc-output",
+      "nyc_output",
+      "e2e",
+      "it",
+      "integration-test",
+      "integration-tests"
+     ]
+    },
+    {
+     "name": "folder-class",
+     "folderNames": [
+      "class",
+      "classes",
+      "model",
+      "models",
+      "schemas",
+      "schema"
+     ]
+    },
+    {
+     "name": "folder-other",
+     "folderNames": [
+      "other",
+      "others",
+      "misc",
+      "miscellaneous",
+      "extra",
+      "extras",
+      "etc"
+     ]
+    },
+    {
+     "name": "folder-lua",
+     "folderNames": [
+      "lua"
+     ]
+    },
+    {
+     "name": "folder-turborepo",
+     "folderNames": [
+      "turbo"
+     ]
+    },
+    {
+     "name": "folder-typescript",
+     "folderNames": [
+      "typescript",
+      "ts",
+      "typings",
+      "@types",
+      "types",
+      "cts",
+      "mts"
+     ]
+    },
+    {
+     "name": "folder-graphql",
+     "folderNames": [
+      "graphql",
+      "gql"
+     ]
+    },
+    {
+     "name": "folder-routes",
+     "folderNames": [
+      "routes",
+      "router",
+      "routers",
+      "navigation",
+      "navigations",
+      "routing"
+     ]
+    },
+    {
+     "name": "folder-ci",
+     "folderNames": [
+      "ci"
+     ]
+    },
+    {
+     "name": "folder-eslint",
+     "folderNames": [
+      "eslint",
+      "eslint-plugin",
+      "eslint-plugins",
+      "eslint-config",
+      "eslint-configs"
+     ]
+    },
+    {
+     "name": "folder-benchmark",
+     "folderNames": [
+      "benchmark",
+      "benchmarks",
+      "bench",
+      "benches",
+      "performance",
+      "perf",
+      "profiling",
+      "measure",
+      "measures",
+      "measurement"
+     ]
+    },
+    {
+     "name": "folder-messages",
+     "folderNames": [
+      "message",
+      "messages",
+      "messaging",
+      "forum",
+      "chat",
+      "chats",
+      "conversation",
+      "conversations",
+      "dialog",
+      "dialogs"
+     ]
+    },
+    {
+     "name": "folder-less",
+     "folderNames": [
+      "less"
+     ]
+    },
+    {
+     "name": "folder-gulp",
+     "folderNames": [
+      "gulp",
+      "gulp-tasks",
+      "gulpfile.js",
+      "gulpfile.mjs",
+      "gulpfile.ts",
+      "gulpfile.babel.js",
+      "gulpfiles"
+     ]
+    },
+    {
+     "name": "folder-python",
+     "folderNames": [
+      "python",
+      "pycache",
+      "pytest_cache"
+     ]
+    },
+    {
+     "name": "folder-r",
+     "folderNames": [
+      "r"
+     ]
+    },
+    {
+     "name": "folder-sandbox",
+     "folderNames": [
+      "sandbox",
+      "sandboxes",
+      "playground",
+      "playgrounds"
+     ]
+    },
+    {
+     "name": "folder-scons",
+     "folderNames": [
+      "scons",
+      "sconf_temp",
+      "scons_cache"
+     ]
+    },
+    {
+     "name": "folder-mojo",
+     "folderNames": [
+      "mojo"
+     ]
+    },
+    {
+     "name": "folder-moon",
+     "folderNames": [
+      "moon"
+     ]
+    },
+    {
+     "name": "folder-debug",
+     "folderNames": [
+      "debug",
+      "debugger",
+      "debugging"
+     ]
+    },
+    {
+     "name": "folder-fastlane",
+     "folderNames": [
+      "fastlane"
+     ]
+    },
+    {
+     "name": "folder-plugin",
+     "folderNames": [
+      "plugin",
+      "plugins",
+      "mod",
+      "mods",
+      "modding",
+      "extension",
+      "extensions",
+      "addon",
+      "addons",
+      "addin",
+      "addins",
+      "module",
+      "modules"
+     ]
+    },
+    {
+     "name": "folder-middleware",
+     "folderNames": [
+      "middleware",
+      "middlewares"
+     ]
+    },
+    {
+     "name": "folder-controller",
+     "folderNames": [
+      "controller",
+      "controllers",
+      "controls",
+      "service",
+      "services",
+      "provider",
+      "providers",
+      "handler",
+      "handlers"
+     ]
+    },
+    {
+     "name": "folder-ansible",
+     "folderNames": [
+      "ansible"
+     ]
+    },
+    {
+     "name": "folder-server",
+     "folderNames": [
+      "server",
+      "servers",
+      "backend",
+      "backends",
+      "inventory",
+      "inventories",
+      "infrastructure",
+      "infra"
+     ]
+    },
+    {
+     "name": "folder-client",
+     "folderNames": [
+      "client",
+      "clients",
+      "frontend",
+      "frontends",
+      "pwa",
+      "spa"
+     ]
+    },
+    {
+     "name": "folder-tasks",
+     "folderNames": [
+      "tasks",
+      "tickets"
+     ]
+    },
+    {
+     "name": "folder-android",
+     "folderNames": [
+      "android"
+     ]
+    },
+    {
+     "name": "folder-ios",
+     "folderNames": [
+      "ios"
+     ]
+    },
+    {
+     "name": "folder-ui",
+     "folderNames": [
+      "presentation",
+      "gui",
+      "ui",
+      "ux"
+     ]
+    },
+    {
+     "name": "folder-upload",
+     "folderNames": [
+      "uploads",
+      "upload"
+     ]
+    },
+    {
+     "name": "folder-download",
+     "folderNames": [
+      "downloads",
+      "download",
+      "downloader",
+      "downloaders"
+     ]
+    },
+    {
+     "name": "folder-tools",
+     "folderNames": [
+      "tools",
+      "toolkit",
+      "toolkits",
+      "toolbox",
+      "toolboxes",
+      "tooling",
+      "devtools",
+      "kit",
+      "kits"
+     ]
+    },
+    {
+     "name": "folder-helper",
+     "folderNames": [
+      "helpers",
+      "helper"
+     ]
+    },
+    {
+     "name": "folder-serverless",
+     "folderNames": [
+      "serverless"
+     ]
+    },
+    {
+     "name": "folder-api",
+     "folderNames": [
+      "api",
+      "apis",
+      "restapi"
+     ]
+    },
+    {
+     "name": "folder-app",
+     "folderNames": [
+      "app",
+      "apps",
+      "application",
+      "applications"
+     ]
+    },
+    {
+     "name": "folder-apollo",
+     "folderNames": [
+      "apollo",
+      "apollo-client",
+      "apollo-cache",
+      "apollo-config"
+     ]
+    },
+    {
+     "name": "folder-archive",
+     "folderNames": [
+      "arc",
+      "arcs",
+      "archive",
+      "archives",
+      "archival"
+     ]
+    },
+    {
+     "name": "folder-backup",
+     "folderNames": [
+      "bkp",
+      "bkps",
+      "bak",
+      "baks",
+      "backup",
+      "backups",
+      "back-up",
+      "back-ups",
+      "history",
+      "histories"
+     ]
+    },
+    {
+     "name": "folder-batch",
+     "folderNames": [
+      "batch",
+      "batchs",
+      "batches"
+     ]
+    },
+    {
+     "name": "folder-buildkite",
+     "folderNames": [
+      "buildkite"
+     ]
+    },
+    {
+     "name": "folder-cluster",
+     "folderNames": [
+      "cluster",
+      "clusters"
+     ]
+    },
+    {
+     "name": "folder-command",
+     "folderNames": [
+      "command",
+      "commands",
+      "commandline",
+      "cmd",
+      "cli",
+      "clis"
+     ]
+    },
+    {
+     "name": "folder-constant",
+     "folderNames": [
+      "constant",
+      "constants",
+      "const",
+      "consts"
+     ]
+    },
+    {
+     "name": "folder-container",
+     "folderNames": [
+      "container",
+      "containers",
+      "devcontainer"
+     ]
+    },
+    {
+     "name": "folder-content",
+     "folderNames": [
+      "content",
+      "contents"
+     ]
+    },
+    {
+     "name": "folder-context",
+     "folderNames": [
+      "context",
+      "contexts"
+     ]
+    },
+    {
+     "name": "folder-core",
+     "folderNames": [
+      "core"
+     ]
+    },
+    {
+     "name": "folder-delta",
+     "folderNames": [
+      "delta",
+      "deltas",
+      "changes"
+     ]
+    },
+    {
+     "name": "folder-dump",
+     "folderNames": [
+      "dump",
+      "dumps"
+     ]
+    },
+    {
+     "name": "folder-examples",
+     "folderNames": [
+      "demo",
+      "demos",
+      "example",
+      "examples",
+      "sample",
+      "samples",
+      "sample-data"
+     ]
+    },
+    {
+     "name": "folder-environment",
+     "folderNames": [
+      "env",
+      "envs",
+      "environment",
+      "environments",
+      "venv"
+     ]
+    },
+    {
+     "name": "folder-functions",
+     "folderNames": [
+      "func",
+      "funcs",
+      "function",
+      "functions",
+      "lambda",
+      "lambdas",
+      "logic",
+      "math",
+      "maths",
+      "calc",
+      "calcs",
+      "calculation",
+      "calculations",
+      "composable",
+      "composables"
+     ]
+    },
+    {
+     "name": "folder-generator",
+     "folderNames": [
+      "generator",
+      "generators",
+      "generated",
+      "cfn-gen",
+      "gen",
+      "gens",
+      "auto"
+     ]
+    },
+    {
+     "name": "folder-hook",
+     "folderNames": [
+      "hook",
+      "hooks"
+     ]
+    },
+    {
+     "name": "folder-trigger",
+     "folderNames": [
+      "trigger",
+      "triggers"
+     ]
+    },
+    {
+     "name": "folder-job",
+     "folderNames": [
+      "job",
+      "jobs"
+     ]
+    },
+    {
+     "name": "folder-keys",
+     "folderNames": [
+      "key",
+      "keys",
+      "token",
+      "tokens",
+      "jwt",
+      "secret",
+      "secrets"
+     ]
+    },
+    {
+     "name": "folder-layout",
+     "folderNames": [
+      "layout",
+      "layouts"
+     ]
+    },
+    {
+     "name": "folder-mail",
+     "folderNames": [
+      "mail",
+      "mails",
+      "email",
+      "emails",
+      "smtp",
+      "mailers"
+     ]
+    },
+    {
+     "name": "folder-mappings",
+     "folderNames": [
+      "mappings",
+      "mapping"
+     ]
+    },
+    {
+     "name": "folder-meta",
+     "folderNames": [
+      "meta",
+      "metadata"
+     ]
+    },
+    {
+     "name": "folder-changesets",
+     "folderNames": [
+      "changesets",
+      "changeset"
+     ]
+    },
+    {
+     "name": "folder-packages",
+     "folderNames": [
+      "package",
+      "packages",
+      "pkg",
+      "pkgs",
+      "serverpackages",
+      "devpackages",
+      "dependencies"
+     ]
+    },
+    {
+     "name": "folder-shared",
+     "folderNames": [
+      "shared",
+      "common"
+     ]
+    },
+    {
+     "name": "folder-shader",
+     "folderNames": [
+      "glsl",
+      "hlsl",
+      "shader",
+      "shaders"
+     ]
+    },
+    {
+     "name": "folder-stack",
+     "folderNames": [
+      "stack",
+      "stacks"
+     ]
+    },
+    {
+     "name": "folder-template",
+     "folderNames": [
+      "template",
+      "templates",
+      "github/ISSUE_TEMPLATE",
+      "github/PULL_REQUEST_TEMPLATE"
+     ]
+    },
+    {
+     "name": "folder-utils",
+     "folderNames": [
+      "util",
+      "utils",
+      "utility",
+      "utilities"
+     ]
+    },
+    {
+     "name": "folder-supabase",
+     "folderNames": [
+      "supabase"
+     ]
+    },
+    {
+     "name": "folder-private",
+     "folderNames": [
+      "private"
+     ]
+    },
+    {
+     "name": "folder-linux",
+     "folderNames": [
+      "linux",
+      "linuxbsd",
+      "unix",
+      "wsl",
+      "ubuntu",
+      "deb",
+      "debian",
+      "deepin",
+      "centos",
+      "popos",
+      "mint"
+     ]
+    },
+    {
+     "name": "folder-windows",
+     "folderNames": [
+      "windows",
+      "win",
+      "win32",
+      "windows11",
+      "windows10",
+      "windowsxp",
+      "windowsnt",
+      "win11",
+      "win10",
+      "winxp",
+      "winnt"
+     ]
+    },
+    {
+     "name": "folder-macos",
+     "folderNames": [
+      "macos",
+      "mac",
+      "osx",
+      "DS_Store",
+      "iPhone",
+      "iPad",
+      "iPod",
+      "macbook",
+      "macbook-air",
+      "macosx",
+      "apple"
+     ]
+    },
+    {
+     "name": "folder-error",
+     "folderNames": [
+      "error",
+      "errors",
+      "err",
+      "errs",
+      "crash",
+      "crashes"
+     ]
+    },
+    {
+     "name": "folder-event",
+     "folderNames": [
+      "event",
+      "events"
+     ]
+    },
+    {
+     "name": "folder-secure",
+     "folderNames": [
+      "auth",
+      "authentication",
+      "secure",
+      "security",
+      "cert",
+      "certs",
+      "certificate",
+      "certificates",
+      "ssl",
+      "cipher",
+      "cypher",
+      "tls"
+     ]
+    },
+    {
+     "name": "folder-custom",
+     "folderNames": [
+      "custom",
+      "customs"
+     ]
+    },
+    {
+     "name": "folder-mock",
+     "folderNames": [
+      "draft",
+      "drafts",
+      "mock",
+      "mocks",
+      "fixture",
+      "fixtures",
+      "concept",
+      "concepts",
+      "sketch",
+      "sketches"
+     ]
+    },
+    {
+     "name": "folder-syntax",
+     "folderNames": [
+      "syntax",
+      "syntaxes",
+      "spellcheck",
+      "spellcheckers"
+     ]
+    },
+    {
+     "name": "folder-vm",
+     "folderNames": [
+      "vm",
+      "vms"
+     ]
+    },
+    {
+     "name": "folder-stylus",
+     "folderNames": [
+      "stylus"
+     ]
+    },
+    {
+     "name": "folder-flow",
+     "folderNames": [
+      "flow-typed"
+     ]
+    },
+    {
+     "name": "folder-rules",
+     "folderNames": [
+      "rule",
+      "rules",
+      "validation",
+      "validations",
+      "validator",
+      "validators"
+     ]
+    },
+    {
+     "name": "folder-review",
+     "folderNames": [
+      "review",
+      "reviews",
+      "revisal",
+      "revisals",
+      "reviewed",
+      "preview",
+      "previews"
+     ]
+    },
+    {
+     "name": "folder-animation",
+     "folderNames": [
+      "anim",
+      "anims",
+      "animation",
+      "animations",
+      "animated",
+      "motion",
+      "motions",
+      "transition",
+      "transitions",
+      "easing",
+      "easings"
+     ]
+    },
+    {
+     "name": "folder-guard",
+     "folderNames": [
+      "guard",
+      "guards"
+     ]
+    },
+    {
+     "name": "folder-prisma",
+     "folderNames": [
+      "prisma",
+      "prisma/schema"
+     ]
+    },
+    {
+     "name": "folder-pipe",
+     "folderNames": [
+      "pipe",
+      "pipes",
+      "pipeline",
+      "pipelines"
+     ]
+    },
+    {
+     "name": "folder-interceptor",
+     "folderNames": [
+      "interceptor",
+      "interceptors"
+     ]
+    },
+    {
+     "name": "folder-svg",
+     "folderNames": [
+      "svg",
+      "svgs",
+      "vector",
+      "vectors"
+     ]
+    },
+    {
+     "name": "folder-vuex-store",
+     "folderNames": [
+      "store",
+      "stores"
+     ]
+    },
+    {
+     "name": "folder-nuxt",
+     "folderNames": [
+      "nuxt"
+     ]
+    },
+    {
+     "name": "folder-vue-directives",
+     "folderNames": [
+      "directives"
+     ]
+    },
+    {
+     "name": "folder-vue",
+     "folderNames": [
+      "components"
+     ]
+    },
+    {
+     "name": "folder-terraform",
+     "folderNames": [
+      "terraform"
+     ]
+    },
+    {
+     "name": "folder-mobile",
+     "folderNames": [
+      "mobile",
+      "mobiles",
+      "portable",
+      "portability",
+      "phone",
+      "phones"
+     ]
+    },
+    {
+     "name": "folder-stencil",
+     "folderNames": [
+      "stencil"
+     ]
+    },
+    {
+     "name": "folder-firebase",
+     "folderNames": [
+      "firebase"
+     ]
+    },
+    {
+     "name": "folder-firestore",
+     "folderNames": [
+      "firestore",
+      "cloud-firestore",
+      "firebase-firestore"
+     ]
+    },
+    {
+     "name": "folder-cloud-functions",
+     "folderNames": [
+      "cloud-functions",
+      "cloudfunctions",
+      "firebase-cloud-functions",
+      "firebase-cloudfunctions"
+     ]
+    },
+    {
+     "name": "folder-svelte",
+     "folderNames": [
+      "svelte",
+      "svelte-kit"
+     ]
+    },
+    {
+     "name": "folder-update",
+     "folderNames": [
+      "update",
+      "updates",
+      "upgrade",
+      "upgrades"
+     ]
+    },
+    {
+     "name": "folder-intellij",
+     "folderNames": [
+      "idea"
+     ]
+    },
+    {
+     "name": "folder-azure-pipelines",
+     "folderNames": [
+      "azure-pipelines",
+      "azure-pipelines-ci"
+     ]
+    },
+    {
+     "name": "folder-mjml",
+     "folderNames": [
+      "mjml"
+     ]
+    },
+    {
+     "name": "folder-admin",
+     "folderNames": [
+      "admin",
+      "admins",
+      "manager",
+      "managers",
+      "moderator",
+      "moderators"
+     ]
+    },
+    {
+     "name": "folder-jupyter",
+     "folderNames": [
+      "jupyter",
+      "notebook",
+      "notebooks",
+      "ipynb"
+     ]
+    },
+    {
+     "name": "folder-scala",
+     "folderNames": [
+      "scala"
+     ]
+    },
+    {
+     "name": "folder-connection",
+     "folderNames": [
+      "connection",
+      "connections",
+      "integration",
+      "integrations",
+      "remote",
+      "remotes"
+     ]
+    },
+    {
+     "name": "folder-quasar",
+     "folderNames": [
+      "quasar"
+     ]
+    },
+    {
+     "name": "folder-next",
+     "folderNames": [
+      "next"
+     ]
+    },
+    {
+     "name": "folder-dal",
+     "folderNames": [
+      "dal",
+      "data-access",
+      "data-access-layer"
+     ]
+    },
+    {
+     "name": "folder-cobol",
+     "folderNames": [
+      "cobol"
+     ]
+    },
+    {
+     "name": "folder-yarn",
+     "folderNames": [
+      "yarn"
+     ]
+    },
+    {
+     "name": "folder-husky",
+     "folderNames": [
+      "husky"
+     ]
+    },
+    {
+     "name": "folder-storybook",
+     "folderNames": [
+      "storybook",
+      "stories"
+     ]
+    },
+    {
+     "name": "folder-base",
+     "folderNames": [
+      "base",
+      "bases"
+     ]
+    },
+    {
+     "name": "folder-cart",
+     "folderNames": [
+      "cart",
+      "shopping-cart",
+      "shopping",
+      "shop"
+     ]
+    },
+    {
+     "name": "folder-home",
+     "folderNames": [
+      "home",
+      "start",
+      "main",
+      "landing"
+     ]
+    },
+    {
+     "name": "folder-project",
+     "folderNames": [
+      "project",
+      "projects",
+      "proj",
+      "projs"
+     ]
+    },
+    {
+     "name": "folder-prompts",
+     "folderNames": [
+      "prompt",
+      "prompts"
+     ]
+    },
+    {
+     "name": "folder-interface",
+     "folderNames": [
+      "interface",
+      "interfaces"
+     ]
+    },
+    {
+     "name": "folder-netlify",
+     "folderNames": [
+      "netlify"
+     ]
+    },
+    {
+     "name": "folder-enum",
+     "folderNames": [
+      "enum",
+      "enums"
+     ]
+    },
+    {
+     "name": "folder-contract",
+     "folderNames": [
+      "pact",
+      "pacts",
+      "contract",
+      "contracts",
+      "contract-testing",
+      "contract-test",
+      "contract-tests"
+     ]
+    },
+    {
+     "name": "folder-helm",
+     "folderNames": [
+      "helm",
+      "helmchart",
+      "helmcharts"
+     ]
+    },
+    {
+     "name": "folder-queue",
+     "folderNames": [
+      "queue",
+      "queues",
+      "bull",
+      "mq"
+     ]
+    },
+    {
+     "name": "folder-vercel",
+     "folderNames": [
+      "vercel",
+      "now"
+     ]
+    },
+    {
+     "name": "folder-cypress",
+     "folderNames": [
+      "cypress"
+     ]
+    },
+    {
+     "name": "folder-decorators",
+     "folderNames": [
+      "decorator",
+      "decorators"
+     ]
+    },
+    {
+     "name": "folder-java",
+     "folderNames": [
+      "java"
+     ]
+    },
+    {
+     "name": "folder-resolver",
+     "folderNames": [
+      "resolver",
+      "resolvers"
+     ]
+    },
+    {
+     "name": "folder-angular",
+     "folderNames": [
+      "angular"
+     ]
+    },
+    {
+     "name": "folder-unity",
+     "folderNames": [
+      "unity"
+     ]
+    },
+    {
+     "name": "folder-pdf",
+     "folderNames": [
+      "pdf",
+      "pdfs"
+     ]
+    },
+    {
+     "name": "folder-proto",
+     "folderNames": [
+      "protobuf",
+      "protobufs",
+      "proto",
+      "protos"
+     ]
+    },
+    {
+     "name": "folder-plastic",
+     "folderNames": [
+      "plastic"
+     ]
+    },
+    {
+     "name": "folder-gamemaker",
+     "folderNames": [
+      "gamemaker",
+      "gamemaker2"
+     ]
+    },
+    {
+     "name": "folder-mercurial",
+     "folderNames": [
+      "hg",
+      "hghooks",
+      "hgext"
+     ]
+    },
+    {
+     "name": "folder-godot",
+     "folderNames": [
+      "godot",
+      "godot-cpp"
+     ]
+    },
+    {
+     "name": "folder-lottie",
+     "folderNames": [
+      "lottie",
+      "lotties",
+      "lottiefiles"
+     ]
+    },
+    {
+     "name": "folder-taskfile",
+     "folderNames": [
+      "taskfile",
+      "taskfiles"
+     ]
+    },
+    {
+     "name": "folder-drizzle",
+     "folderNames": [
+      "drizzle"
+     ]
+    },
+    {
+     "name": "folder-cloudflare",
+     "folderNames": [
+      "cloudflare"
+     ]
+    },
+    {
+     "name": "folder-seeders",
+     "folderNames": [
+      "seeds",
+      "seeders",
+      "seed",
+      "seeding"
+     ]
+    },
+    {
+     "name": "folder-store",
+     "folderNames": [
+      "store",
+      "stores"
+     ]
+    },
+    {
+     "name": "folder-bicep",
+     "folderNames": [
+      "bicep"
+     ]
+    },
+    {
+     "name": "folder-snapcraft",
+     "folderNames": [
+      "snap",
+      "snapcraft"
+     ]
+    },
+    {
+     "name": "folder-development",
+     "folderNames": [
+      "dev",
+      "development"
+     ]
+    },
+    {
+     "name": "folder-flutter",
+     "folderNames": [
+      "flutter"
+     ]
+    },
+    {
+     "name": "folder-snippet",
+     "folderNames": [
+      "snippet",
+      "snippets"
+     ]
+    },
+    {
+     "name": "folder-element",
+     "folderNames": [
+      "element",
+      "elements"
+     ]
+    },
+    {
+     "name": "folder-src-tauri",
+     "folderNames": [
+      "src-tauri"
+     ]
+    },
+    {
+     "name": "folder-favicon",
+     "folderNames": [
+      "favicon",
+      "favicons"
+     ]
+    },
+    {
+     "name": "folder-features",
+     "folderNames": [
+      "feature",
+      "features",
+      "feat",
+      "feats"
+     ]
+    },
+    {
+     "name": "folder-lefthook",
+     "folderNames": [
+      "lefthook",
+      "lefthook-local"
+     ]
+    },
+    {
+     "name": "folder-bloc",
+     "folderNames": [
+      "bloc",
+      "cubit",
+      "blocs",
+      "cubits"
+     ]
+    },
+    {
+     "name": "folder-powershell",
+     "folderNames": [
+      "powershell",
+      "ps",
+      "ps1"
+     ]
+    },
+    {
+     "name": "folder-repository",
+     "folderNames": [
+      "repository",
+      "repositories",
+      "repo",
+      "repos"
+     ]
+    },
+    {
+     "name": "folder-luau",
+     "folderNames": [
+      "luau"
+     ]
+    },
+    {
+     "name": "folder-obsidian",
+     "folderNames": [
+      "obsidian"
+     ]
+    },
+    {
+     "name": "folder-trash",
+     "folderNames": [
+      "trash"
+     ]
+    },
+    {
+     "name": "folder-cline",
+     "folderNames": [
+      "cline_docs"
+     ]
+    },
+    {
+     "name": "folder-liquibase",
+     "folderNames": [
+      "liquibase"
+     ]
+    },
+    {
+     "name": "folder-dart",
+     "folderNames": [
+      "dart",
+      "dart_tool",
+      "dart_tools"
+     ]
+    },
+    {
+     "name": "folder-zeabur",
+     "folderNames": [
+      "zeabur"
+     ]
+    },
+    {
+     "name": "folder-kusto",
+     "folderNames": [
+      "kusto",
+      "kql"
+     ]
+    },
+    {
+     "name": "folder-policy",
+     "folderNames": [
+      "policy",
+      "policies"
+     ]
+    },
+    {
+     "name": "folder-attachment",
+     "folderNames": [
+      "attachment",
+      "attachments"
+     ]
+    },
+    {
+     "name": "folder-bibliography",
+     "folderNames": [
+      "bibliography",
+      "bibliographies",
+      "book",
+      "books"
+     ]
+    },
+    {
+     "name": "folder-link",
+     "folderNames": [
+      "link",
+      "links"
+     ]
+    },
+    {
+     "name": "folder-pytorch",
+     "folderNames": [
+      "pytorch",
+      "torch"
+     ]
+    },
+    {
+     "name": "folder-blender",
+     "folderNames": [
+      "blender",
+      "blender-assets",
+      "blender-files",
+      "blender-project",
+      "blender-models"
+     ]
+    },
+    {
+     "name": "folder-atom",
+     "folderNames": [
+      "atoms",
+      "atom"
+     ]
+    },
+    {
+     "name": "folder-molecule",
+     "folderNames": [
+      "molecules",
+      "molecule"
+     ]
+    },
+    {
+     "name": "folder-organism",
+     "folderNames": [
+      "organisms",
+      "organism"
+     ]
+    },
+    {
+     "name": "folder-claude",
+     "folderNames": [
+      "claude"
+     ]
+    },
+    {
+     "name": "folder-cursor",
+     "folderNames": [
+      "cursor"
+     ]
+    },
+    {
+     "name": "folder-gemini-ai",
+     "folderNames": [
+      "gemini",
+      "gemini-ai",
+      "geminiai"
+     ]
+    },
+    {
+     "name": "folder-opencode",
+     "folderNames": [
+      "opencode"
+     ]
+    },
+    {
+     "name": "folder-input",
+     "folderNames": [
+      "input",
+      "inputs",
+      "io",
+      "in"
+     ]
+    },
+    {
+     "name": "folder-salt",
+     "folderNames": [
+      "salt",
+      "saltstack"
+     ]
+    },
+    {
+     "name": "folder-simulations",
+     "folderNames": [
+      "simulations",
+      "simulation",
+      "sim",
+      "sims"
+     ]
+    },
+    {
+     "name": "folder-metro",
+     "folderNames": [
+      "metro"
+     ]
+    },
+    {
+     "name": "folder-filter",
+     "folderNames": [
+      "filter",
+      "filters"
+     ]
+    },
+    {
+     "name": "folder-toc",
+     "folderNames": [
+      "toc",
+      "table-of-contents"
+     ]
+    },
+    {
+     "name": "folder-cue",
+     "folderNames": [
+      "cue",
+      "cues"
+     ]
+    },
+    {
+     "name": "folder-license",
+     "folderNames": [
+      "license",
+      "licenses"
+     ]
+    },
+    {
+     "name": "folder-form",
+     "folderNames": [
+      "form",
+      "forms"
+     ]
+    },
+    {
+     "name": "folder-deprecated",
+     "folderNames": [
+      "deprecated"
+     ]
+    },
+    {
+     "name": "folder-scrap",
+     "folderNames": [
+      "scrap"
+     ]
+    },
+    {
+     "name": "folder-postman",
+     "folderNames": [
+      "postman"
+     ]
+    },
+    {
+     "name": "folder-skills",
+     "folderNames": [
+      "skill",
+      "skills"
+     ]
+    },
+    {
+     "name": "folder-instructions",
+     "folderNames": [
+      "instruction",
+      "instructions"
+     ]
+    },
+    {
+     "name": "folder-zed",
+     "folderNames": [
+      "zed"
+     ]
+    },
+    {
+     "name": "folder-appwrite",
+     "folderNames": [
+      "appwrite"
+     ]
+    },
+    {
+     "name": "folder-assembly",
+     "folderNames": [
+      "assembly",
+      "asm"
+     ]
+    },
+    {
+     "name": "folder-go",
+     "folderNames": [
+      "go",
+      "golang"
+     ]
+    },
+    {
+     "name": "folder-eas",
+     "folderNames": [
+      "eas"
+     ]
+    },
+    {
+     "name": "folder-kotlin",
+     "folderNames": [
+      "kotlin"
+     ]
+    },
+    {
+     "name": "folder-redis",
+     "folderNames": [
+      "redis",
+      "redis-db",
+      "redislabs"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "classic",
+   "defaultIcon": "folder",
+   "rootFolder": "folder-root",
+   "icons": []
+  },
+  {
+   "name": "none",
+   "defaultIcon": "",
+   "rootFolder": null,
+   "icons": []
+  }
+ ]
+}

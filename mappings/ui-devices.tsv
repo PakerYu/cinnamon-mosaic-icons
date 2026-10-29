@@ -1,0 +1,66 @@
+# ui-devices.tsv — Cinnamon/GTK device icon names -> material icon
+# Only names that neither Adwaita nor hicolor provides; without a mapping they
+# would fall through to Mint-Y. Format: <icon name>\t<material icon>
+
+# --- optical / removable media ---------------------------------------------
+media-cdrom	album
+media-cdr	album
+media-cdrw	album
+media-dvd	album
+media-dvdrw	album
+media-cdrom-audio	album
+media-optical-video	album
+media-optical-cd-video	album
+media-optical-dvd-video	album
+media-optical-copy	album
+drive-cdrom	album
+
+# --- disks -----------------------------------------------------------------
+harddrive	storage
+gtk-harddisk	storage
+hdd_unmount	storage
+gnome-dev-harddisk	storage
+gnome-dev-harddisk-1394	storage
+yast_HD	storage
+yast_idetude	storage
+chardevice	memory
+drive-removable-media-usb	usb
+drive-removable-media-usb-symbolic	usb
+gnome-dev-harddisk-usb	usb
+gnome-dev-computer	computer
+
+# --- printers --------------------------------------------------------------
+cups	local_printshop
+kjobviewer	local_printshop
+printmgr	local_printshop
+printer1	local_printshop
+printer-remote	local_printshop
+stock_printers	local_printshop
+xfce-printer	local_printshop
+yast_printer	local_printshop
+
+# --- cameras / displays / input -------------------------------------------
+camera	camera_alt
+camera-photo	camera_alt
+camera_unmount	camera_alt
+display	monitor
+xfce4-display	monitor
+mouse	mouse
+xfce4-mouse	mouse
+yast_mouse	mouse
+gnome-dev-mouse-ball	mouse
+gnome-dev-mouse-optical	mouse
+
+# --- audio ----------------------------------------------------------------
+audio-input-microphone	mic
+input-audio-microphone	mic
+gnome-stock-mic	mic
+stock_mic	mic
+audio-speakers	speaker
+
+# --- network --------------------------------------------------------------
+network-wired	lan
+gnome-dev-ethernet	lan
+network-wireless	wifi
+gnome-dev-wavelan	wifi
+network-vpn	vpn_key

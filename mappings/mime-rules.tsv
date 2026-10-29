@@ -1,0 +1,92 @@
+# mime-rules.tsv — regex rules over the raw MIME type ("text/x-python")
+# Evaluated top to bottom, first match wins, and only for names that no more
+# specific source (mimetypes.tsv / /usr/share/mime/globs) already resolved.
+# Format: <python regex>\t<material icon>
+
+# --- languages & text --------------------------------------------------------
+^text/x-python	python
+^text/x-c\+\+	cpp
+^text/x-csrc	c
+^text/x-chdr	h
+^text/x-csharp	csharp
+^text/x-java	java
+^text/x-go	go
+^text/x-rust	rust
+^text/x-ruby	ruby
+^text/x-php	php
+^text/x-kotlin	kotlin
+^text/x-lua	lua
+^text/x-perl	perl
+^text/x-swift	swift
+^text/x-dart	dart
+^text/x-scala	scala
+^text/x-erlang	erlang
+^text/x-elixir	elixir
+^text/x-haskell	haskell
+^text/x-ocaml	ocaml
+^text/x-vala	vala
+^text/x-zig	zig
+^text/x-nim	nim
+^text/x-julia	julia
+^text/x-r	r
+^text/markdown	markdown
+^text/html	html
+^text/css	css
+^text/csv	table
+^text/x-tex	tex
+^text/x-makefile	makefile
+^text/x-shellscript	console
+^text/x-diff	diff
+^text/x-bibtex	bibliography
+^text/x-gettext-translation	i18n
+^text/x-	document
+
+# --- structured data ---------------------------------------------------------
+^application/(json|[\w.+-]*\+json)	json
+^application/(xml|[\w.+-]*\+xml)	xml
+
+# --- documents ---------------------------------------------------------------
+^application/pdf	pdf
+^application/.*(msword|wordprocessing|opendocument\.text|rtf|wordperfect)	word
+^application/.*(excel|spreadsheet|calc|opendocument\.chart)	table
+^application/.*(powerpoint|presentation|impress)	powerpoint
+^application/.*(opendocument\.(graphics|drawing)|photoshop|illustrator|draw)	image
+
+# --- archives ----------------------------------------------------------------
+^application/.*(zip|tar|gzip|bzip2|xz|lzma|zstd|7z|rar|compressed|x-ar|archive|package)	zip
+
+# --- executables & binaries --------------------------------------------------
+^application/.*(executable|sharedlib|x-object|x-pie|msdownload|ms-dos-executable|mach-binary|octet-stream)	exe
+
+# --- code & scripting --------------------------------------------------------
+^application/.*(shellscript|shell-script)	console
+^application/.*(java-archive)	jar
+^application/.*(x-java|/java)	java
+^application/.*python	python
+^application/.*(x-ruby|/ruby)	ruby
+^application/.*(x-php|/php)	php
+^application/.*(x-perl|/perl)	perl
+^application/.*(javascript|ecmascript)	javascript
+^application/x-blender	blender
+
+# --- databases ---------------------------------------------------------------
+^application/.*(sqlite|sql)	database
+
+# --- fonts -------------------------------------------------------------------
+^application/x-font	font
+^application/.*fontobject	font
+
+# --- security ----------------------------------------------------------------
+^application/.*(pem-key|pkcs|x509|pgp|x-pkix|certificate)	certificate
+
+# --- media -------------------------------------------------------------------
+^application/.*(iso9660|cd-image)	disc
+^audio/	audio
+^video/	video
+^image/	image
+^font/	font
+
+# --- last resorts ------------------------------------------------------------
+^inode/directory	folder
+^text/	document
+^application/	document

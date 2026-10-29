@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Upstream artwork
+    url: https://github.com/material-extensions/vscode-material-icon-theme/issues
+    about: Missing or wrong artwork belongs to the upstream Material Icon Theme project.
+  - name: Cinnamon / Nemo behaviour
+    url: https://github.com/linuxmint/cinnamon/issues
+    about: Icon lookup problems in the desktop itself are tracked by Linux Mint.

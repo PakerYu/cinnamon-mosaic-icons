@@ -1,0 +1,18 @@
+# extra.tsv — curated artwork overrides (assets/extra/<stem>.svg)
+#
+# Format: <context>\t<icon name>\t<artwork stem>
+#
+# Wins over every other source: a name listed here is drawn from the SVG of the
+# same stem in assets/extra/, whatever Colloid or the Material icon of that name
+# looks like. Used for names that need artwork neither source has, e.g. the bell
+# Plank's Notifications docklet draws.
+
+# Plank asks for these first (NotificationsDockItem chains
+# "<state>;;notification-symbolic;;<indicator>;;<fallback>"), and the theme used
+# to answer with a #363636 status glyph or a currentColor symbolic SVG -- both
+# of which render black/invisible on Plank's dark dock. One filled amber bell,
+# same artwork for the inactive and the active state, so the docklet is legible
+# at 48 px on a dark dock and on a light one.
+status	notifications	notifications
+status	notification-inactive	notifications
+status	notification-active	notification-active

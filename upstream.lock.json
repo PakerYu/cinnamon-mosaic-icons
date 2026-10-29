@@ -1,0 +1,9 @@
+{
+  "name": "material-icon-theme",
+  "repo": "material-extensions/vscode-material-icon-theme",
+  "tag": "v5.39.0",
+  "version": "5.39.0",
+  "icons": "icons/",
+  "definitions": "src/core/icons/",
+  "note": "Pinned upstream used for icons/ and mappings/generated-file-map.json. Run `make vendor && make refresh-maps` to move to a newer tag."
+}

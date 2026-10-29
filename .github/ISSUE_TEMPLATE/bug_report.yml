@@ -1,0 +1,50 @@
+name: Bug report
+description: Something is missing, misrendered, or the build fails
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please include the Cinnamon / Nemo / Inkscape versions if the
+        problem is about how an icon looks.
+  - type: input
+    id: versions
+    attributes:
+      label: Environment
+      description: Distribution, Cinnamon version, Nemo version
+      placeholder: "Linux Mint 22, Cinnamon 6.6.9, Nemo 6.6.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - places
+        - mimetypes
+        - apps
+        - categories
+        - devices
+        - build / scripts
+        - documentation
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: The icon name (if known) and what you see instead
+      placeholder: "folder-download shows the closed folder icon"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: report
+    attributes:
+      label: Build report (optional)
+      description: Attach `dist/report.md` or the relevant *missing sources* / *name conflicts* section
+      render: markdown

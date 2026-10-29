@@ -1,0 +1,24 @@
+# devices.tsv — device icon name -> material icon
+# Deliberately small: everything else is inherited from the parent theme
+# (Mint-Y ships proper printer/scanner/battery/disk icons, Material does not).
+# Optical media maps cleanly onto Material's disc icon.
+
+drive-cdrom	disc
+drive-optical	disc
+drive-optical-disc	disc
+media-cdrom	disc
+media-cdrom-audio	disc
+media-cdr	disc
+media-cdrw	disc
+media-dvd	disc
+media-dvdrw	disc
+media-optical	disc
+media-optical-audio	disc
+media-optical-bd	disc
+media-optical-cd-audio	disc
+media-optical-cd-video	disc
+media-optical-copy	disc
+media-optical-data	disc
+media-optical-dvd	disc
+media-optical-dvd-video	disc
+media-optical-video	disc

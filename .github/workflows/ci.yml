@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and verify the theme
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Build
+        run: make build
+
+      - name: Verify
+        run: make verify
+
+      - name: Upload theme archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: material-cinnamon
+          path: |
+            dist/Material-Cinnamon-*.tar.xz
+            dist/report.md
+            dist/preview.png
+          if-no-files-found: error
+          retention-days: 14
