@@ -5,9 +5,18 @@ on:
     tags:
       - "v*"
   workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to publish, e.g. v2.0.0"
+        required: true
+        type: string
 
 permissions:
   contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   release:
@@ -16,6 +25,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve version and match it against the tag
+        id: meta
+        run: |
+          set -euo pipefail
+          version="$(cat VERSION)"
+          upstream="$(python3 -c "import json;print(json.load(open('upstream.lock.json'))['version'])")"
+          tag="${{ github.event.inputs.tag || github.ref_name }}"
+          if [ "$tag" != "v$version" ]; then
+            echo "tag $tag does not match VERSION=$version (expected v$version)" >&2
+            exit 1
+          fi
+          {
+            echo "version=$version"
+            echo "upstream=$upstream"
+            echo "tag=$tag"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Set up uv
         uses: astral-sh/setup-uv@v6
@@ -25,25 +53,23 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
 
-      - name: Build
-        run: make build
+      - name: Build and verify
+        run: make check
 
-      - name: Verify
-        run: make verify
-
-      - name: Read theme version
-        id: meta
-        run: |
-          echo "version=$(cat VERSION)" >> "$GITHUB_OUTPUT"
-          echo "upstream=$(python3 -c "import json;print(json.load(open('upstream.lock.json'))['version'])")" >> "$GITHUB_OUTPUT"
+      - name: List artifacts
+        run: ls -l dist
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.meta.outputs.tag }}
           name: Cinnamon-Mosaic ${{ steps.meta.outputs.version }} (upstream ${{ steps.meta.outputs.upstream }})
           generate_release_notes: true
+          draft: false
           files: |
-            dist/Cinnamon-Mosaic-*.tar.xz
+            dist/Cinnamon-Mosaic-${{ steps.meta.outputs.version }}.tar.xz
+            dist/build.json
             dist/preview.png
+            dist/ui-preview.png
             dist/report.md
           fail_on_unmatched_files: true

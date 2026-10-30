@@ -10,10 +10,10 @@ UPSTREAM_VERSION := $(shell python3 -c "import json;print(json.load(open('upstre
 THEME := Cinnamon-Mosaic
 DIST := dist
 THEME_DIR := $(DIST)/$(THEME)
-ARCHIVE := $(DIST)/$(THEME)-$(UPSTREAM_VERSION).tar.xz
+ARCHIVE := $(DIST)/$(THEME)-$(VERSION).tar.xz
 VENDOR := vendor/vscode-material-icon-theme
 
-.PHONY: help venv build verify verify-strict check install uninstall install-mime mime-icons dist vendor refresh-maps preview clean clean-env vendor-colloid vendor-check required
+.PHONY: help venv build verify verify-strict check install uninstall install-mime mime-icons dist release tag-push vendor refresh-maps preview clean clean-env vendor-colloid vendor-check required
 
 COLLOID ?= ../Colloid-icon-theme
 
@@ -42,6 +42,23 @@ verify-strict: venv ## Validate and require full Mint-Y coverage
 check: build verify ## Build and validate
 
 dist: build ## Alias of build; produces the release tarball
+
+RELEASE_REMOTE ?= github
+RELEASE_BRANCH ?= master
+TAG_NAME := v$(VERSION)
+
+tag-push: ## Tag v$(VERSION) and push it (triggers .github/workflows/release.yml)
+	@test -z "$$(git status --porcelain)" || { echo "working tree not clean; commit first" >&2; exit 1; }
+	@git rev-parse -q --verify "refs/tags/$(TAG_NAME)" >/dev/null \
+		&& { echo "tag $(TAG_NAME) already exists; bump VERSION or delete it" >&2; exit 1; } || true
+	git tag -a "$(TAG_NAME)" -m "$(THEME) $(VERSION) (upstream $(UPSTREAM_VERSION), Colloid)"
+	git push "$(RELEASE_REMOTE)" "$(RELEASE_BRANCH)"
+	git push "$(RELEASE_REMOTE)" "$(TAG_NAME)"
+	@echo
+	@echo "pushed $(TAG_NAME) to $(RELEASE_REMOTE); check:"
+	@echo "  gh run list --workflow=release.yml   (or the Actions tab)"
+
+release: check tag-push ## Build, verify, then tag and push the release
 
 install: ## Install into ~/.local/share/icons (add --set via ARGS)
 	./scripts/install.sh $(ARGS)
