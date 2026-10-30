@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# Remove the Material-Cinnamon icon theme and restore the previous icon theme.
+# Remove the Cinnamon-Mosaic icon theme and restore the previous icon theme.
 #
 #   ./scripts/uninstall.sh                # remove, restore previously active theme
 #   ./scripts/uninstall.sh --theme-dir DIR
 #   ./scripts/uninstall.sh --keep-active  # remove files only, leave gsettings alone
 set -euo pipefail
 
-NAME="Material-Cinnamon"
+NAME="Cinnamon-Mosaic"
 ICON_ROOT="${XDG_DATA_HOME:-$HOME/.local/share}/icons"
-STATE="${XDG_STATE_HOME:-$HOME/.local/state}/material-cinnamon.previous"
+STATE="${XDG_STATE_HOME:-$HOME/.local/state}/cinnamon-mosaic.previous"
 KEEP_ACTIVE=0
 DRY=0
 

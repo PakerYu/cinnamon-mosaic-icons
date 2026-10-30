@@ -45,7 +45,7 @@ Cinnamon vocabulary (`power`, `notifications`, `nm-signal-*`, `cs-*`, `xsi-*`, â
 
 Because GPL-3.0 artwork is redistributed here, the **built icon theme as a whole is
 GPL-3.0**. The build copies `LICENSE` (MIT, generator) and `LICENSE-Colloid` (GPL-3.0,
-artwork) into `dist/Material-Cinnamon/`.
+artwork) into `dist/Cinnamon-Mosaic/`.
 
 ## Dock bell (`assets/extra/`)
 
@@ -59,9 +59,21 @@ Plank docklet stays legible on a dark dock:
 
 ## This project
 
-- Theme generator, mapping tables, documentation and CI: MIT, see `LICENSE`.
-- The generator's own code stays MIT; the generated theme bundles GPL-3.0 artwork, so the
-  distributed theme is GPL-3.0.
+Copyright (C) 2026 paker-apollo. The repository as a whole, and every theme built from it,
+is distributed under **GPL-3.0** (`LICENSE`) because it bundles Colloid's GPL-3.0 artwork.
+The individual inputs keep their own terms:
+
+| Path | Licence | File |
+| --- | --- | --- |
+| `scripts/`, `tools/`, `Makefile`, `mappings/`, `mime/`, `docs/` | MIT | `LICENSE-MIT` |
+| `icons/`, `assets/folder-base.svg`, `mappings/generated-file-map.json` | MIT (Material Extensions) | `LICENSE-Material` |
+| `assets/colloid/` | GPL-3.0 (Colloid) | `assets/colloid/LICENSE` |
+| `assets/extra/` | Apache-2.0 (Google LLC) | `LICENSE-Apache-2.0` |
+| the aggregate, and every built theme in `dist/` | GPL-3.0 | `LICENSE` |
+
+MIT and Apache-2.0 material may be redistributed inside a GPL-3.0 aggregate, and the
+per-source notices above stay in force. `make build` copies every notice file plus this
+document into `dist/<theme>/`.
 
 ## Trademarks
 

@@ -1,7 +1,7 @@
 # Theme layout
 
 ```
-Material-Cinnamon/
+Cinnamon-Mosaic/
 ├── index.theme
 ├── icon-theme.cache
 ├── LICENSE                        # MIT (generator)
@@ -20,7 +20,7 @@ Material-Cinnamon/
 
 ```ini
 [Icon Theme]
-Name=Material-Cinnamon
+Name=Cinnamon-Mosaic
 Comment=Material Design file and folder icons for Cinnamon (generated from … 5.39.0)
 Inherits=Adwaita,hicolor,Mint-Y
 Example=folder

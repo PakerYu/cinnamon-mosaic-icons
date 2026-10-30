@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the Material-Cinnamon icon theme for the Cinnamon desktop.
+"""Build the Cinnamon-Mosaic icon theme for the Cinnamon desktop.
 
 Sources
 -------
@@ -11,7 +11,7 @@ a checkout with Node.js installed.
 
 Output
 ------
-``dist/Material-Cinnamon/`` — a freedesktop icon theme (places, mimetypes,
+``dist/Cinnamon-Mosaic/`` — a freedesktop icon theme (places, mimetypes,
 apps, categories, devices at several fixed sizes), ``index.theme``,
 ``icon-theme.cache`` plus reports, a preview sheet and a tar.xz archive.
 
@@ -61,7 +61,7 @@ OUT = REPO / "dist"             # gitignored build output
 MAPS = REPO / "mappings"
 
 DEFAULT_SIZES = [16, 22, 24, 32, 48, 64, 96, 128, 256]
-DEFAULT_THEME = "Material-Cinnamon"
+DEFAULT_THEME = "Cinnamon-Mosaic"
 # Fallback chain written into index.theme (overridable with --inherit).
 # Adwaita and hicolor come first on purpose: every name this theme does not ship
 # (Firefox, Thunderbird, most third-party apps) then resolves to the vendor icon
@@ -890,7 +890,7 @@ def write_index_theme(theme_dir: Path, theme_name: str, inherit: str, sizes: lis
     lines = [
         "[Icon Theme]",
         f"Name={theme_name}",
-        "Comment=Material Design file and folder icons for Cinnamon "
+        "Comment=Material file icons + Colloid system UI for Cinnamon "
         f"(generated from vscode-material-icon-theme {VERSION})",
         f"Inherits={inherit}",
         "Example=folder",
@@ -1182,7 +1182,7 @@ def make_report(report: dict, theme_dir: Path, coverage: list[dict], stats: Coun
     links = sum(1 for p in theme_dir.rglob("*") if p.is_symlink())
     names = sum(1 for p in theme_dir.rglob("*.png"))
     lines = [
-        "# Material-Cinnamon build report",
+        f"# {theme_dir.name} build report",
         "",
         f"- source: `{report['source']}` v{VERSION}",
         f"- generated: {time.strftime('%Y-%m-%d %H:%M:%S')}",
@@ -1374,8 +1374,9 @@ def main(argv: list[str] | None = None) -> int:
     upstream = Path(args.upstream).expanduser().resolve() if args.upstream else None
 
     maps = load_maps(args.refresh_maps, upstream)
-    global VERSION
+    global VERSION, PROJECT_VERSION
     VERSION = maps.get("version") or lock_version()
+    PROJECT_VERSION = project_version()
 
     inherits = args.inherit or detect_inherit(args.theme_name)
     report["inherit"] = inherits
@@ -1401,9 +1402,10 @@ def main(argv: list[str] | None = None) -> int:
 
     stats = materialize(contexts, sizes, theme_dir, args, report)
     write_index_theme(theme_dir, args.theme_name, inherits, sizes)
-    license_file = REPO / "LICENSE"
-    if license_file.exists():
-        shutil.copy2(license_file, theme_dir / "LICENSE")
+    for notice in NOTICE_FILES:
+        notice_file = REPO / notice
+        if notice_file.exists():
+            shutil.copy2(notice_file, theme_dir / notice)
     # The Colloid artwork is GPL-3.0; the built theme must carry that licence too.
     colloid_license = COLLOID_ASSETS / "LICENSE"
     if colloid_license.exists():
@@ -1443,7 +1445,8 @@ def main(argv: list[str] | None = None) -> int:
             {
                 "theme": args.theme_name,
                 "source": report["source"],
-                "version": VERSION,
+                "version": PROJECT_VERSION,
+                "upstream_version": VERSION,
                 "sizes": sizes,
                 "inherit": inherits,
                 "counts": {ctx: len(contexts[ctx]["names"]) for ctx in contexts},
@@ -1463,7 +1466,7 @@ def main(argv: list[str] | None = None) -> int:
         encoding="utf-8",
     )
     if not args.no_archive:
-        archive = out_dir / f"{args.theme_name}-{VERSION}.tar.xz"
+        archive = out_dir / f"{args.theme_name}-{PROJECT_VERSION}.tar.xz"
         if archive.exists():
             archive.unlink()
         make_archive(theme_dir, archive)
@@ -1471,6 +1474,14 @@ def main(argv: list[str] | None = None) -> int:
 
     log(f"done in {time.time() - started:.1f}s -> {theme_dir}")
     return 0
+
+
+def project_version() -> str:
+    """This project's own version (the VERSION file), not the upstream pin."""
+    try:
+        return (REPO / "VERSION").read_text(encoding="utf-8").strip() or "0.0.0"
+    except OSError:
+        return "0.0.0"
 
 
 def lock_version() -> str:
@@ -1496,7 +1507,16 @@ def detect_inherit(theme_name: str) -> str:
     return DEFAULT_INHERIT
 
 
-VERSION = "unknown"
+NOTICE_FILES = (
+    "LICENSE",
+    "LICENSE-MIT",
+    "LICENSE-Material",
+    "LICENSE-Apache-2.0",
+    "ATTRIBUTION.md",
+)
+
+VERSION = "unknown"  # pinned vscode-material-icon-theme release (upstream)
+PROJECT_VERSION = "0.0.0"  # this project's own VERSION file
 
 if __name__ == "__main__":
     sys.exit(main())

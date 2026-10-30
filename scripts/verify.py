@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the generated Material-Cinnamon icon theme.
+"""Validate the generated Cinnamon-Mosaic icon theme.
 
 Checks
 ------
@@ -48,8 +48,8 @@ EXPECTED_COVERAGE = {"places": 0.95, "mimetypes": 0.90}
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Validate the generated Material-Cinnamon icon theme.")
-    parser.add_argument("theme", nargs="?", default=str(REPO / "dist" / "Material-Cinnamon"))
+    parser = argparse.ArgumentParser(description="Validate the generated Cinnamon-Mosaic icon theme.")
+    parser.add_argument("theme", nargs="?", default=str(REPO / "dist" / "Cinnamon-Mosaic"))
     parser.add_argument("--reference", default="/usr/share/icons/Mint-Y", help="reference theme for the coverage check")
     parser.add_argument(
         "--require-coverage",

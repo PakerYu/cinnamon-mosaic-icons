@@ -7,13 +7,13 @@ VERSION := $(shell cat VERSION 2>/dev/null || echo 0.0.0)
 TAG := $(shell python3 -c "import json;print(json.load(open('upstream.lock.json'))['tag'])" 2>/dev/null)
 UPSTREAM_VERSION := $(shell python3 -c "import json;print(json.load(open('upstream.lock.json'))['version'])" 2>/dev/null)
 
-THEME := Material-Cinnamon
+THEME := Cinnamon-Mosaic
 DIST := dist
 THEME_DIR := $(DIST)/$(THEME)
 ARCHIVE := $(DIST)/$(THEME)-$(UPSTREAM_VERSION).tar.xz
 VENDOR := vendor/vscode-material-icon-theme
 
-.PHONY: help venv build verify verify-strict check install uninstall dist vendor refresh-maps preview clean clean-env vendor-colloid vendor-check required
+.PHONY: help venv build verify verify-strict check install uninstall install-mime mime-icons dist vendor refresh-maps preview clean clean-env vendor-colloid vendor-check required
 
 COLLOID ?= ../Colloid-icon-theme
 
@@ -48,6 +48,9 @@ install: ## Install into ~/.local/share/icons (add --set via ARGS)
 
 uninstall: ## Remove the theme and restore the previous icon theme
 	./scripts/uninstall.sh
+
+mime-icons: ## Keep PDF/Markdown on their own icons (user MIME override)
+	./scripts/install-mime-icons.sh $(ARGS)
 
 vendor: ## Fetch the pinned upstream checkout into vendor/
 	./scripts/fetch-upstream.sh

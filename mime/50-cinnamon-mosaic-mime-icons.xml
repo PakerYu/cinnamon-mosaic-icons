@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Keep application/pdf and text/markdown pointing at their own icon names.
+
+  Why this file exists:
+  Some desktop apps ship shared-mime-info packages that redeclare common MIME
+  types with the generic office icon, e.g. Obsidian's obsidian.xml does
+
+      <mime-type type="application/pdf">
+        <glob pattern="*.pdf"/>
+        <comment>PDF document</comment>
+        <icon name="x-office-document"/>
+      </mime-type>
+
+  GLib puts an explicitly declared <icon> *before* the icon name derived from
+  the MIME type, so GIO then hands applications the list
+
+      ['x-office-document', 'application-pdf', 'x-office-document-symbolic',
+       'application-pdf-symbolic']
+
+  and every GTK app draws the first name the theme can resolve. In
+  Cinnamon-Mosaic `x-office-document` is the Word icon, so PDFs (and
+  Markdown files) showed up as blue "W" documents even though the theme ships
+  a proper red PDF icon at mimetypes/<size>/application-pdf.png.
+
+  This package is installed into the *user* MIME database
+  (~/.local/share/mime/packages), which wins over the system packages, and
+  declares the specific icon names again. Result:
+
+      ['application-pdf', 'x-office-document', ...]
+      ['text-markdown',   'x-office-document', ...]
+
+  Install / remove it with scripts/install-mime-icons.sh (make mime-icons).
+-->
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/pdf">
+    <icon name="application-pdf"/>
+  </mime-type>
+  <mime-type type="text/markdown">
+    <icon name="text-markdown"/>
+  </mime-type>
+</mime-info>

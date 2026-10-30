@@ -7,7 +7,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 The upstream icon set is tracked separately: the version in parentheses is the pinned
 `vscode-material-icon-theme` release from `upstream.lock.json`.
 
-## [Unreleased]
+## [2.0.0] - 2026-10-30 (upstream 5.39.0, Colloid)
 
 ### Fixed
 
@@ -19,6 +19,10 @@ The upstream icon set is tracked separately: the version in parentheses is the p
   now Colloid rows in `mappings/colloid.tsv` (both states, 16–256 px), so the dock slot and
   the desktop trash icon match what those names mean. `folder-trash` stays Material for the
   folder literally named `trash` and for `application-x-trash`.
+- **The release archive had no `LICENSE`.** `scripts/build.py` copied `LICENSE` only when it
+  existed, and the repository never had one, so every tarball shipped Colloid's
+  `LICENSE-Colloid` and nothing else. The repository now carries `LICENSE` (GPL-3.0) plus the
+  per-source notices below.
 
 ### Added
 
@@ -31,6 +35,9 @@ The upstream icon set is tracked separately: the version in parentheses is the p
 - `verify.py` now checks *where* a name resolves: `MUST_OWN` names (`vscode`, the two trash
   names, the three bell names) must come from this theme, not from `Inherits` — that is how
   the VS Code regression went unnoticed.
+- `LICENSE` (GPL-3.0, the whole distributed work), `LICENSE-MIT` (generator),
+  `LICENSE-Material` (upstream Material icons), `LICENSE-Apache-2.0` (the dock bells);
+  `make build` copies them and `ATTRIBUTION.md` into `dist/<theme>/`.
 
 ### Changed
 
@@ -39,6 +46,12 @@ The upstream icon set is tracked separately: the version in parentheses is the p
   renames the artwork (`notifications-colloid.png`).
 - `mappings/apps.tsv` is documented again (curated rows only); the earlier "apps stay
   unmapped" note was too absolute.
+- **Renamed to `Cinnamon-Mosaic`** — it was called `Material-Cinnamon`, but the system-UI
+  half is Colloid, not Material. Repository, Python project, MIME override
+  (`50-cinnamon-mosaic-mime-icons.xml`), install state and archive name follow. The old name
+  does not migrate: install the new theme and pick `Cinnamon-Mosaic` again.
+- **The archive carries this project's version** (`Cinnamon-Mosaic-2.0.0.tar.xz`) instead of
+  the pinned upstream tag that used to name it; `build.json` reports both numbers.
 
 ## [1.1.0] - 2026-10-29 (upstream 5.39.0, Colloid)
 
@@ -103,7 +116,7 @@ The upstream icon set is tracked separately: the version in parentheses is the p
 
 ### Added
 
-- Freedesktop icon theme `Material-Cinnamon` generated from the 906 PNG icons of
+- Freedesktop icon theme `Cinnamon-Mosaic` generated from the 906 PNG icons of
   Material Icon Theme 5.39.0.
 - Five contexts at nine fixed sizes (16–256 px): `places` 341 names, `mimetypes` 978,
   `categories` 86, `apps` 35, `devices` 20 — 1460 names, 14670 PNGs, 10548 symlinks.
@@ -115,7 +128,7 @@ The upstream icon set is tracked separately: the version in parentheses is the p
 - `scripts/build.py` (Pillow, optional Inkscape), `scripts/verify.py` (index.theme,
   symlinks, pixel sizes, coverage, real GTK lookup), install/uninstall helpers.
 - CI on every push (build + verify) and a tag-driven release workflow that attaches
-  `Material-Cinnamon-5.39.0.tar.xz`.
+  `Cinnamon-Mosaic-5.39.0.tar.xz`.
 - Full coverage of the Mint-Y `places` (47/47) and `mimetypes` (177/177) icon names.
 
 ### Known limitations

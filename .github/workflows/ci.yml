@@ -38,9 +38,9 @@ jobs:
       - name: Upload theme archive
         uses: actions/upload-artifact@v4
         with:
-          name: material-cinnamon
+          name: cinnamon-mosaic
           path: |
-            dist/Material-Cinnamon-*.tar.xz
+            dist/Cinnamon-Mosaic-*.tar.xz
             dist/report.md
             dist/preview.png
           if-no-files-found: error

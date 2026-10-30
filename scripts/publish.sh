@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Publish this directory as a fresh git repository.
 #
-#   ./scripts/publish.sh --remote git@github.com:<you>/cinnamon-material-icons.git
+#   ./scripts/publish.sh --remote git@github.com:<you>/cinnamon-mosaic-icons.git
 #   ./scripts/publish.sh --remote ... --dry-run   # print the commands only
 #
 # Nothing is pushed without an explicit --yes.

@@ -37,19 +37,19 @@ theme does ship are never borrowed from a restyled Mint icon — see
 
 ### From a release (recommended)
 
-1. Download `Material-Cinnamon-5.39.0.tar.xz` from the [releases page](../../releases).
+1. Download `Cinnamon-Mosaic-2.0.0.tar.xz` from the [releases page](../../releases).
 2. Extract it into your icon directory:
 
    ```bash
    mkdir -p ~/.local/share/icons
-   tar -xJf Material-Cinnamon-5.39.0.tar.xz -C ~/.local/share/icons
-   gtk-update-icon-cache -f -q ~/.local/share/icons/Material-Cinnamon
+   tar -xJf Cinnamon-Mosaic-2.0.0.tar.xz -C ~/.local/share/icons
+   gtk-update-icon-cache -f -q ~/.local/share/icons/Cinnamon-Mosaic
    ```
 
-3. Pick **Material-Cinnamon** in *Menu → Preferences → Themes → Icons*, or:
+3. Pick **Cinnamon-Mosaic** in *Menu → Preferences → Themes → Icons*, or:
 
    ```bash
-   gsettings set org.cinnamon.desktop.interface icon-theme Material-Cinnamon
+   gsettings set org.cinnamon.desktop.interface icon-theme Cinnamon-Mosaic
    nemo -q                                  # restart the file manager
    ```
 
@@ -58,11 +58,11 @@ theme does ship are never borrowed from a restyled Mint icon — see
 ### From source
 
 ```bash
-git clone https://github.com/<your-org>/cinnamon-material-icons.git
-cd cinnamon-material-icons
+git clone https://github.com/<your-org>/cinnamon-mosaic-icons.git
+cd cinnamon-mosaic-icons
 uv sync           # creates .venv with Pillow + resvg-py from uv.lock
 
-make build        # -> dist/Material-Cinnamon + dist/Material-Cinnamon-5.39.0.tar.xz
+make build        # -> dist/Cinnamon-Mosaic + dist/Cinnamon-Mosaic-2.0.0.tar.xz
 make verify       # index.theme, symlinks, pixel sizes, coverage, GTK lookup
 ./scripts/install.sh --set
 ```
@@ -89,7 +89,7 @@ To uninstall and restore the previously active icon theme:
 ## What is inside
 
 ```
-Material-Cinnamon/
+Cinnamon-Mosaic/
 ├── index.theme            # Name/Inherits/Directories + one section per size
 ├── icon-theme.cache       # gtk-update-icon-cache
 ├── places/{16..256}/      # folders, home, trash, network, file managers, start-here
@@ -98,7 +98,8 @@ Material-Cinnamon/
 ├── actions/{16..48}/      # session, power, window buttons, edit/navigation — Colloid
 ├── status/{16..48}/       # dialogs, network, audio, notifications — Colloid
 ├── actions|status|devices/symbolic/   # scalable single-colour SVG for *-symbolic names
-├── LICENSE                # MIT (generator) + LICENSE-Colloid (GPL-3.0 artwork)
+├── LICENSE                # GPL-3.0 — the theme as a whole
+├── LICENSE-MIT LICENSE-Material LICENSE-Apache-2.0 ATTRIBUTION.md
 └── index.theme
 ```
 
@@ -232,11 +233,23 @@ make build verify
 
 ## License
 
-The generator is MIT, see [LICENSE](LICENSE). The file/folder artwork is derived from the
-Material Icon Theme by Material Extensions (MIT), and the system UI artwork from Colloid
-(GPL-3.0, see `assets/colloid/LICENSE`). Because GPL-3.0 artwork is redistributed in the
-built theme, the **generated icon theme as a whole is GPL-3.0**; the build copies both
-licences into `dist/Material-Cinnamon/`. See [ATTRIBUTION.md](ATTRIBUTION.md).
+The **generated theme is GPL-3.0** ([LICENSE](LICENSE)): it redistributes Colloid's GPL-3.0
+system-UI artwork, and a work that bundles that artwork must be distributed under the same
+licence.
+
+The inputs keep their own terms:
+
+| Path | Licence |
+| --- | --- |
+| `scripts/`, `tools/`, `Makefile`, `mappings/`, `mime/` | MIT — [LICENSE-MIT](LICENSE-MIT) |
+| `icons/`, `assets/folder-base.svg`, `mappings/generated-file-map.json` (Material Icon Theme, Material Extensions) | MIT — [LICENSE-Material](LICENSE-Material) |
+| `assets/colloid/` (Colloid) | GPL-3.0 — `assets/colloid/LICENSE` |
+| `assets/extra/` (dock bell glyphs) | Apache-2.0 — [LICENSE-Apache-2.0](LICENSE-Apache-2.0) |
+
+MIT and Apache-2.0 artwork may be redistributed inside a GPL-3.0 aggregate; the per-source
+notices stay in force, so `make build` copies `LICENSE`, `LICENSE-MIT`, `LICENSE-Material`,
+`LICENSE-Apache-2.0`, `LICENSE-Colloid` and `ATTRIBUTION.md` into `dist/Cinnamon-Mosaic/`.
+See [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ---
 

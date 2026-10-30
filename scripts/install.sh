@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
-# Install the Material-Cinnamon icon theme for the Cinnamon desktop.
+# Install the Cinnamon-Mosaic icon theme for the Cinnamon desktop.
 #
-#   ./scripts/install.sh                # copy to ~/.local/share/icons/Material-Cinnamon
+#   ./scripts/install.sh                # copy to ~/.local/share/icons/Cinnamon-Mosaic
 #   ./scripts/install.sh --set           # ... and make it the active icon theme
-#   ./scripts/install.sh --theme-dir DIR # copy into DIR/Material-Cinnamon instead
+#   ./scripts/install.sh --theme-dir DIR # copy into DIR/Cinnamon-Mosaic instead
 #   ./scripts/install.sh --dry-run       # print what would happen
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO="$(cd "$HERE/.." && pwd)"
-NAME="Material-Cinnamon"
+NAME="Cinnamon-Mosaic"
 SRC="$REPO/dist/$NAME"
 ICON_ROOT="${XDG_DATA_HOME:-$HOME/.local/share}/icons"
-STATE="${XDG_STATE_HOME:-$HOME/.local/state}/material-cinnamon.previous"
+STATE="${XDG_STATE_HOME:-$HOME/.local/state}/cinnamon-mosaic.previous"
 DO_SET=0
 DRY=0
 NO_CACHE=0
@@ -70,4 +70,11 @@ if [ "$DO_SET" = 1 ]; then
 else
   echo "activate it in Menu -> Preferences -> Themes -> Icons,"
   echo "or run: gsettings set org.cinnamon.desktop.interface icon-theme $NAME"
+fi
+
+MIME_OVERRIDE="${XDG_DATA_HOME:-$HOME/.local/share}/mime/packages/50-cinnamon-mosaic-mime-icons.xml"
+if [ ! -f "$MIME_OVERRIDE" ]; then
+  echo
+  echo "tip: if PDF or Markdown files show up as Word icons, install the MIME override:"
+  echo "     ./scripts/install-mime-icons.sh   (or: make mime-icons)"
 fi

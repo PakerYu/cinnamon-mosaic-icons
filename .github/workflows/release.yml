@@ -40,10 +40,10 @@ jobs:
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          name: Material-Cinnamon ${{ steps.meta.outputs.version }} (upstream ${{ steps.meta.outputs.upstream }})
+          name: Cinnamon-Mosaic ${{ steps.meta.outputs.version }} (upstream ${{ steps.meta.outputs.upstream }})
           generate_release_notes: true
           files: |
-            dist/Material-Cinnamon-*.tar.xz
+            dist/Cinnamon-Mosaic-*.tar.xz
             dist/preview.png
             dist/report.md
           fail_on_unmatched_files: true

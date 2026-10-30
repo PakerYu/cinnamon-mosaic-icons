@@ -75,11 +75,11 @@ python3 scripts/build.py --required mappings/required.tsv   # 逐名称归属报
 
 ```bash
 mkdir -p ~/.local/share/icons
-tar -xJf Material-Cinnamon-5.39.0.tar.xz -C ~/.local/share/icons
-gtk-update-icon-cache -f -q ~/.local/share/icons/Material-Cinnamon
+tar -xJf Cinnamon-Mosaic-2.0.0.tar.xz -C ~/.local/share/icons
+gtk-update-icon-cache -f -q ~/.local/share/icons/Cinnamon-Mosaic
 
-# 切换（或在 菜单 → 首选项 → 主题 → 图标 里选 Material-Cinnamon）
-gsettings set org.cinnamon.desktop.interface icon-theme Material-Cinnamon
+# 切换（或在 菜单 → 首选项 → 主题 → 图标 里选 Cinnamon-Mosaic）
+gsettings set org.cinnamon.desktop.interface icon-theme Cinnamon-Mosaic
 nemo -q                     # 重启文件管理器
 ```
 
@@ -88,11 +88,11 @@ nemo -q                     # 重启文件管理器
 ### 从源码构建
 
 ```bash
-git clone https://github.com/<your-org>/cinnamon-material-icons.git
-cd cinnamon-material-icons
+git clone https://github.com/<your-org>/cinnamon-mosaic-icons.git
+cd cinnamon-mosaic-icons
 uv sync           # 按 uv.lock 建 .venv（Pillow + resvg-py）
 
-make build        # 生成 dist/Material-Cinnamon 与 dist/Material-Cinnamon-5.39.0.tar.xz
+make build        # 生成 dist/Cinnamon-Mosaic 与 dist/Cinnamon-Mosaic-2.0.0.tar.xz
 make verify       # 校验 index.theme、软链、像素尺寸、覆盖率、GTK 查找
 ./scripts/install.sh --set
 ```
@@ -144,8 +144,9 @@ make build verify
 ├── assets/colloid/**/*.svg     # 随仓库提交的 Colloid 系统 UI 画稿（577 个，GPL-3.0）
 ├── docs/                       # 映射与主题结构文档、README 预览图
 ├── icons/{file,folder}/*.png    # 906 个 512×512 源图标
+├── mime/                       # 用户级 MIME 覆盖：让 PDF/Markdown 用回自己的图标名
 ├── mappings/                   # 手工映射表 + 自动生成的 colloid 索引/required 快照
-├── scripts/                    # build.py / verify.py / install / uninstall / fetch / publish
+├── scripts/                    # build.py / verify.py / install / install-mime-icons / uninstall / fetch / publish
 ├── tools/convert.sh            # 上游 checkout → icons/*.png
 ├── tools/vendor-colloid-icons.py  # colloid.tsv → assets/colloid + colloid-index.json
 ├── tools/collect-required.py   # 当前桌面请求的图标名 → mappings/required.tsv
@@ -162,14 +163,31 @@ make build verify
   `dist/report.md` 的「still borrowed」；系统 UI 的名字由 Colloid 覆盖，换新画稿只需
   `COLLOID=... make vendor-colloid`。
 - **主题列表里看不到**：主题必须在 `~/.local/share/icons` 或 `~/.icons` 下，装完重开设置窗口。
+- **PDF（或 Markdown）显示成 Word 图标**：装过会改写共享 MIME 数据库的软件（Obsidian 是典型）。
+  `obsidian.xml` 把 `application/pdf`、`text/markdown` 的 `<icon>` 声明成了通用的
+  `x-office-document`，而 GLib 会把这个显式声明的名字排在按 MIME 推导出的
+  `application-pdf` / `text-markdown` 之前；GTK 应用（Nemo 等）于是永远取到
+  `x-office-document`——本主题里那正是 Word 图标。跑
+  `./scripts/install-mime-icons.sh`（或 `make mime-icons`）在用户级 MIME 库里把这些名字
+  改回来即可，不需要 root，也不动系统包；装完 `nemo -q` 重开文件管理器生效。
 
 ## 许可
 
-生成器是 MIT，见 [LICENSE](LICENSE)；文件/文件夹图标衍生自 Material Extensions 的
-Material Icon Theme（MIT），系统 UI 图标衍生自 Colloid（GPL-3.0，见
-`assets/colloid/LICENSE`）。由于发行包里包含 GPL-3.0 画稿，**生成出来的图标主题整体按
-GPL-3.0 分发**；构建会把两份许可一起放进 `dist/Material-Cinnamon/`。详见
-[ATTRIBUTION.md](ATTRIBUTION.md)。
+**生成出来的主题整体是 GPL-3.0**，见 [LICENSE](LICENSE)：它再分发了 Colloid 的 GPL-3.0
+系统 UI 画稿，而包含该画稿的作品必须按同一许可证分发。
+
+各个输入保留自己的条款：
+
+| 路径 | 许可 |
+| --- | --- |
+| `scripts/`、`tools/`、`Makefile`、`mappings/`、`mime/` | MIT — [LICENSE-MIT](LICENSE-MIT) |
+| `icons/`、`assets/folder-base.svg`、`mappings/generated-file-map.json`（Material Icon Theme，Material Extensions） | MIT — [LICENSE-Material](LICENSE-Material) |
+| `assets/colloid/`（Colloid） | GPL-3.0 — `assets/colloid/LICENSE` |
+| `assets/extra/`（dock 铃铛图标） | Apache-2.0 — [LICENSE-Apache-2.0](LICENSE-Apache-2.0) |
+
+MIT / Apache-2.0 画稿可以被并入 GPL-3.0 的聚合作品再分发，逐项声明继续有效；`make build`
+会把 `LICENSE`、`LICENSE-MIT`、`LICENSE-Material`、`LICENSE-Apache-2.0`、`LICENSE-Colloid`
+和 `ATTRIBUTION.md` 一起复制进 `dist/Cinnamon-Mosaic/`。详见 [ATTRIBUTION.md](ATTRIBUTION.md)。
 
 ---
 
